@@ -32,6 +32,7 @@
 5. **Dernière phrase de la voix** : la musique **revient en fondu**, puis le logo revient au centre pour la clôture. [SFX : impact final]
 
 Ces étapes ne sont pas répétées dans chaque tableau ci-dessous : elles s'appliquent à toutes les leçons.
+
 - **Démonstrations** : filmées sur un vrai téléphone Android, en capture d'écran verticale. En 16:9, le téléphone est centré dans un cadre `surface` arrondi, avec le titre de l'étape à gauche.
 - **Sous-titres** : brûlés dans la version réseaux sociaux, et en fichier séparé (.srt) sur la plateforme.
 
