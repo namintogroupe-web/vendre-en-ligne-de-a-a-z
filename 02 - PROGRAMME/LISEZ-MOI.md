@@ -1,2 +1,3 @@
 # 02 - PROGRAMME
-Plan complet des modules et leçons (à venir).
+
+- PROGRAMME.md : le programme complet (modules, leçons, durées, exercices, livrables, bonus IA).
