@@ -1,0 +1,42 @@
+<!-- @dsCard group="Cours" height=380 subtitle="Terminée, en cours, à venir" -->
+<style>
+  .chev path { fill: none; stroke: var(--brand); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  .chev .c2 { opacity: .55; } .chev .c3 { opacity: .25; }
+</style>
+<div style="padding:20px;display:grid;gap:12px;max-width:560px">
+  <template id="thumb">
+    <svg class="chev" viewBox="0 0 160 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path class="c3" d="M70 104 110 64 150 104"/><path class="c2" d="M70 84 110 44 150 84"/><path d="M70 64 110 24 150 64"/>
+    </svg>
+    <svg class="play" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#ffffff"/><path d="M10 8.5v7l6-3.5z" fill="#101113"/></svg>
+  </template>
+
+  <a class="dp-lesson" href="#">
+    <div class="dp-thumb"></div>
+    <div>
+      <div class="dp-meta"><span class="dp-badge dp-badge--done"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>Terminée</span><span>Leçon 1 · 7 min</span></div>
+      <h3>Trouver un produit qui se vend</h3>
+    </div>
+  </a>
+
+  <a class="dp-lesson dp-lesson--active" href="#" aria-current="step">
+    <div class="dp-thumb"></div>
+    <div>
+      <div class="dp-meta"><span class="dp-badge dp-badge--now">En cours</span><span>Leçon 2 · 9 min</span></div>
+      <h3>Créer ta page de vente sur Systeme.io</h3>
+      <div class="dp-progress__track" style="height:6px;margin-top:8px"><div class="dp-progress__bar" style="width:45%"></div></div>
+    </div>
+  </a>
+
+  <a class="dp-lesson" href="#">
+    <div class="dp-thumb"></div>
+    <div>
+      <div class="dp-meta"><span class="dp-badge dp-badge--todo">À venir</span><span>Leçon 3 · 11 min</span></div>
+      <h3>Recevoir les paiements Mobile Money</h3>
+    </div>
+  </a>
+</div>
+<script>
+  const t = document.getElementById('thumb');
+  document.querySelectorAll('.dp-thumb').forEach(el => el.appendChild(t.content.cloneNode(true)));
+</script>

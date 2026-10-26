@@ -1,0 +1,74 @@
+<!-- @dsCard group="Vidéo" height=540 width=960 subtitle="Écran-titre animé de chapitre, 16:9, thème Studio" -->
+<style>
+  .tc { position: relative; width: 960px; height: 540px; overflow: hidden; background: var(--paper); color: var(--ink); font-family: var(--font-sans); }
+  .tc * { box-sizing: border-box; }
+  /* balayage de scène */
+  .tc-sweep { position: absolute; inset: -40% -20%; background: var(--brand); transform: translate(-110%, 60%) rotate(-28deg); animation: sweep var(--dur-scene) var(--ease-in-out) both; }
+  @keyframes sweep { 0% { transform: translate(-110%, 60%) rotate(-28deg); } 50% { transform: translate(0, 0) rotate(-28deg); } 100% { transform: translate(110%, -60%) rotate(-28deg); } }
+  /* chevrons qui montent */
+  .tc-chev { position: absolute; right: 64px; top: 64px; width: 340px; height: 412px; }
+  .tc-chev path { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 22; }
+  .tc-chev .a { stroke: var(--brand); }
+  .tc-chev .b { stroke: var(--brand); opacity: .45; }
+  .tc-chev .c { stroke: var(--brand); opacity: .18; }
+  .tc-chev g { animation: rise var(--dur-scene) var(--ease-rise) both; }
+  .tc-chev g:nth-child(1) { animation-delay: 1100ms; } .tc-chev g:nth-child(2) { animation-delay: 1250ms; } .tc-chev g:nth-child(3) { animation-delay: 1400ms; }
+  @keyframes rise { from { transform: translate(-60px, 120px); opacity: 0; } to { transform: none; opacity: 1; } }
+  .tc-dot { fill: var(--volt); transform-origin: 280px 60px; animation: pop 500ms var(--ease-rise) 2300ms both; }
+  @keyframes pop { from { transform: scale(0); } }
+  /* texte */
+  .tc-text { position: absolute; left: 64px; bottom: 64px; width: 560px; }
+  .tc-over { font: 800 14px/1 var(--font-sans); letter-spacing: .22em; text-transform: uppercase; color: var(--brand-strong); display: flex; align-items: center; gap: 12px; animation: up var(--dur-slow) var(--ease-out) 1000ms both; }
+  .tc-over::before { content: ""; width: 40px; height: 3px; background: var(--brand); border-radius: 3px; }
+  .tc-title { margin: 18px 0 0; font: 700 56px/1.02 var(--font-display); letter-spacing: -.02em; }
+  .tc-title span { display: block; overflow: hidden; }
+  .tc-title span i { display: block; font-style: normal; animation: up var(--dur-slow) var(--ease-out) both; }
+  .tc-title span:nth-child(1) i { animation-delay: 1250ms; } .tc-title span:nth-child(2) i { animation-delay: 1400ms; }
+  .tc-title em { font-style: normal; color: var(--brand-strong); }
+  @keyframes up { from { transform: translateY(105%); opacity: 0; } to { transform: none; opacity: 1; } }
+  .tc-stat { margin-top: 28px; display: inline-flex; align-items: baseline; gap: 14px; padding: 12px 18px; border-radius: var(--radius-md); background: var(--surface); border: 1px solid var(--line); animation: up var(--dur-slow) var(--ease-out) 1800ms both; }
+  .tc-stat b { font: 700 30px/1 var(--font-mono); color: var(--ink); transition: color 300ms; }
+  .tc-stat b.hit { color: var(--volt); }
+  .tc-stat span { font: 600 14px/1.3 var(--font-sans); color: var(--ink-muted); }
+  .tc-bar { position: absolute; left: 0; bottom: 0; height: 6px; width: 100%; background: var(--brand); transform-origin: left; animation: fill 5200ms linear 1000ms both; }
+  @keyframes fill { from { transform: scaleX(0); } }
+  .tc-replay { position: absolute; top: 20px; left: 20px; z-index: 3; }
+  @media (prefers-reduced-motion: reduce) { .tc-sweep { display: none; } }
+</style>
+<div class="tc" data-theme="dark" id="tc">
+  <svg class="tc-chev" viewBox="0 0 340 412" aria-hidden="true">
+    <g><path class="c" d="M40 392 170 262 300 392"/></g>
+    <g><path class="b" d="M40 292 170 162 300 292"/></g>
+    <g><path class="a" d="M40 192 170 62 300 192"/><circle class="tc-dot" cx="280" cy="60" r="14"/></g>
+  </svg>
+  <div class="tc-text">
+    <div class="tc-over">Module 3 · Publicité</div>
+    <h1 class="tc-title"><span><i>Lancer ta première</i></span><span><i><em>campagne</em> qui vend</i></span></h1>
+    <div class="tc-stat"><b id="n">0 FCFA</b><span>de ventes visées<br>sur 7 jours</span></div>
+  </div>
+  <div class="tc-sweep"></div>
+  <div class="tc-bar"></div>
+  <button class="dp-btn dp-btn--secondary tc-replay" id="r" style="min-height:36px;padding:6px 14px;font-size:13px;color:var(--ink)">Rejouer</button>
+</div>
+<script>
+  const root = document.getElementById('tc'), n = document.getElementById('n');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fmt = v => v.toLocaleString('fr-FR').replace(/ | /g, ' ') + ' FCFA';
+  let raf, timer;
+  function count() {
+    const target = 125000, dur = 1400, t0 = performance.now();
+    n.classList.remove('hit');
+    if (reduce) { n.textContent = fmt(target); return; }
+    const step = t => { const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 4);
+      n.textContent = fmt(Math.round(target * e / 500) * 500);
+      if (p < 1) raf = requestAnimationFrame(step); else n.classList.add('hit'); };
+    raf = requestAnimationFrame(step);
+  }
+  function play() {
+    cancelAnimationFrame(raf); clearTimeout(timer); n.textContent = fmt(0);
+    root.querySelectorAll('*').forEach(el => { el.style.animation = 'none'; void el.offsetWidth; el.style.animation = ''; });
+    timer = setTimeout(count, reduce ? 0 : 2000);
+  }
+  document.getElementById('r').addEventListener('click', play);
+  play();
+</script>
