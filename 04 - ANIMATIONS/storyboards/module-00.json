@@ -1,0 +1,37 @@
+{
+  "0-1": {
+    "file": "VIDEO 0.1 - Ce que tu vas construire",
+    "chip": "Module 0 · Leçon 0.1",
+    "scenes": [
+      { "type": "title", "over": "Module 0 · Bienvenue", "l1": "Ce que tu vas", "l2": "<em>construire</em>", "sub": "De l'idée à la vente, de A à Z",
+        "say": ["Bienvenue."] },
+      { "type": "notif", "app": "Digital Pro Shop", "msg": "Nouvelle vente : 15&nbsp;000&nbsp;FCFA", "time": "03:12", "kw": "Pendant que tu dors", "example": true,
+        "say": ["Imagine. Tu te réveilles.", "Sur ton téléphone, un message : « Nouvelle vente ».", "Quelqu'un a acheté ton produit pendant la nuit. Sans que tu fasses quoi que ce soit."] },
+      { "type": "statement", "lines": ["Ce n'est pas de la magie.", "Ce n'est pas de la chance.", "C'est un <em>système</em>."], "foot": "Et tu vas le construire toi-même, pas à pas.",
+        "say": ["Ce n'est pas de la magie.", "Ce n'est pas de la chance.", "C'est un système.", "Et ce système, tu vas le construire toi-même, pas à pas, dans cette formation."] },
+      { "type": "welcome", "over": "Bienvenue dans", "title": "VENDRE EN LIGNE<br>DE A À Z", "tag": "Ici, on ne regarde pas : on <b>fait</b>.",
+        "say": ["Bienvenue dans « Vendre en ligne de A à Z ». Je suis ravi que tu sois là.", "Ici, on ne fait pas que regarder des vidéos.", "À chaque leçon, tu vas faire quelque chose de concret."] },
+      { "type": "path", "over": "Le chemin", "heading": "De l'idée à la <em>vente</em>, en 6 étapes",
+        "steps": [["Produit", "Choisir et valider", 1], ["Message", "Donner envie", 2], ["Page", "Vendre en ligne", 3], ["Paiement", "Mobile Money, carte", 4], ["Publicité", "Attirer les clients", 5], ["IA", "Tout automatiser", 6]],
+        "say": ["Voici le chemin.", "D'abord, tu choisis ton produit, et tu vérifies que les gens le veulent.", "Ensuite, tu écris le message qui donne envie d'acheter.", "Puis tu crées ta page de vente.", "Tu installes le paiement, Mobile Money compris.", "Tu lances tes publicités.", "Et enfin, tu automatises tout avec l'intelligence artificielle."] },
+      { "type": "doors", "over": "Deux chemins possibles",
+        "cards": [["digital", "Produit digital", "Formation · ebook · coaching · modèles", 1], ["physical", "Produit physique", "Vêtements · cosmétiques · accessoires", 2]], "note": ["Tu choisis au <b>module 3</b>.", 3],
+        "say": ["Tu peux vendre deux types de produits.", "Un produit digital : une formation, un ebook, un coaching.", "Ou un produit physique : des vêtements, des cosmétiques, des accessoires.", "Les deux marchent. Tu choisiras ton chemin au module trois."] },
+      { "type": "finale", "over": "Le projet final", "heading": "Tes <em>premières vraies ventes</em>, en 14 jours", "badge": "Certificat Digital Pro",
+        "say": ["À la fin, il y a un projet final.", "Pendant quatorze jours, je t'accompagne jour par jour pour faire tes premières vraies ventes.", "Et tu obtiens ton certificat Digital Pro."] },
+      { "type": "statement", "lines": ["Mais d'abord…", "on prépare ton <em>espace de travail</em>."],
+        "say": ["Mais avant tout ça, on va faire une première chose simple.", "Tu vas créer ton dossier de projet. C'est là que tu vas ranger tout ce que tu construis."] },
+      { "type": "demo", "over": "Démonstration", "heading": "Crée ton dossier <em>MON BUSINESS</em>",
+        "steps": [["Ouvre Google Drive", 0], ["Appuie sur « + »", 2], ["Choisis « Dossier »", 3], ["Écris MON BUSINESS", 4], ["Crée 3 sous-dossiers", 6]],
+        "say": ["Regarde. J'ouvre l'application Google Drive.", "Elle est déjà sur la plupart des téléphones Android. Sinon, télécharge-la, c'est gratuit.", "J'appuie sur le plus, en bas à droite.", "Je choisis « Dossier ».", "J'écris « MON BUSINESS ». Et je crée.", "Maintenant, j'entre dans ce dossier.", "Et je crée trois sous-dossiers : Produit, Vente, et Publicité.", "Voilà. Ton bureau est prêt."] },
+      { "type": "pause", "task": "Crée ton dossier <b>MON BUSINESS</b><br>avec ses 3 sous-dossiers.", "minutes": 3,
+        "say": ["À toi.", "Mets la vidéo en pause, et crée ton dossier maintenant.", "Ça prend deux minutes. Je t'attends."] },
+      { "type": "check", "text": "Dossier créé", "sub": "Ta première action d'entrepreneur en ligne",
+        "say": ["C'est fait ? Bravo.", "Tu viens de faire ta première action d'entrepreneur en ligne.", "Ça a l'air petit. Mais c'est comme ça qu'on construit : une action après l'autre."] },
+      { "type": "recap", "items": ["Vendre en ligne, c'est un <b>système</b>.", "Le chemin : produit → message → page → paiement → publicité → IA.", "Ici, on <b>agit</b> à chaque leçon."],
+        "say": ["À retenir.", "Une vente en ligne, c'est un système.", "Le chemin a six étapes.", "Et dans cette formation, on agit à chaque leçon."] },
+      { "type": "next", "done": 1, "of": 4, "label": "Leçon 0.2 · Bien suivre ta formation",
+        "say": ["Dans la prochaine leçon, je te montre comment suivre la formation pour aller vite, même avec un petit téléphone et peu de connexion.", "On y va."] }
+    ]
+  }
+}
