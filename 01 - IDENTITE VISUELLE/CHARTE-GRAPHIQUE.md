@@ -48,10 +48,38 @@ Le logo officiel est dans **Assets › Logos** (`digital-pro-logo.png`).
 
 - **Espace de protection** : autour du logo, laisser au minimum la hauteur du mot « PRO ».
 - **Taille minimale** : 120px de large à l'écran, 30 mm à l'impression.
-- **Fonds autorisés** : `paper` clair (le fond d'origine) ou blanc. Sur un fond sombre ou une vidéo, poser le logo dans une pastille `paper` en `radius-lg`, en attendant une version négative officielle.
+- **Deux versions**, toutes deux tirées du fichier original (Assets › Logos) :
+  - **Positive** : « DIGITAL » en `ink` sur fond clair (`paper` ou blanc).
+  - **Négative** : « DIGITAL » en blanc cassé `#f4f3ee` sur fond sombre (thème Studio, vidéos). Le bleu ne change pas.
+- **Calques d'animation** : le logo est découpé en 7 calques exacts (encre, flèche, P, R, O, filet gauche, filet droit) pour l'animer sans jamais le redessiner.
 - **Interdit** : déformer, changer les couleurs, ajouter une ombre, mettre le logo sur une photo chargée, recréer le logo avec une police.
 
 > La flèche du logo est le **motif signature** : on la reprend comme forme (chevrons, diagonale qui monte) dans les animations. On ne redessine jamais le logo lui-même.
+
+### Le logo animé, dans chaque vidéo
+
+Le logo est présent **du début à la fin de chaque vidéo**, en trois temps (composant **LogoMotion**) :
+
+| Temps | Durée | Ce qui se passe | Son |
+| --- | --- | --- | --- |
+| **1. Ouverture** | 0 – 3,4 s | Un filet bleu traverse l'écran. La **flèche** monte en diagonale et se met au net. « DIGITAL » se révèle de gauche à droite. **P, R, O** tombent l'un après l'autre. Les deux filets s'étirent vers l'extérieur. Un éclat parcourt la flèche. | Montée synthétique (*riser*), impact grave au moment de la flèche, scintillement sur l'éclat. La musique démarre. |
+| **2. Présence discrète** | toute la leçon | Le logo **glisse vers son coin** (1 s) et y reste, petit (7 % de la largeur), à 90 % d'opacité. Toutes les 45 s environ, un **reflet** très bref parcourt la flèche. | Aucun : la musique s'est effacée, la voix commence. |
+| **3. Clôture** | ≈ 10 dernières s | Le logo **revient au centre**, éclat bleu, puis le bouton « Leçon suivante » apparaît. | La musique **revient en fondu**, petit impact final. |
+
+**Placement : il ne gêne jamais le visuel** (composant **LogoPlacement**)
+
+| Format | Position | Pourquoi |
+| --- | --- | --- |
+| 16:9 — cours | **En haut à droite**, dans la zone de sécurité (64 px du bord en 1080p) | Le haut à droite est le coin le moins utilisé par les démonstrations et ne touche pas les sous-titres (en bas). |
+| 9:16 — mobile, Reels, TikTok | **En haut à gauche**, à 140 px du haut | À droite : les boutons j'aime / partager. En bas : la légende et le nom du compte. En haut : les onglets de l'appli. |
+| 1:1 — posts | En haut à droite | Même logique que le 16:9. |
+| 4:5 — publicités | En haut à droite, au-dessus du texte | Le bas est réservé au texte et au bouton de la publicité. |
+
+**Règles de placement**
+- Si l'action à montrer (clic, zoom guidé, chiffre important) se passe **dans le coin du logo**, le logo **glisse vers le coin opposé** (0,7 s) puis revient. Il ne recouvre jamais une information.
+- Pendant un **écran-titre plein écran** (TitleCard) ou un écran de pause pratique, le petit logo s'efface : l'écran a déjà l'identité Digital Pro.
+- Sur fond clair, version positive ; sur fond sombre, version négative. Jamais de pastille ni de cadre autour.
+- *Réduire les animations* : le logo reste fixe dans son coin, sans reflet.
 
 ## 4. Les couleurs
 
@@ -117,13 +145,38 @@ Les vidéos de la formation sont **narrées et animées**. Le mouvement doit imp
 
 ## 8. Le son : voix off et musique
 
-| Élément | Réglage |
+**La voix off**
+
+Claire, posée, souriante. Débit ≈ 140 mots/minute. Volume de sortie de la vidéo autour de **−16 LUFS** (standard web/mobile), crêtes sous −1 dBTP.
+
+**La musique : elle ouvre, s'efface, puis revient**
+
+| Moment | Ce que fait la musique |
 | --- | --- |
-| **Voix off** | Claire, posée, souriante. Débit ≈ 140 mots/minute. Volume de sortie autour de **−16 LUFS** (standard web/mobile). |
-| **Musique de fond** | **Très basse** : 20 à 25 dB sous la voix pendant qu'on parle. Instrumentale, sans paroles, tempo 90–110 BPM, plutôt électro douce / afro-house légère. |
-| **Respirations** | La musique remonte un peu (≈ −8 dB sous la voix) seulement dans les transitions sans parole. |
-| **Effets sonores** | Discrets et rares : un « whoosh » léger pour le balayage, un petit tintement pour une vente réussie. |
-| **Licence** | Uniquement des musiques et effets **libres de droits avec licence commerciale**. Garder la preuve de licence pour chaque vidéo. |
+| **Ouverture** (logo animé) | Elle démarre à **plein niveau** avec l'ouverture du logo et porte les premières secondes. |
+| **Début de la narration** | Dès que la voix commence, elle **s'estompe en fondu** sur 2 s, jusqu'au **silence**. |
+| **Pendant la leçon** | **Pas de musique** : la voix et les effets sonores seulement. L'attention reste sur l'explication. |
+| **Presque la fin** | Pendant la dernière phrase de la voix (≈ 10 à 15 s avant la fin), elle **revient en fondu** sur 3 s, d'abord sous la voix (−20 dB), puis à plein niveau quand la voix se tait. |
+| **Clôture** | Elle accompagne le retour du logo et se termine sur l'impact final. |
+
+Style : instrumentale, sans paroles, électro premium et lumineuse (pads, basse ronde, touches afro-house), tempo 100–115 BPM. Un **thème Digital Pro unique**, toujours le même, pour que l'apprenant reconnaisse la formation dès les premières notes.
+
+**Les effets sonores : premium et futuristes**
+
+Sons synthétiques, propres, avec une queue courte. Ils ne couvrent jamais la voix et restent **18 à 24 dB sous elle**. Pas plus d'un effet toutes les 5 secondes, sauf dans l'ouverture et la clôture.
+
+| Effet | Quand | Caractère |
+| --- | --- | --- |
+| **Riser** | Ouverture du logo, avant un chiffre important | Montée synthétique de 1 à 1,5 s |
+| **Impact grave** | Arrivée de la flèche, fin de clôture | Coup sourd, très grave, court |
+| **Scintillement** | Éclat sur la flèche, badge réussi | Brillance cristalline |
+| **Whoosh numérique** | Balayage entre deux scènes | Souffle filtré, rapide |
+| **Clic d'interface** | Chaque clic montré en démonstration | Petit clic net, « verre » |
+| **Bip de données** | Compteurs qui défilent, texte qui apparaît | Micro-bips doux, rythmés |
+| **Validation** | Coche verte, étape réussie, vente | Accord bref et lumineux |
+| **Pause pratique** | Écran ⏸ et minuteur | Tonalité douce et tic-tac léger |
+
+**Licence** : uniquement des musiques et effets **libres de droits avec licence commerciale**, ou composés pour Digital Pro. On garde la preuve de licence de chaque fichier dans `05 - AUDIO`.
 
 **Sous-titres obligatoires** sur toutes les vidéos (en `sans`, `body-l`, texte `ink` clair sur bandeau sombre à 80 %) : beaucoup regardent sur téléphone, sans le son.
 

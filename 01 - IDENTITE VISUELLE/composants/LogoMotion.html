@@ -1,0 +1,120 @@
+<!doctype html><html lang="fr" data-theme="light"><meta charset="utf-8"><title>LogoMotion · Digital Pro</title><link rel="stylesheet" href="digital-pro.css"><style>:root{--paper:#fefdf9;--surface:#fff;--surface-sunken:#f3f2ec;--line:#e3e1d8;--line-strong:#8a8d94;--ink:#101113;--ink-muted:#565a62;--brand:#006cfb;--brand-strong:#0052c2;--brand-tint:#e7f0ff;--on-brand:#fff;--volt:#c8f53a;--on-volt:#101113;--focus:#006cfb;--shadow-2:0 12px 32px rgba(16,17,19,.12);--glow-brand:0 10px 30px rgba(0,108,251,.3);--font-sans:Manrope,Inter,sans-serif;--font-display:Unbounded,'Inter Display',sans-serif;--font-mono:'JetBrains Mono',monospace;--radius-md:12px;--radius-lg:20px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;--dur-fast:160ms}
+[data-theme=dark]{--paper:#0a0b0d;--surface:#15171b;--surface-sunken:#060708;--line:#2a2d33;--ink:#f4f3ee;--ink-muted:#a4a8b0;--brand-strong:#7cb3ff;--brand-tint:#0e2348}</style><body>
+<!-- @dsCard group="Vidéo" height=540 width=960 subtitle="Logo animé : ouverture, présence discrète pendant la leçon, clôture" -->
+<style>
+  .lm { position: relative; width: 960px; height: 540px; overflow: hidden; background: var(--paper); font-family: var(--font-sans); color: var(--ink); }
+  .lm * { box-sizing: border-box; }
+  .lm-logo { position: absolute; left: 0; top: 0; width: 688px; height: 300px; transform-origin: 0 0; z-index: 5; will-change: transform; }
+  .lm-logo img { position: absolute; inset: 0; width: 688px; height: 300px; }
+  .lm-glow { position: absolute; left: 380px; top: 10px; width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle, rgba(0,108,251,.55), rgba(0,108,251,0) 65%); opacity: 0; }
+  .lm-line { position: absolute; left: 50%; top: 50%; height: 2px; width: 0; background: var(--brand); transform: translate(-50%,-50%); z-index: 4; }
+  /* scène de leçon */
+  .lm-scene { position: absolute; inset: 0; opacity: 0; }
+  .lm-safe { position: absolute; inset: 32px; border: 1px dashed rgba(124,179,255,.35); border-radius: 6px; }
+  .lm-tag { position: absolute; font: 700 10px/1 var(--font-mono); letter-spacing: .06em; color: var(--brand-strong); background: var(--brand-tint); padding: 4px 6px; border-radius: 4px; }
+  .lm-title { position: absolute; left: 48px; top: 112px; width: 330px; }
+  .lm-title .o { font: 800 11px/1 var(--font-sans); letter-spacing: .2em; color: var(--brand-strong); text-transform: uppercase; }
+  .lm-title h2 { margin: 10px 0 0; font: 700 30px/1.08 var(--font-display); letter-spacing: -.02em; }
+  .lm-title p { margin: 12px 0 0; font: 500 14px/1.5 var(--font-sans); color: var(--ink-muted); }
+  .lm-phone { position: absolute; left: 470px; top: 64px; width: 210px; height: 380px; border-radius: 26px; background: var(--surface); border: 6px solid #22252b; box-shadow: var(--shadow-2); overflow: hidden; }
+  .lm-phone .bar { height: 34px; background: var(--brand); }
+  .lm-phone .row { margin: 10px 12px 0; height: 34px; border-radius: 8px; background: var(--surface-sunken); }
+  .lm-phone .fab { position: absolute; right: 14px; bottom: 16px; width: 42px; height: 42px; border-radius: 14px; background: var(--brand); }
+  .lm-target { position: absolute; width: 64px; height: 64px; border-radius: 50%; border: 3px solid var(--brand); box-shadow: 0 0 0 6px rgba(0,108,251,.18); opacity: 0; }
+  .lm-sub { position: absolute; left: 50%; bottom: 40px; transform: translateX(-50%); padding: 8px 16px; border-radius: 8px; background: rgba(6,7,8,.8); color: #f4f3ee; font: 600 15px/1.35 var(--font-sans); white-space: nowrap; }
+  .lm-cta { position: absolute; left: 50%; top: 372px; transform: translateX(-50%); opacity: 0; z-index: 5; }
+  .lm-cta .dp-btn { background: var(--volt); color: var(--on-volt); }
+  .lm-cap { position: absolute; left: 16px; bottom: 14px; z-index: 6; font: 700 11px/1 var(--font-mono); color: var(--ink-muted); background: var(--surface); border: 1px solid var(--line); padding: 6px 8px; border-radius: 6px; }
+  .lm-replay { position: absolute; right: 16px; bottom: 12px; z-index: 6; min-height: 32px !important; padding: 4px 12px !important; font-size: 12px !important; color: var(--ink) !important; }
+</style>
+<div class="lm" data-theme="dark" id="lm">
+  <div class="lm-line" id="line"></div>
+
+  <div class="lm-scene" id="scene">
+    <div class="lm-safe"></div>
+    <span class="lm-tag" style="left:50%;top:40px;transform:translateX(-50%)">Zone de sécurité · 64 px en 1080p</span>
+    <div class="lm-title">
+      <div class="o">Leçon 0.1 · Démonstration</div>
+      <h2>Crée ton dossier MON BUSINESS</h2>
+      <p>Le logo reste en haut à droite, petit et discret. Il s'écarte si l'action se passe dans son coin.</p>
+    </div>
+    <div class="lm-phone"><div class="bar"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="fab"></div></div>
+    <div class="lm-target" id="target"></div>
+    <div class="lm-sub">J'appuie sur le « plus », en bas à droite.</div>
+  </div>
+  <div class="lm-cta" id="cta"><button class="dp-btn dp-btn--lg" tabindex="-1">Leçon suivante →</button></div>
+
+  <div class="lm-logo" id="logo">
+    <div class="lm-glow" id="glow"></div>
+    <img id="ink" src="../logo-calques/layer-ink-light.png" alt="">
+    <img id="arrow" src="../logo-calques/part-arrow.png" alt="">
+    <img id="lineL" src="../logo-calques/part-line-left.png" alt="">
+    <img id="p" src="../logo-calques/part-p.png" alt="">
+    <img id="r" src="../logo-calques/part-r.png" alt="">
+    <img id="o" src="../logo-calques/part-o.png" alt="">
+    <img id="lineR" src="../logo-calques/part-line-right.png" alt="">
+  </div>
+
+  <div class="lm-cap" id="cap">1 · OUVERTURE</div>
+  <button class="dp-btn dp-btn--secondary lm-replay" id="replay">Rejouer</button>
+</div>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const RISE = 'cubic-bezier(0.34, 1.56, 0.64, 1)', OUT = 'cubic-bezier(0.16, 1, 0.3, 1)', IO = 'cubic-bezier(0.65, 0, 0.35, 1)';
+  // positions (aperçu 960×540 = 1920×1080 ÷ 2)
+  const CENTER = 'translate(200px,148px) scale(0.814)';
+  const BUG_TR = 'translate(808px,32px) scale(0.1744)';
+  const BUG_TL = 'translate(32px,32px) scale(0.1744)';
+  let anims = [], timers = [];
+  const A = (el, kf, o) => { const a = (typeof el === 'string' ? $(el) : el).animate(kf, Object.assign({ fill: 'forwards' }, o)); anims.push(a); return a; };
+  const at = (ms, fn) => timers.push(setTimeout(fn, ms));
+  const cap = t => $('cap').textContent = t;
+
+  function play() {
+    anims.forEach(a => a.cancel()); anims = []; timers.forEach(clearTimeout); timers = [];
+    $('lm').style.background = '';
+    if (reduce) { $('logo').style.transform = BUG_TR; $('scene').style.opacity = 1; cap('MOUVEMENT RÉDUIT · LOGO FIXE'); return; }
+
+    // 1 · OUVERTURE (0 – 3,4 s)
+    cap('1 · OUVERTURE · riser + impact');
+    A('logo', [{ transform: CENTER }, { transform: CENTER }], { fill: 'both', duration: 3400 });
+    A('line', [{ width: '0px', opacity: 1 }, { width: '420px', opacity: 1, offset: .6 }, { width: '560px', opacity: 0 }], { fill: 'both', duration: 700, easing: OUT });
+    A('arrow', [{ transform: 'translate(-90px,110px)', opacity: 0, filter: 'blur(8px)' }, { transform: 'none', opacity: 1, filter: 'blur(0)' }], { fill: 'both', delay: 300, duration: 900, easing: RISE });
+    A('glow', [{ opacity: 0, transform: 'scale(.4)' }, { opacity: 1, transform: 'scale(1.1)', offset: .4 }, { opacity: 0, transform: 'scale(1.4)' }], { fill: 'both', delay: 1000, duration: 1100, easing: OUT });
+    A('ink', [{ clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)' }], { fill: 'both', delay: 800, duration: 700, easing: IO });
+    ['p', 'r', 'o'].forEach((id, i) => A(id, [{ transform: 'translateY(26px)', opacity: 0 }, { transform: 'none', opacity: 1 }], { fill: 'both', delay: 1400 + i * 110, duration: 520, easing: OUT }));
+    A('lineL', [{ clipPath: 'inset(0 0 0 100%)' }, { clipPath: 'inset(0 0 0 0%)' }], { fill: 'both', delay: 1750, duration: 520, easing: OUT });
+    A('lineR', [{ clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)' }], { fill: 'both', delay: 1750, duration: 520, easing: OUT });
+    A('arrow', [{ filter: 'brightness(1)' }, { filter: 'brightness(1.6) drop-shadow(0 0 18px rgba(0,108,251,.9))', offset: .35 }, { filter: 'brightness(1)' }], { delay: 2300, duration: 700, composite: 'replace' });
+
+    // 2 · LE LOGO SE RANGE (3,4 – 4,4 s) puis présence discrète
+    at(3400, () => cap('2 · LE LOGO SE RANGE EN HAUT À DROITE'));
+    A('logo', [{ transform: CENTER }, { transform: BUG_TR }], { delay: 3400, duration: 1000, easing: IO });
+    A('scene', [{ opacity: 0 }, { opacity: 1 }], { fill: 'both', delay: 3700, duration: 600, easing: OUT });
+    at(4400, () => cap('3 · PENDANT LA LEÇON · discret, opacité 90 %'));
+    // reflet toutes les ~45 s (ici accéléré)
+    A('arrow', [{ filter: 'brightness(1)' }, { filter: 'brightness(1.8)', offset: .5 }, { filter: 'brightness(1)' }], { delay: 5600, duration: 600 });
+
+    // 4 · L'ACTION SE PASSE DANS SON COIN → il s'écarte
+    at(7000, () => { cap('4 · ACTION DANS LE COIN → LE LOGO S’ÉCARTE'); const t = $('target'); t.style.left = '840px'; t.style.top = '34px'; });
+    A('target', [{ opacity: 0, transform: 'scale(.6)' }, { opacity: 1, transform: 'scale(1)' }], { fill: 'both', delay: 7000, duration: 400, easing: RISE });
+    A('logo', [{ transform: BUG_TR }, { transform: BUG_TL }], { delay: 6800, duration: 700, easing: IO });
+    A('target', [{ opacity: 1 }, { opacity: 0 }], { delay: 9000, duration: 300 });
+    A('logo', [{ transform: BUG_TL }, { transform: BUG_TR }], { delay: 9300, duration: 700, easing: IO });
+
+    // 5 · CLÔTURE (11 – 14 s)
+    at(11000, () => cap('5 · CLÔTURE · la musique revient'));
+    A('logo', [{ transform: BUG_TR }, { transform: 'translate(200px,96px) scale(0.814)' }], { delay: 11000, duration: 1000, easing: IO });
+    A('scene', [{ opacity: 1 }, { opacity: 0 }], { delay: 11000, duration: 600 });
+    A('glow', [{ opacity: 0 }, { opacity: .9, offset: .4 }, { opacity: 0 }], { delay: 11900, duration: 1100, easing: OUT });
+    A('cta', [{ opacity: 0, transform: 'translate(-50%,16px)' }, { opacity: 1, transform: 'translate(-50%,0)' }], { fill: 'both', delay: 12100, duration: 600, easing: OUT });
+    at(15000, play);
+  }
+  $('replay').addEventListener('click', play);
+  play();
+})();
+</script>
+
+</body></html>

@@ -1,0 +1,53 @@
+<!doctype html><html lang="fr" data-theme="light"><meta charset="utf-8"><title>LogoPlacement · Digital Pro</title><link rel="stylesheet" href="digital-pro.css"><style>:root{--paper:#fefdf9;--surface:#fff;--surface-sunken:#f3f2ec;--line:#e3e1d8;--line-strong:#8a8d94;--ink:#101113;--ink-muted:#565a62;--brand:#006cfb;--brand-strong:#0052c2;--brand-tint:#e7f0ff;--on-brand:#fff;--volt:#c8f53a;--on-volt:#101113;--focus:#006cfb;--shadow-2:0 12px 32px rgba(16,17,19,.12);--glow-brand:0 10px 30px rgba(0,108,251,.3);--font-sans:Manrope,Inter,sans-serif;--font-display:Unbounded,'Inter Display',sans-serif;--font-mono:'JetBrains Mono',monospace;--radius-md:12px;--radius-lg:20px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;--dur-fast:160ms}
+[data-theme=dark]{--paper:#0a0b0d;--surface:#15171b;--surface-sunken:#060708;--line:#2a2d33;--ink:#f4f3ee;--ink-muted:#a4a8b0;--brand-strong:#7cb3ff;--brand-tint:#0e2348}</style><body>
+<!-- @dsCard group="Vidéo" height=480 subtitle="Où poser le logo sur chaque format, sans gêner le visuel" -->
+<style>
+  .lp { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; padding: 24px; font-family: var(--font-sans); }
+  .lp figure { margin: 0; }
+  .lp-frame { position: relative; background: var(--ink); border-radius: 10px; overflow: hidden; }
+  .lp-safe { position: absolute; border: 1px dashed rgba(255,255,255,.35); border-radius: 4px; }
+  .lp-no { position: absolute; background: repeating-linear-gradient(135deg, rgba(255,107,111,.30) 0 6px, rgba(255,107,111,.10) 6px 12px); border-radius: 3px; }
+  .lp-sub { position: absolute; left: 50%; transform: translateX(-50%); height: 10px; border-radius: 3px; background: rgba(255,255,255,.55); }
+  .lp-logo { position: absolute; }
+  .lp-logo img { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .lp-alt { position: absolute; border: 1.5px dashed var(--volt); border-radius: 3px; }
+  .lp figcaption { margin-top: 10px; font: 700 13px/1.35 var(--font-sans); color: var(--ink); }
+  .lp figcaption span { display: block; font: 500 12px/1.4 var(--font-sans); color: var(--ink-muted); }
+  .lp-legend { width: 100%; display: flex; flex-wrap: wrap; gap: 8px 20px; font: 600 12px/1 var(--font-sans); color: var(--ink-muted); }
+  .lp-legend i { display: inline-block; width: 14px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-right: 6px; }
+</style>
+<div class="lp" id="lp"></div>
+<script>
+(() => {
+  const INK = '../logo-calques/layer-ink-light.png', BLUE = ['18a00c9a4c81ad878c3109e82514d623','7c0e763a04caf788e2f9c6d187272fcd','7746f669f16703dc4743f126f06a43ce','2e438f74e0affc7011e491c50c3a96fe','239b7a520ae30aba1de48c224a38c73f','f79be2ab931b9bde96f5a3a1c1198f03'].map(id => '/_blob/' + id);
+  const logo = (x, y, w) => `<div class="lp-logo" style="left:${x}px;top:${y}px;width:${w}px;height:${w*300/688}px"><img src="${INK}" alt="">${BLUE.map(s => `<img src="${s}" alt="">`).join('')}</div>`;
+  // échelle : 1080 px réels = H px d'aperçu
+  const F = [
+    { name: '16:9 · 1920 × 1080', note: 'Cours, ordinateur, TV. Logo en haut à droite, 7 % de la largeur.', W: 1920, H: 1080, h: 168,
+      safe: [64,64,64,64], logo: { x: 1920-64-134, y: 64, w: 134 }, alt: { x: 64, y: 64, w: 134 }, no: [], sub: 1080-64-40 },
+    { name: '9:16 · 1080 × 1920', note: 'Mobile, Reels, TikTok. En haut à gauche : à droite et en bas, les boutons de l’appli.', W: 1080, H: 1920, h: 320,
+      safe: [120,64,320,64], logo: { x: 64, y: 140, w: 150 }, alt: null, no: [{ x: 1080-160, y: 700, w: 160, h: 900 }, { x: 0, y: 1920-320, w: 1080, h: 320 }, { x: 0, y: 0, w: 1080, h: 120 }], sub: 1920-320-120 },
+    { name: '1:1 · 1080 × 1080', note: 'Posts et vignettes. En haut à droite.', W: 1080, H: 1080, h: 180,
+      safe: [64,64,64,64], logo: { x: 1080-64-130, y: 64, w: 130 }, alt: null, no: [], sub: 1080-64-40 },
+    { name: '4:5 · 1080 × 1350', note: 'Publicités Facebook / Instagram. En haut à droite, au-dessus du texte.', W: 1080, H: 1350, h: 225,
+      safe: [64,64,64,64], logo: { x: 1080-64-130, y: 64, w: 130 }, alt: null, no: [], sub: 1350-64-40 },
+  ];
+  const html = F.map(f => {
+    const k = f.h / f.H, W = f.W * k, s = f.safe.map(v => v * k);
+    return `<figure style="width:${W}px"><div class="lp-frame" style="width:${W}px;height:${f.h}px">
+      ${f.no.map(n => `<div class="lp-no" style="left:${n.x*k}px;top:${n.y*k}px;width:${n.w*k}px;height:${n.h*k}px"></div>`).join('')}
+      <div class="lp-safe" style="left:${s[3]}px;top:${s[0]}px;right:${s[1]}px;bottom:${s[2]}px"></div>
+      <div class="lp-sub" style="top:${f.sub*k}px;width:${W*.55}px"></div>
+      ${f.alt ? `<div class="lp-alt" style="left:${f.alt.x*k}px;top:${f.alt.y*k}px;width:${f.alt.w*k}px;height:${f.alt.w*k*300/688}px"></div>` : ''}
+      ${logo(f.logo.x*k, f.logo.y*k, f.logo.w*k)}
+    </div><figcaption>${f.name}<span>${f.note}</span></figcaption></figure>`;
+  }).join('');
+  document.getElementById('lp').innerHTML = html + `<div class="lp-legend">
+    <span><i style="border:1px dashed var(--line-strong)"></i>Zone de sécurité</span>
+    <span><i style="background:rgba(255,107,111,.4)"></i>Interdit (boutons et texte des applis)</span>
+    <span><i style="border:1.5px dashed var(--volt)"></i>Position de repli si l'action est dans le coin</span>
+    <span><i style="background:var(--line-strong)"></i>Sous-titres</span></div>`;
+})();
+</script>
+
+</body></html>

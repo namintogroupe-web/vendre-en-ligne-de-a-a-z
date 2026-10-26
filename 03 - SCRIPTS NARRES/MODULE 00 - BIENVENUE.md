@@ -19,11 +19,19 @@
 | --- | --- |
 | **À L'ÉCRAN** | Ce que voit l'apprenant : animation, texte, capture, démonstration. |
 | **VOIX OFF** | Le texte lu, mot pour mot. Débit ≈ 140 mots/minute. |
-| **⏸ PAUSE PRATIQUE** | Écran fixe avec la consigne, minuteur animé et bouton « Je reprends ». La voix dit « Mets la vidéo en pause ». Musique à −8 dB pendant l'écran. |
+| **⏸ PAUSE PRATIQUE** | Écran fixe avec la consigne, minuteur animé et bouton « Je reprends ». La voix dit « Mets la vidéo en pause ». Son : tonalité douce et tic-tac léger, sans musique. |
 | **[ZOOM]** | Zoom guidé sur la zone où cliquer, cercle bleu `brand` sur le clic (charte, § 7). |
 | **[MOT-CLÉ]** | Texte cinétique en `display` : le mot apparaît quand la voix le prononce. |
+| **[SFX : …]** | Effet sonore premium et futuriste de la palette Digital Pro (charte, § 8). |
 
-- **Musique** : instrumentale douce, 20 à 25 dB sous la voix. Elle remonte à −8 dB seulement pendant les pauses et les transitions.
+**Chaque vidéo commence et finit de la même façon** (composant LogoMotion) :
+1. **Ouverture du logo animé** (3,4 s) : la musique démarre à plein niveau. [SFX : riser, impact grave, scintillement]
+2. Le logo **glisse dans son coin** : en haut à droite en 16:9, en haut à gauche en 9:16. Il reste visible pendant toute la leçon et s'écarte si l'action se passe dans son coin. [SFX : whoosh numérique]
+3. **La voix commence** : la musique **s'efface en fondu** sur 2 s, jusqu'au silence.
+4. Pendant la leçon, **pas de musique**. Un [SFX : clic d'interface] accompagne chaque clic montré, et un [SFX : validation] chaque coche verte.
+5. **Dernière phrase de la voix** : la musique **revient en fondu**, puis le logo revient au centre pour la clôture. [SFX : impact final]
+
+Ces étapes ne sont pas répétées dans chaque tableau ci-dessous : elles s'appliquent à toutes les leçons.
 - **Démonstrations** : filmées sur un vrai téléphone Android, en capture d'écran verticale. En 16:9, le téléphone est centré dans un cadre `surface` arrondi, avec le titre de l'étape à gauche.
 - **Sous-titres** : brûlés dans la version réseaux sociaux, et en fichier séparé (.srt) sur la plateforme.
 

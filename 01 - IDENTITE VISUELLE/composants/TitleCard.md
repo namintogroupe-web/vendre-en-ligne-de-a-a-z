@@ -17,6 +17,7 @@ L'écran-titre animé ouvre chaque chapitre vidéo : il pose le module, le titre
 - Titre : 6 mots maximum, sur 2 lignes. Le mot-clé (celui que dit la voix off) en `brand-strong`.
 - Le chiffre doit être **réaliste et expliqué** dans la leçon (objectif, pas promesse).
 - Zone de sécurité 64px (`space-8`) sur tous les bords ; en 9:16, le texte passe en haut et les chevrons en bas.
-- La voix off commence sur l'arrivée du titre ; musique à −8 dB pendant le balayage, puis redescend sous la voix.
+- L'écran-titre suit l'ouverture du logo (LogoMotion). La musique est encore à plein niveau ; elle s'efface en fondu dès que la voix commence, sur l'arrivée du titre.
+- Pendant l'écran-titre, le petit logo de coin est masqué.
 - *Réduire les animations* : pas de balayage, tout apparaît en fondu, le chiffre s'affiche directement.
 - Le consommateur fournit le module, le titre (2 lignes), le mot-clé, le chiffre et son libellé.
