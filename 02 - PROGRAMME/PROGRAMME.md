@@ -434,6 +434,7 @@ Pour chaque leçon, on produit :
 
 ## Bonus et ressources fournies
 
+- **Ebook complet « Vendre en ligne de A à Z »** : toute la formation en version écrite et illustrée (schémas, captures annotées, photos), en pas à pas numérotés avec une checklist par chapitre, à lire et imprimer sans connexion
 - Fiche « Mon projet » et checklist de lancement en 20 points
 - Modèles de pages de vente (Systeme.io, Chariow, Shopify)
 - Calculateur de prix et de marge en FCFA (tableur)

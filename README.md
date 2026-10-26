@@ -24,12 +24,14 @@ Shopify · WooCommerce · Systeme.io · Chariow · Meta Ads (Facebook, Instagram
 | 05 - AUDIO | Voix off, musiques et licences |
 | 06 - SUPPORTS PDF | Fiches et exercices |
 | 07 - EXPORTS VIDEO | Vidéos finales |
+| 08 - EBOOK | Ebook bonus : toute la formation en version écrite et illustrée |
 
 ## Avancement
 - [x] Identité visuelle (design system Digital Pro)
 - [x] Programme complet (135 leçons + bonus IA)
-- [ ] Scripts narrés
+- [ ] Scripts narrés (module 0 fait)
 - [ ] Animations
 - [ ] Audio
-- [ ] Supports PDF
+- [ ] Supports PDF (fiche « Mon projet » faite)
 - [ ] Exports vidéo
+- [ ] Ebook (plan + chapitre 0 faits)
