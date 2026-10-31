@@ -1,0 +1,1485 @@
+{
+ "3A-1": {
+  "file": "VIDEO 3A.1 - Les 6 produits digitaux",
+  "chip": "Module 3A · Leçon 3A.1",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.1",
+    "l1": "6 produits digitaux",
+    "l2": "<em>qui se vendent</em>",
+    "sub": "Choisis le bon format pour ton idée",
+    "say": [
+     "Bienvenue dans le module trois A, le parcours digital. Leçon une : les six produits digitaux qui se vendent."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les formats écrits et visuels",
+    "heading": "Rapides à <em>créer</em>",
+    "cards": [
+     {
+      "icon": "note",
+      "title": "Ebook ou guide",
+      "text": "Un PDF clair, étape par étape",
+      "seg": 1
+     },
+     {
+      "icon": "brush",
+      "title": "Modèles",
+      "text": "Canva, CV, menus, planning",
+      "seg": 2
+     },
+     {
+      "icon": "check",
+      "title": "Fiches et packs",
+      "text": "Checklists, recettes, exercices",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Il existe six grands formats. Les trois premiers sont rapides à créer.",
+     "L'ebook ou le guide : un PDF clair, qui mène à un résultat, étape par étape.",
+     "Les modèles : des CV, des menus, des plannings, des visuels Canva prêts à modifier.",
+     "Les fiches et les packs : des checklists, des recettes, des exercices."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les formats qui valent plus cher",
+    "heading": "Plus de valeur, <em>plus de travail</em>",
+    "cards": [
+     {
+      "icon": "laptop",
+      "title": "Formation vidéo",
+      "text": "Tu montres, ils reproduisent",
+      "seg": 1
+     },
+     {
+      "icon": "users",
+      "title": "Coaching",
+      "text": "Ton temps, en direct",
+      "seg": 2
+     },
+     {
+      "icon": "repeat",
+      "title": "Abonnement",
+      "text": "Un contenu chaque mois",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Les trois autres valent plus cher, et demandent plus de travail.",
+     "La formation vidéo : tu montres, ils reproduisent.",
+     "Le coaching : tu vends ton temps, en direct.",
+     "Et l'abonnement : un contenu nouveau chaque mois, par exemple un groupe privé ou des fiches mensuelles."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Un problème, <em>trois formats</em>",
+    "cols": [
+     "Format",
+     "Prix indicatif"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Guide PDF « Routine en 7 jours »",
+      "3 000 à 5 000 F",
+      1,
+      0.8
+     ],
+     [
+      "Mini-formation vidéo de 10 leçons",
+      "10 000 à 25 000 F",
+      2,
+      0.8
+     ],
+     [
+      "Coaching de 4 semaines",
+      "30 000 F et plus",
+      3,
+      0.8
+     ]
+    ],
+    "say": [
+     "Regarde : le même problème peut devenir trois produits.",
+     {
+      "say": "Un guide PDF, vendu entre trois mille et cinq mille francs.",
+      "cap": "Un guide PDF, vendu entre 3 000 et 5 000 F."
+     },
+     {
+      "say": "Une mini-formation vidéo, entre dix mille et vingt-cinq mille francs.",
+      "cap": "Une mini-formation vidéo, entre 10 000 et 25 000 F."
+     },
+     {
+      "say": "Un coaching de quatre semaines, à partir de trente mille francs. Ce sont des repères, pas des règles.",
+      "cap": "Un coaching de quatre semaines, à partir de 30 000 F. Ce sont des repères, pas des règles."
+     }
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Commence par le format <b>le plus simple</b> : souvent un guide PDF.<br>Tu pourras le transformer en formation vidéo plus tard.",
+    "say": [
+     "Mon conseil : commence par le format le plus simple. Souvent, un guide PDF.",
+     "Une fois qu'il se vend, tu pourras le transformer en formation vidéo, puis en coaching. On appelle ça une échelle de produits."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Choisis le <b>format</b> de ton premier produit<br>et écris-le dans ta fiche.",
+    "minutes": 2,
+    "say": [
+     "Pause. Choisis le format de ton premier produit, et écris-le dans ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>6 formats</b> : guide, modèles, fiches, vidéo, coaching, abonnement.",
+     "Un même problème peut devenir <b>plusieurs produits</b>.",
+     "Commence par <b>le plus simple</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Six formats : guide, modèles, fiches, formation vidéo, coaching, abonnement.",
+     "Un même problème peut devenir plusieurs produits.",
+     "Et on commence par le plus simple."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 1,
+    "of": 8,
+    "label": "Leçon 3A.2 · Le plan de ton produit",
+    "say": [
+     "Prochaine leçon : on construit le plan de ton produit, avec la méthode du résultat promis."
+    ]
+   }
+  ]
+ },
+ "3A-2": {
+  "file": "VIDEO 3A.2 - Le plan de ton produit",
+  "chip": "Module 3A · Leçon 3A.2",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.2",
+    "l1": "Le plan",
+    "l2": "<em>de ton produit</em>",
+    "sub": "La méthode du résultat promis",
+    "say": [
+     "Leçon deux : le plan de ton produit."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "On ne vend pas",
+     "des pages ou des heures.",
+     "On vend un <em>résultat</em>."
+    ],
+    "at": [
+     0,
+     0,
+     1
+    ],
+    "foot": "Commence par la fin.",
+    "footAt": 2,
+    "say": [
+     "Ton client ne veut pas cinquante pages, ni dix heures de vidéo.",
+     "Il veut un résultat.",
+     "Alors on construit le plan en partant de la fin."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "La méthode",
+    "heading": "Du résultat aux <em>étapes</em>",
+    "steps": [
+     [
+      "Le résultat promis",
+      "En une phrase claire",
+      1
+     ],
+     [
+      "Le point de départ",
+      "Où est ton client aujourd'hui",
+      2
+     ],
+     [
+      "Les étapes",
+      "5 à 7 marches entre les deux",
+      3
+     ],
+     [
+      "Les actions",
+      "Une action par étape",
+      4
+     ]
+    ],
+    "say": [
+     "Voici la méthode en quatre temps.",
+     "Un : écris le résultat promis, en une phrase. Par exemple : « Des cheveux qui ne cassent plus, en sept jours. »",
+     "Deux : décris le point de départ de ton client. Où en est-il aujourd'hui ?",
+     "Trois : trace cinq à sept étapes entre les deux. Pas plus.",
+     "Quatre : pour chaque étape, une action concrète que le client fait tout de suite."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Le plan du <em>guide d'Awa</em>",
+    "cols": [
+     "Étape",
+     "Action du client"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "1. Comprendre pourquoi ça casse",
+      "Faire le test du cheveu",
+      1,
+      0.6
+     ],
+     [
+      "2. Nettoyer en douceur",
+      "Préparer le shampoing maison",
+      2,
+      0.6
+     ],
+     [
+      "3. Nourrir",
+      "Appliquer le masque du jour 3",
+      3,
+      0.6
+     ],
+     [
+      "4. Protéger la nuit",
+      "Mettre en place le foulard satin",
+      4,
+      0.6
+     ],
+     [
+      "5. Garder la routine",
+      "Remplir le calendrier des 7 jours",
+      5,
+      0.6
+     ]
+    ],
+    "say": [
+     "Voici le plan du guide « Routine cheveux crépus en sept jours ».",
+     "Étape un : comprendre pourquoi ça casse. Action : faire le test du cheveu.",
+     "Étape deux : nettoyer en douceur. Action : préparer le shampoing maison.",
+     "Étape trois : nourrir. Action : appliquer le masque du jour trois.",
+     "Étape quatre : protéger la nuit. Action : le foulard en satin.",
+     "Étape cinq : garder la routine, avec un calendrier à remplir."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Demande à l'IA de t'aider : « Voici mon résultat promis et mon client.<br>Propose-moi <b>7 étapes</b> avec une action chacune. » Puis <b>corrige avec ton expérience</b>.",
+    "say": [
+     "Une astuce pour aller plus vite : l'intelligence artificielle.",
+     "Donne-lui ton résultat promis et ton client, et demande-lui sept étapes avec une action chacune.",
+     "Puis corrige avec ton expérience. L'IA propose, c'est toi qui décides."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Écris ton <b>résultat promis</b><br>et les <b>étapes</b> de ton produit.",
+    "minutes": 10,
+    "say": [
+     "Pause. Écris ton résultat promis en une phrase, puis les cinq à sept étapes de ton produit, avec une action pour chacune."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "On vend un <b>résultat</b>, pas des pages.",
+     "Résultat → départ → <b>5 à 7 étapes</b> → actions.",
+     "L'IA propose, <b>toi tu décides</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "On vend un résultat, pas des pages.",
+     "Résultat, point de départ, cinq à sept étapes, et une action par étape.",
+     "Et l'IA propose, mais c'est toi qui décides."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 2,
+    "of": 8,
+    "label": "Leçon 3A.3 · Ton ebook avec Canva",
+    "say": [
+     "Prochaine leçon : on crée ton guide PDF avec Canva. Beau, clair, et professionnel."
+    ]
+   }
+  ]
+ },
+ "3A-3": {
+  "file": "VIDEO 3A.3 - Ton ebook avec Canva",
+  "chip": "Module 3A · Leçon 3A.3",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.3",
+    "l1": "Ton ebook",
+    "l2": "<em>avec Canva</em>",
+    "sub": "Beau, clair, professionnel",
+    "say": [
+     "Leçon trois : créer ton ebook avec Canva."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "La structure",
+    "heading": "Ce que contient <em>un bon guide</em>",
+    "items": [
+     {
+      "icon": "brush",
+      "title": "Une couverture",
+      "text": "Le titre = le résultat promis",
+      "show": 1
+     },
+     {
+      "icon": "target",
+      "title": "Une introduction courte",
+      "text": "Pour qui, et ce qu'on va obtenir",
+      "show": 2
+     },
+     {
+      "icon": "note",
+      "title": "Un chapitre par étape",
+      "text": "Explication, exemple, action",
+      "show": 3
+     },
+     {
+      "icon": "check",
+      "title": "Une conclusion et un bonus",
+      "text": "Le récapitulatif et la suite",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Un bon guide a toujours la même structure.",
+     "Une couverture, avec le résultat promis en titre.",
+     "Une introduction courte : pour qui, et ce qu'on va obtenir.",
+     "Un chapitre par étape de ton plan : l'explication, un exemple, et l'action.",
+     "Et une conclusion, avec le récapitulatif et un petit bonus."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Crée ton guide <em>dans Canva</em>",
+    "steps": [
+     [
+      "Cherche « Ebook »",
+      1
+     ],
+     [
+      "Choisis un modèle sobre",
+      2
+     ],
+     [
+      "Remplace les textes",
+      3
+     ],
+     [
+      "Télécharge en PDF",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Canva · Rechercher",
+      "tapAt": 1,
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Rechercher",
+        "t": "Ebook"
+       },
+       {
+        "t": "Couverture d'ebook",
+        "ic": "#00c4cc",
+        "l": "C",
+        "hl": true
+       },
+       {
+        "t": "Document A4"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Modèles",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "t": "Guide minimal · 12 pages",
+        "sub": "Gratuit",
+        "ic": "#0b57d0",
+        "l": "1",
+        "hl": true
+       },
+       {
+        "t": "Magazine coloré",
+        "sub": "Pro",
+        "ic": "#f59e0b",
+        "l": "2"
+       },
+       {
+        "t": "Rapport sobre",
+        "sub": "Gratuit",
+        "ic": "#5f6368",
+        "l": "3"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Page 1 · Couverture",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Titre",
+        "t": "Des cheveux qui ne cassent plus en 7 jours"
+       },
+       {
+        "kind": "note",
+        "t": "Ta couleur, ta police, ta photo."
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Partager",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "Télécharger"
+       },
+       {
+        "t": "Type de fichier",
+        "sub": "PDF Standard",
+        "hl": true
+       },
+       {
+        "kind": "btn",
+        "t": "Télécharger"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ouvre Canva, je te montre.",
+     "Dans la recherche, tape « Ebook ».",
+     "Choisis un modèle sobre et lisible. Un modèle gratuit suffit très bien.",
+     "Remplace les textes par les tiens, page par page. Mets ta couleur, ta police, ta photo.",
+     "Quand c'est fini : Partager, Télécharger, et choisis « PDF Standard »."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les règles de lisibilité",
+    "heading": "Un guide qui se lit <em>sur téléphone</em>",
+    "cards": [
+     {
+      "icon": "note",
+      "title": "Gros caractères",
+      "text": "14 points minimum",
+      "seg": 1
+     },
+     {
+      "icon": "brush",
+      "title": "2 couleurs",
+      "text": "Une principale, une d'accent",
+      "seg": 2
+     },
+     {
+      "icon": "check",
+      "title": "Une idée par page",
+      "text": "Et des listes courtes",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois règles pour qu'il se lise bien sur téléphone.",
+     "Des gros caractères : au moins quatorze points.",
+     "Deux couleurs seulement : une principale, et une d'accent.",
+     "Et une idée par page, avec des listes courtes."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Utilise uniquement des images <b>libres de droits</b> :<br>celles de Canva, ou tes propres photos. Jamais une image prise sur Google.",
+    "say": [
+     "Attention aux images.",
+     "Utilise uniquement des images libres de droits : celles proposées dans Canva, ou tes propres photos.",
+     "Jamais une image copiée sur Google."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée la <b>couverture</b> et les <b>3 premières pages</b><br>de ton guide dans Canva.",
+    "minutes": 20,
+    "say": [
+     "Pause. Crée ta couverture et les trois premières pages de ton guide. Le reste suivra le même modèle."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Couverture, intro, <b>un chapitre par étape</b>, conclusion.",
+     "Lisible sur téléphone : <b>14 points</b>, 2 couleurs.",
+     "Images <b>libres de droits</b> uniquement."
+    ],
+    "say": [
+     "À retenir.",
+     "Couverture, introduction, un chapitre par étape, conclusion.",
+     "Lisible sur téléphone : quatorze points, deux couleurs.",
+     "Et des images libres de droits uniquement."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 3,
+    "of": 8,
+    "label": "Leçon 3A.4 · Filmer ta formation",
+    "say": [
+     "Prochaine leçon : enregistrer une formation vidéo avec ton téléphone. Lumière, son, cadrage."
+    ]
+   }
+  ]
+ },
+ "3A-4": {
+  "file": "VIDEO 3A.4 - Filmer avec ton téléphone",
+  "chip": "Module 3A · Leçon 3A.4",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.4",
+    "l1": "Filmer",
+    "l2": "<em>avec ton téléphone</em>",
+    "sub": "Lumière, son, cadrage",
+    "say": [
+     "Leçon quatre : filmer ta formation avec ton téléphone."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Pas besoin de caméra.",
+     "Ton téléphone <em>suffit</em>.",
+     "Ce qui compte : <em>le son</em>."
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ],
+    "say": [
+     "Bonne nouvelle : pas besoin de caméra.",
+     "Ton téléphone suffit largement.",
+     "Et retiens ceci : les gens pardonnent une image moyenne, mais pas un mauvais son."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les 3 réglages",
+    "heading": "Lumière, son, <em>cadrage</em>",
+    "cards": [
+     {
+      "icon": "bulb",
+      "title": "Lumière",
+      "text": "Face à une fenêtre, jamais dos à elle",
+      "seg": 1
+     },
+     {
+      "icon": "chat",
+      "title": "Son",
+      "text": "Pièce calme, micro-cravate si possible",
+      "seg": 2
+     },
+     {
+      "icon": "eye",
+      "title": "Cadrage",
+      "text": "Yeux au tiers haut, téléphone stable",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois réglages font toute la différence.",
+     "La lumière : mets-toi face à une fenêtre, jamais dos à elle.",
+     "Le son : une pièce calme, avec des rideaux ou des tissus. Si tu peux, un petit micro-cravate : on en trouve à prix accessible.",
+     "Le cadrage : tes yeux au tiers haut de l'image, et le téléphone stable, sur un trépied ou une pile de livres."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Prépare <em>ta caméra</em>",
+    "steps": [
+     [
+      "Nettoie l'objectif",
+      1
+     ],
+     [
+      "Active la grille",
+      2
+     ],
+     [
+      "Format horizontal 1080p",
+      3
+     ],
+     [
+      "Mode avion",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Avant de filmer",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Essuie l'objectif avec un tissu doux : l'image devient nette."
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Réglages caméra",
+      "tapDelay": 1.6,
+      "rows": [
+       {
+        "kind": "toggle",
+        "t": "Grille"
+       },
+       {
+        "t": "Stabilisation",
+        "sub": "Activée"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Qualité vidéo",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "720p · 30 i/s"
+       },
+       {
+        "t": "1080p · 30 i/s",
+        "hl": true
+       },
+       {
+        "t": "4K · 30 i/s",
+        "sub": "Lourd"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Réglages rapides",
+      "tapDelay": 1.6,
+      "rows": [
+       {
+        "t": "Mode avion",
+        "ic": "#f59e0b",
+        "l": "✈",
+        "hl": true
+       },
+       {
+        "t": "Ne pas déranger"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Avant d'appuyer sur « enregistrer », quatre gestes.",
+     "Nettoie l'objectif avec un tissu doux. Ça change tout.",
+     "Active la grille dans les réglages de la caméra : elle t'aide à bien cadrer.",
+     {
+      "say": "Choisis la qualité mille quatre-vingts p, trente images par seconde. La quatre K est trop lourde pour rien.",
+      "cap": "Choisis la qualité 1080p, 30 images par seconde. La 4K est trop lourde pour rien."
+     },
+     "Et passe en mode avion, pour ne pas être interrompu par un appel."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Filme en <b>petites séquences</b> de 2 à 5 minutes.<br>Une erreur ? Tu recommences seulement la séquence, pas toute la leçon.",
+    "say": [
+     "Une astuce de pro : filme en petites séquences, de deux à cinq minutes.",
+     "Si tu te trompes, tu recommences seulement la séquence. Pas toute la leçon."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Filme une <b>séquence test</b> d'une minute<br>et réécoute le <b>son</b>.",
+    "minutes": 10,
+    "say": [
+     "Pause. Filme une séquence test d'une minute. Réécoute-la avec des écouteurs. Le son est clair ? Alors tu es prêt."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Ton téléphone suffit, mais <b>le son</b> est roi.",
+     "Face à la lumière, pièce calme, téléphone <b>stable</b>.",
+     "Des séquences <b>courtes</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Ton téléphone suffit, mais le son est roi.",
+     "Face à la lumière, dans une pièce calme, avec un téléphone stable.",
+     "Et des séquences courtes."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 4,
+    "of": 8,
+    "label": "Leçon 3A.5 · Monter avec CapCut",
+    "say": [
+     "Prochaine leçon : monter tes vidéos simplement, avec CapCut."
+    ]
+   }
+  ]
+ },
+ "3A-5": {
+  "file": "VIDEO 3A.5 - Monter avec CapCut",
+  "chip": "Module 3A · Leçon 3A.5",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.5",
+    "l1": "Monter",
+    "l2": "<em>avec CapCut</em>",
+    "sub": "Couper, titrer, sous-titrer",
+    "say": [
+     "Leçon cinq : monter tes vidéos avec CapCut."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Le montage simple",
+    "heading": "4 gestes, <em>pas plus</em>",
+    "steps": [
+     [
+      "Couper",
+      "Les silences et les erreurs",
+      1
+     ],
+     [
+      "Titrer",
+      "Le nom de la leçon",
+      2
+     ],
+     [
+      "Sous-titrer",
+      "Automatiquement",
+      3
+     ],
+     [
+      "Exporter",
+      "1080p",
+      4
+     ]
+    ],
+    "say": [
+     "Un bon montage de formation tient en quatre gestes.",
+     "Couper les silences et les erreurs.",
+     "Ajouter un titre.",
+     "Ajouter les sous-titres, automatiquement.",
+     "Et exporter. Pas besoin d'effets spéciaux."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Ton premier montage <em>CapCut</em>",
+    "steps": [
+     [
+      "Nouveau projet",
+      1
+     ],
+     [
+      "Diviser et supprimer",
+      2
+     ],
+     [
+      "Sous-titres auto",
+      3
+     ],
+     [
+      "Exporter en 1080p",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "CapCut",
+      "tapAt": 1,
+      "tapDelay": 1.8,
+      "rows": [
+       {
+        "kind": "btn",
+        "t": "+ Nouveau projet",
+        "hl": true
+       },
+       {
+        "t": "Leçon 1 · séquence 1",
+        "sub": "02:41",
+        "ic": "#111111",
+        "l": "▶"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Montage",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "Diviser",
+        "ic": "#5f6368",
+        "l": "✂",
+        "hl": true
+       },
+       {
+        "t": "Supprimer",
+        "ic": "#d93025",
+        "l": "×"
+       },
+       {
+        "kind": "note",
+        "t": "Place la ligne blanche au début et à la fin de l'erreur."
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Texte",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Sous-titres automatiques",
+        "ic": "#0b57d0",
+        "l": "CC",
+        "hl": true
+       },
+       {
+        "t": "Ajouter du texte"
+       },
+       {
+        "kind": "note",
+        "t": "Langue : français. Relis et corrige les mots mal compris."
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Exporter",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Résolution",
+        "sub": "1080p",
+        "hl": true
+       },
+       {
+        "t": "Fréquence",
+        "sub": "30 i/s"
+       },
+       {
+        "kind": "btn",
+        "t": "Exporter"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ouvre CapCut, et suis-moi.",
+     "Appuie sur « Nouveau projet », et choisis ta séquence.",
+     "Pour couper une erreur : place la ligne blanche au début de l'erreur, appuie sur « Diviser ». Fais pareil à la fin. Puis sélectionne le morceau, et « Supprimer ».",
+     "Pour les sous-titres : Texte, puis « Sous-titres automatiques ». Choisis le français, et relis bien : corrige les mots mal compris.",
+     "Enfin, Exporter, en mille quatre-vingts p. C'est tout."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Pour une formation que tu vends, <b>pas de musique protégée</b>.<br>Utilise la bibliothèque libre de l'application, ou aucune musique.",
+    "say": [
+     "Attention à la musique.",
+     "Pour une formation que tu vends, pas de musique protégée. Utilise la bibliothèque libre de l'application, ou pas de musique du tout."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Garde le même <b>début</b> et la même <b>fin</b> pour toutes tes vidéos.<br>Crée-les une fois, puis réutilise-les : ta formation paraît <b>pro</b>.",
+    "say": [
+     "Une astuce qui fait pro : garde le même début et la même fin pour toutes tes vidéos.",
+     "Crée-les une seule fois, puis réutilise-les. Toute ta formation paraît professionnelle."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Monte ta <b>séquence test</b> :<br>coupe, sous-titre, exporte.",
+    "minutes": 15,
+    "say": [
+     "Pause. Monte ta séquence test : coupe les erreurs, ajoute les sous-titres, et exporte."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "4 gestes : <b>couper, titrer, sous-titrer, exporter</b>.",
+     "Sous-titres auto, mais <b>toujours relus</b>.",
+     "Pas de musique protégée."
+    ],
+    "say": [
+     "À retenir.",
+     "Quatre gestes : couper, titrer, sous-titrer, exporter.",
+     "Des sous-titres automatiques, mais toujours relus.",
+     "Et pas de musique protégée."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 5,
+    "of": 8,
+    "label": "Leçon 3A.6 · Les produits rapides",
+    "say": [
+     "Prochaine leçon : les modèles, fiches et packs. Les produits les plus rapides à créer."
+    ]
+   }
+  ]
+ },
+ "3A-6": {
+  "file": "VIDEO 3A.6 - Les produits rapides",
+  "chip": "Module 3A · Leçon 3A.6",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.6",
+    "l1": "Modèles, fiches,",
+    "l2": "<em>packs</em>",
+    "sub": "Les produits rapides à créer",
+    "say": [
+     "Leçon six : les modèles, les fiches et les packs."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Les gens paient",
+     "pour <em>gagner du temps</em>.",
+     "Pas seulement pour apprendre."
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ],
+    "say": [
+     "Les gens ne paient pas seulement pour apprendre.",
+     "Ils paient aussi pour gagner du temps.",
+     "Un modèle prêt à l'emploi leur évite des heures de travail."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemples",
+    "heading": "Des idées <em>prêtes à vendre</em>",
+    "cols": [
+     "Pour qui",
+     "Le produit"
+    ],
+    "rightGood": true,
+    "example": true,
+    "rows": [
+     [
+      "Restaurants",
+      "Pack de 20 menus modifiables",
+      1,
+      0.7
+     ],
+     [
+      "Chercheurs d'emploi",
+      "5 modèles de CV + lettres",
+      2,
+      0.7
+     ],
+     [
+      "Commerçants",
+      "30 visuels promo pour les réseaux",
+      3,
+      0.7
+     ],
+     [
+      "Mamans",
+      "Planning de repas de la semaine",
+      4,
+      0.7
+     ]
+    ],
+    "say": [
+     "Quelques exemples.",
+     "Pour les restaurants : un pack de vingt menus modifiables.",
+     "Pour ceux qui cherchent un emploi : cinq modèles de CV, avec les lettres.",
+     "Pour les commerçants : trente visuels promo pour les réseaux sociaux.",
+     "Pour les mamans débordées : un planning de repas de la semaine, avec la liste de courses."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Partage un <em>modèle Canva</em>",
+    "steps": [
+     [
+      "Partager",
+      1
+     ],
+     [
+      "Lien du modèle",
+      2
+     ],
+     [
+      "Mets-le dans ton PDF",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Partager",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Télécharger"
+       },
+       {
+        "t": "Lien du modèle",
+        "ic": "#00c4cc",
+        "l": "⧉",
+        "hl": true
+       },
+       {
+        "t": "Collaborer"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Lien du modèle",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Chaque personne qui ouvre le lien reçoit sa propre copie. Ton original reste intact."
+       },
+       {
+        "kind": "btn",
+        "t": "Copier",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Ton PDF de livraison",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Merci pour ton achat !",
+        "ic": "#0b57d0",
+        "l": "✓"
+       },
+       {
+        "kind": "note",
+        "t": "Clique ici pour ouvrir ton pack dans Canva."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Pour vendre un modèle Canva, il y a une option faite pour ça.",
+     "Dans ton design : Partager, puis « Lien du modèle ».",
+     "Chaque personne qui ouvre ce lien reçoit sa propre copie. Ton original reste intact. Selon ton compte, cette option peut demander Canva Pro : vérifie avant de lancer ton offre.",
+     "Mets ce lien dans un petit PDF de livraison, avec un mot de remerciement. Et c'est ce PDF que tu vends."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Un pack se vend mieux qu'un modèle seul.<br><b>10 modèles + un mini-guide</b> : plus de valeur, même travail de vente.",
+    "say": [
+     "Une astuce : un pack se vend mieux qu'un modèle seul.",
+     "Dix modèles, plus un mini-guide pour bien les utiliser : beaucoup plus de valeur, et le même travail de vente."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée <b>un premier modèle</b><br>et son lien de partage.",
+    "minutes": 15,
+    "say": [
+     "Pause. Crée un premier modèle, et génère son lien de partage."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Les gens paient pour <b>gagner du temps</b>.",
+     "Canva : <b>lien du modèle</b> dans un PDF de livraison.",
+     "Un <b>pack</b> vaut mieux qu'un modèle seul."
+    ],
+    "say": [
+     "À retenir.",
+     "Les gens paient pour gagner du temps.",
+     "Dans Canva, on vend le lien du modèle, dans un PDF de livraison.",
+     "Et un pack vaut mieux qu'un modèle seul."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 6,
+    "of": 8,
+    "label": "Leçon 3A.7 · Vendre ton temps",
+    "say": [
+     "Prochaine leçon : le coaching. Vendre ton temps, intelligemment."
+    ]
+   }
+  ]
+ },
+ "3A-7": {
+  "file": "VIDEO 3A.7 - Coaching et accompagnement",
+  "chip": "Module 3A · Leçon 3A.7",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.7",
+    "l1": "Coaching et",
+    "l2": "<em>accompagnement</em>",
+    "sub": "Vendre ton temps intelligemment",
+    "say": [
+     "Leçon sept : le coaching et l'accompagnement."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Le coaching se vend <em>cher</em>.",
+     "Mais ton temps",
+     "est <em>limité</em>."
+    ],
+    "at": [
+     0,
+     1,
+     1
+    ],
+    "foot": "Alors on le vend en formules.",
+    "footAt": 2,
+    "say": [
+     "Le coaching se vend cher, parce que c'est toi, en direct.",
+     "Mais ton temps est limité : vingt-quatre heures par jour, pas une de plus.",
+     "Alors on le vend en formules claires."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 formules",
+    "heading": "Du plus simple au <em>plus complet</em>",
+    "cards": [
+     {
+      "icon": "clock",
+      "title": "Séance unique",
+      "text": "1 h pour débloquer un problème",
+      "seg": 1
+     },
+     {
+      "icon": "cal",
+      "title": "Programme",
+      "text": "4 semaines, 1 séance par semaine",
+      "seg": 2
+     },
+     {
+      "icon": "users",
+      "title": "Groupe",
+      "text": "5 à 10 personnes en même temps",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois formules.",
+     "La séance unique : une heure pour débloquer un problème précis.",
+     "Le programme : quatre semaines, une séance par semaine, avec des exercices entre les séances.",
+     "Et le coaching de groupe : cinq à dix personnes en même temps. Chacun paie moins, et toi tu gagnes plus par heure."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Avant la première séance",
+    "heading": "Une offre <em>bien cadrée</em>",
+    "items": [
+     {
+      "icon": "target",
+      "title": "Un résultat promis",
+      "text": "Ce que la personne aura à la fin",
+      "show": 1
+     },
+     {
+      "icon": "cal",
+      "title": "Un cadre clair",
+      "text": "Nombre de séances, durée, outil (WhatsApp, Meet)",
+      "show": 2
+     },
+     {
+      "icon": "coin",
+      "title": "Paiement avant la séance",
+      "text": "Mobile Money, sans exception",
+      "show": 3
+     },
+     {
+      "icon": "shield",
+      "title": "Une règle d'annulation",
+      "text": "Prévenir 24 h avant",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Avant ta première séance, cadre ton offre.",
+     "Un résultat promis : ce que la personne aura à la fin.",
+     "Un cadre clair : nombre de séances, durée, et l'outil, par exemple WhatsApp ou Google Meet.",
+     "Le paiement avant la séance, par Mobile Money, sans exception.",
+     "Et une règle d'annulation : on prévient vingt-quatre heures avant."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Note les questions qui reviennent dans tes séances :<br>elles deviendront ton <b>prochain guide</b> ou ta <b>formation</b>.",
+    "say": [
+     "Une astuce en or : note les questions qui reviennent dans tes séances.",
+     "Elles deviendront ton prochain guide, ou ta formation vidéo."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Si le coaching te convient : écris ta <b>formule</b>,<br>son <b>prix</b> et ses <b>règles</b>.",
+    "minutes": 8,
+    "say": [
+     "Pause. Si le coaching te convient, écris ta formule, son prix, et ses règles."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Ton temps est limité : vends des <b>formules</b>.",
+     "Résultat promis, cadre clair, <b>paiement avant</b>.",
+     "Tes séances nourrissent tes <b>futurs produits</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Ton temps est limité : vends des formules.",
+     "Un résultat promis, un cadre clair, et le paiement avant.",
+     "Et tes séances nourrissent tes futurs produits."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 7,
+    "of": 8,
+    "label": "Leçon 3A.8 · Protéger ton produit",
+    "say": [
+     "Dernière leçon du module : protéger ton produit."
+    ]
+   }
+  ]
+ },
+ "3A-8": {
+  "file": "VIDEO 3A.8 - Protéger ton produit",
+  "chip": "Module 3A · Leçon 3A.8",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3A · Leçon 3A.8",
+    "l1": "Protéger",
+    "l2": "<em>ton produit</em>",
+    "sub": "Accès sécurisé, filigrane, conditions",
+    "say": [
+     "Leçon huit : protéger ton produit."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Personne n'est protégé <em>à 100 %</em>.",
+     "Mais on peut rendre",
+     "le partage <em>difficile</em>."
+    ],
+    "at": [
+     0,
+     1,
+     1
+    ],
+    "say": [
+     "Soyons honnêtes : aucun produit digital n'est protégé à cent pour cent.",
+     "Mais tu peux rendre le partage difficile, et peu intéressant. Trois protections suffisent."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 protections",
+    "heading": "Simples et <em>efficaces</em>",
+    "cards": [
+     {
+      "icon": "lock",
+      "title": "Accès sécurisé",
+      "text": "Une plateforme avec identifiant",
+      "seg": 1
+     },
+     {
+      "icon": "brush",
+      "title": "Filigrane",
+      "text": "Ton nom discret sur chaque page",
+      "seg": 2
+     },
+     {
+      "icon": "shield",
+      "title": "Conditions",
+      "text": "Usage personnel, partage interdit",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois protections.",
+     "Un : l'accès sécurisé. Tes vidéos sont sur une plateforme comme Systeme point io ou Chariow, avec un identifiant. Pas en lien public.",
+     "Deux : le filigrane. Ton nom et ton site, discrets, sur chaque page. Et si ta plateforme le permet, le nom de l'acheteur.",
+     "Trois : des conditions d'utilisation claires. Usage personnel, partage et revente interdits."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "À faire, à éviter",
+    "heading": "Les bons <em>réflexes</em>",
+    "cols": [
+     "À éviter",
+     "À faire"
+    ],
+    "leftBad": true,
+    "rightGood": true,
+    "rows": [
+     [
+      "Envoyer le PDF par WhatsApp",
+      "Un lien de téléchargement personnel",
+      1,
+      0.7
+     ],
+     [
+      "Des vidéos en lien public",
+      "Des vidéos dans un espace membre",
+      2,
+      0.7
+     ],
+     [
+      "Aucune mention légale",
+      "Des conditions d'utilisation à l'achat",
+      3,
+      0.7
+     ]
+    ],
+    "say": [
+     "Les bons réflexes.",
+     "N'envoie pas ton PDF à la main par WhatsApp : donne un lien de téléchargement personnel.",
+     "Pas de vidéos en lien public : un espace membre.",
+     "Et pas de vente sans conditions d'utilisation : le client les accepte au moment d'acheter."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "retenir",
+    "text": "La meilleure protection, c'est <b>la valeur</b> :<br>mises à jour, bonus, groupe d'entraide. Une copie n'aura jamais tout ça.",
+    "say": [
+     "Et retiens ceci : la meilleure protection, c'est la valeur.",
+     "Des mises à jour, des bonus, un groupe d'entraide. Une copie piratée n'aura jamais tout ça."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Ajoute ton <b>filigrane</b> et écris tes<br><b>conditions d'utilisation</b>.",
+    "minutes": 10,
+    "say": [
+     "Pause. Ajoute ton filigrane dans ton guide, et écris tes conditions d'utilisation en quelques lignes."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Module 3A terminé",
+    "heading": "Ton produit est <em>prêt</em>",
+    "items": [
+     {
+      "icon": "target",
+      "title": "Le format et le plan",
+      "check": 0,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "note",
+      "title": "Ton guide ou tes vidéos",
+      "check": 1,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "shield",
+      "title": "Protégé et cadré",
+      "check": 2,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "users",
+      "title": "Testé par 3 personnes",
+      "check": 3,
+      "checkDelay": 0.5
+     }
+    ],
+    "say": [
+     "Faisons le point. Ton format et ton plan : prêts.",
+     "Ton guide, ou tes vidéos : créés.",
+     "Ton produit : protégé et cadré.",
+     "Dernière étape : fais-le tester par trois personnes de ta cible, et corrige ce qui bloque."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 8,
+    "of": 8,
+    "label": "Module 4 · Le message qui fait vendre",
+    "say": [
+     "Bravo, le module trois A est terminé. Ton produit digital existe.",
+     "Fais le quiz, et rendez-vous au module quatre : on écrit le message qui fait vendre."
+    ]
+   }
+  ]
+ }
+}

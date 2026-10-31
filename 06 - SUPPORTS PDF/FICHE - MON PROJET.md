@@ -1,6 +1,6 @@
 # FICHE « MON PROJET »
 
-**VENDRE EN LIGNE DE A À Z** · Modules 0 à 2 · À remplir pendant les leçons
+**VENDRE EN LIGNE DE A À Z** · Modules 0 à 3 · À remplir pendant les leçons
 
 Range cette fiche dans ton dossier **MON BUSINESS**. Tu la complèteras tout au long de la formation.
 
@@ -162,6 +162,32 @@ Ma méthode : ☐ Sondage WhatsApp  ☐ Page test  ☐ Précommande
 | ...... | ............................................................ | ...... |
 
 Verdict : ☐ 10 gestes ou plus : validé  ☐ 3 à 9 : j'ajuste et je reteste  ☐ moins de 3 : je change d'idée
+
+## 16. Mon produit digital (module 3A)
+
+Mon format : ☐ Guide PDF  ☐ Modèles  ☐ Fiches / pack  ☐ Formation vidéo  ☐ Coaching  ☐ Abonnement
+
+Mon résultat promis (une phrase) :
+
+> ............................................................................................................
+
+| Étape | Ce que le client apprend | Son action |
+| --- | --- | --- |
+| 1 | ............................................ | ............................ |
+| 2 | ............................................ | ............................ |
+| 3 | ............................................ | ............................ |
+| 4 | ............................................ | ............................ |
+| 5 | ............................................ | ............................ |
+| 6 | ............................................ | ............................ |
+| 7 | ............................................ | ............................ |
+
+Ma protection : ☐ accès sécurisé  ☐ filigrane  ☐ conditions d'utilisation écrites
+
+Mes 3 testeurs : 1. .............................. 2. .............................. 3. ..............................
+
+Ce qu'ils ont trouvé difficile, et ce que j'ai corrigé :
+
+> ............................................................................................................
 
 ---
 
