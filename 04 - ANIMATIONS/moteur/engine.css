@@ -296,3 +296,6 @@ b{font-weight:800}
 .s-cards .cards.c4 .card p{font-size:26px}
 .s-compare .cmp.dense{top:380px;gap:14px}
 .s-compare .cmp.dense .cl,.s-compare .cmp.dense .cv{padding:20px 36px;font-size:31px;border-radius:18px}
+/* lignes de téléphone : le titre garde sa place, le sous-texte passe à la ligne */
+.pr > span:not(.pi){flex:1 1 0;min-width:45%;overflow-wrap:anywhere}
+.pr em{flex:0 1 auto;max-width:48%}
