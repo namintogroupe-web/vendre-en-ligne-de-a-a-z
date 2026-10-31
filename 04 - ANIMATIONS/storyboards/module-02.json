@@ -1,0 +1,1377 @@
+{
+ "2-1": {
+  "file": "VIDEO 2.1 - Trouver des idées",
+  "chip": "Module 2 · Leçon 2.1",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 2 · Leçon 2.1",
+    "l1": "Trouver des idées",
+    "l2": "<em>qui se vendent</em>",
+    "sub": "Partir de vrais problèmes",
+    "say": [
+     "Bienvenue dans le module deux. Leçon une : trouver des idées qui se vendent."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Les gens n'achètent pas",
+     "un produit.",
+     "Ils achètent une <em>solution</em>."
+    ],
+    "at": [
+     0,
+     0,
+     1
+    ],
+    "foot": "Cherche d'abord le problème.",
+    "footAt": 2,
+    "say": [
+     "Retiens cette phrase : les gens n'achètent pas un produit.",
+     "Ils achètent la solution à un problème.",
+     "Alors on ne cherche pas d'abord un produit. On cherche un problème."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 sources d'idées",
+    "heading": "Là où les problèmes <em>se cachent</em>",
+    "cards": [
+     {
+      "icon": "chat",
+      "title": "Ce qu'on te demande",
+      "text": "Les questions qu'on te pose souvent",
+      "seg": 1
+     },
+     {
+      "icon": "users",
+      "title": "Ce qu'on entend",
+      "text": "Les plaintes autour de toi",
+      "seg": 2
+     },
+     {
+      "icon": "eye",
+      "title": "Ce qu'on lit",
+      "text": "Commentaires, groupes, avis",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Les bons problèmes se cachent à trois endroits.",
+     "Un : ce qu'on te demande souvent. « Tu peux m'aider à faire ça ? » C'est un signal.",
+     "Deux : ce que tu entends autour de toi. Les plaintes, les « j'en ai marre de… ».",
+     "Trois : ce que tu lis en ligne. Les commentaires, les groupes Facebook, les avis sur les produits."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Chasse aux problèmes <em>dans les commentaires</em>",
+    "steps": [
+     [
+      "Cherche ton sujet",
+      1
+     ],
+     [
+      "Ouvre les commentaires",
+      2
+     ],
+     [
+      "Note les plaintes",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Facebook · Rechercher",
+      "tapAt": 1,
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Rechercher",
+        "t": "cheveux crépus"
+       },
+       {
+        "t": "Groupes",
+        "sub": "12 résultats",
+        "ic": "#1877f2",
+        "l": "f",
+        "hl": true
+       },
+       {
+        "t": "Publications"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Commentaires",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Awa K.",
+        "sub": "il y a 2 j",
+        "ic": "#8e44ad",
+        "l": "A"
+       },
+       {
+        "kind": "note",
+        "t": "Mes cheveux cassent dès que je les coiffe, quelqu'un a une solution ?"
+       },
+       {
+        "t": "Mariam D.",
+        "sub": "il y a 1 j",
+        "ic": "#16a085",
+        "l": "M"
+       },
+       {
+        "kind": "note",
+        "t": "Pareil ! Et les produits coûtent trop cher ici."
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Notes · Problèmes",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Cheveux qui cassent",
+        "sub": "× 14",
+        "ic": "#d93025",
+        "l": "1",
+        "hl": true
+       },
+       {
+        "t": "Produits trop chers",
+        "sub": "× 9",
+        "ic": "#f59e0b",
+        "l": "2"
+       },
+       {
+        "t": "Pas le temps de se coiffer",
+        "sub": "× 6",
+        "ic": "#0b57d0",
+        "l": "3"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Regarde, je te montre.",
+     "Dans Facebook, je cherche mon sujet, par exemple « cheveux crépus ». J'ouvre les groupes.",
+     "Je lis les commentaires. Pas les publications : les commentaires. C'est là que les gens disent ce qui les fait souffrir.",
+     "Je note chaque problème, et combien de fois je le vois revenir. Celui qui revient le plus souvent, c'est une piste sérieuse."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Note <b>10 problèmes</b> réels<br>dans ta fiche, avec leur fréquence.",
+    "minutes": 10,
+    "say": [
+     "À toi. Pause.",
+     "Note dix problèmes réels dans ta fiche, à partir de ce qu'on te demande, de ce que tu entends, et de ce que tu lis. Pour chacun, combien de fois tu l'as vu."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le filtre",
+    "heading": "Une bonne idée passe <em>4 tests</em>",
+    "items": [
+     {
+      "icon": "warn",
+      "title": "1. Le problème fait vraiment mal",
+      "text": "On en parle souvent, avec émotion",
+      "show": 1
+     },
+     {
+      "icon": "users",
+      "title": "2. Beaucoup de gens l'ont",
+      "text": "Pas seulement toi et ta cousine",
+      "show": 2
+     },
+     {
+      "icon": "coin",
+      "title": "3. Ils paient déjà pour le régler",
+      "text": "Il existe des produits, même imparfaits",
+      "show": 3
+     },
+     {
+      "icon": "target",
+      "title": "4. Tu peux y répondre",
+      "text": "Avec ton savoir ou un fournisseur",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Maintenant, on filtre. Une bonne idée passe quatre tests.",
+     "Un : le problème fait vraiment mal. On en parle souvent, avec émotion.",
+     "Deux : beaucoup de gens l'ont. Pas seulement toi et ta cousine.",
+     "Trois : les gens paient déjà pour le régler. S'il existe des produits, même imparfaits, c'est une bonne nouvelle : il y a un marché.",
+     "Quatre : tu peux y répondre, avec ton savoir ou avec un fournisseur."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "La concurrence n'est pas une mauvaise nouvelle.<br>Pas de concurrent du tout ? Souvent, <b>pas de marché</b>.",
+    "say": [
+     "Une astuce qui surprend souvent.",
+     "Avoir des concurrents, ce n'est pas une mauvaise nouvelle. Ça prouve que les gens achètent.",
+     "Pas de concurrent du tout ? Souvent, ça veut dire qu'il n'y a pas de marché."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Du problème à <em>l'idée</em>",
+    "cols": [
+     "Le problème",
+     "L'idée de produit"
+    ],
+    "rightGood": true,
+    "example": true,
+    "rows": [
+     [
+      "Cheveux qui cassent",
+      "Guide « Routine cheveux crépus en 7 jours »",
+      1,
+      0.9
+     ],
+     [
+      "Produits trop chers",
+      "Kit de soins maison à petit prix",
+      2,
+      0.9
+     ],
+     [
+      "Pas le temps de se coiffer",
+      "Tutoriels vidéo de coiffures en 10 min",
+      3,
+      0.9
+     ]
+    ],
+    "say": [
+     "Regarde comment un problème devient une idée.",
+     "Cheveux qui cassent : un guide « Routine cheveux crépus en sept jours ». Produit digital.",
+     "Produits trop chers : un kit de soins maison à petit prix. Produit physique.",
+     "Pas le temps de se coiffer : des tutoriels vidéo de coiffures en dix minutes."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Passe tes problèmes au <b>filtre des 4 tests</b>.<br>Garde les <b>3 meilleures idées</b>.",
+    "minutes": 5,
+    "say": [
+     "Pause. Passe tes dix problèmes au filtre des quatre tests, et garde tes trois meilleures idées."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "On vend une <b>solution à un problème</b>.",
+     "Les problèmes : ce qu'on te demande, ce qu'on entend, ce qu'on lit.",
+     "Une bonne idée passe <b>4 tests</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "On vend une solution à un problème.",
+     "Les problèmes se trouvent dans ce qu'on te demande, ce qu'on entend, et ce qu'on lit.",
+     "Et une bonne idée passe les quatre tests."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 1,
+    "of": 5,
+    "label": "Leçon 2.2 · Ton client idéal",
+    "say": [
+     "Prochaine leçon : ton client idéal. Qui il est, ce qu'il veut, et ce qui le bloque."
+    ]
+   }
+  ]
+ },
+ "2-2": {
+  "file": "VIDEO 2.2 - Ton client idéal",
+  "chip": "Module 2 · Leçon 2.2",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 2 · Leçon 2.2",
+    "l1": "Ton client",
+    "l2": "<em>idéal</em>",
+    "sub": "Qui il est, ce qu'il veut, ce qui le bloque",
+    "say": [
+     "Leçon deux : ton client idéal."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Parler à tout le monde,",
+     "c'est ne parler",
+     "à <em>personne</em>."
+    ],
+    "foot": "Choisis une personne précise.",
+    "footAt": 2,
+    "say": [
+     "Quand on parle à tout le monde, on ne parle à personne.",
+     "Ta publicité doit donner l'impression d'avoir été écrite pour une seule personne.",
+     "Alors on va la dessiner, cette personne."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Le portrait",
+    "heading": "4 questions pour <em>le connaître</em>",
+    "cards": [
+     {
+      "icon": "users",
+      "title": "Qui est-il ?",
+      "text": "Âge, ville, métier, budget",
+      "seg": 1
+     },
+     {
+      "icon": "target",
+      "title": "Que veut-il ?",
+      "text": "Le résultat qu'il rêve d'obtenir",
+      "seg": 2
+     },
+     {
+      "icon": "stop",
+      "title": "Qu'est-ce qui le bloque ?",
+      "text": "Ses peurs, ses doutes",
+      "seg": 3
+     },
+     {
+      "icon": "eye",
+      "title": "Où le trouver ?",
+      "text": "Réseaux, groupes, lieux",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Le portrait tient en quatre questions.",
+     "Qui est-il ? Son âge, sa ville, son métier, son budget.",
+     "Que veut-il ? Le résultat qu'il rêve d'obtenir. Pas le produit : le résultat.",
+     "Qu'est-ce qui le bloque ? Ses peurs, ses doutes. « C'est trop cher. » « Ça ne marchera pas pour moi. »",
+     "Où le trouver ? Sur quels réseaux, dans quels groupes, à quelles heures."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Le portrait <em>d'Awa</em>",
+    "cols": [
+     "Question",
+     "Réponse"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Qui est-elle ?",
+      "Awa, 27 ans, Abidjan, employée, budget serré",
+      1,
+      0.8
+     ],
+     [
+      "Que veut-elle ?",
+      "Des cheveux forts, sans y passer ses soirées",
+      2,
+      0.8
+     ],
+     [
+      "Ce qui la bloque",
+      "« J'ai déjà tout essayé, rien ne marche »",
+      3,
+      0.8
+     ],
+     [
+      "Où la trouver ?",
+      "TikTok et groupes Facebook beauté, le soir",
+      4,
+      0.8
+     ]
+    ],
+    "say": [
+     "Voici un exemple : Awa.",
+     "Awa a vingt-sept ans. Elle vit à Abidjan, elle est employée, et son budget est serré.",
+     "Elle veut des cheveux forts, sans y passer toutes ses soirées.",
+     "Ce qui la bloque : « J'ai déjà tout essayé, rien ne marche. »",
+     "Et on la trouve sur TikTok et dans les groupes Facebook beauté, le soir."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Ses <b>mots exacts</b> valent de l'or.<br>« J'ai déjà tout essayé » deviendra le titre de ta publicité.",
+    "say": [
+     "Une astuce très puissante.",
+     "Note les mots exacts de ton client. Pas tes mots : les siens.",
+     "« J'ai déjà tout essayé » : c'est peut-être déjà le titre de ta future publicité."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Interroge <em>3 vraies personnes</em>",
+    "steps": [
+     [
+      "Choisis 3 personnes de ta cible",
+      1
+     ],
+     [
+      "Envoie 3 questions",
+      2
+     ],
+     [
+      "Note leurs mots exacts",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "WhatsApp · Nouveau message",
+      "tapAt": 1,
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "Awa K.",
+        "sub": "Collègue",
+        "ic": "#8e44ad",
+        "l": "A",
+        "hl": true
+       },
+       {
+        "t": "Fatou B.",
+        "sub": "Voisine",
+        "ic": "#16a085",
+        "l": "F"
+       },
+       {
+        "t": "Nadia T.",
+        "sub": "Groupe beauté",
+        "ic": "#f59e0b",
+        "l": "N"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Awa K.",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Salut Awa ! Je prépare un projet sur les cheveux. 3 petites questions ?"
+       },
+       {
+        "kind": "note",
+        "t": "1. Quel est ton plus gros souci avec tes cheveux ? 2. Qu'as-tu déjà essayé ? 3. Qu'est-ce qui t'a déçue ?"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Awa K.",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Awa K.",
+        "sub": "En ligne",
+        "ic": "#8e44ad",
+        "l": "A"
+       },
+       {
+        "kind": "note",
+        "t": "Franchement j'ai déjà tout essayé… les huiles, les masques. Ça casse toujours."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Maintenant, on vérifie avec de vraies personnes.",
+     "Choisis trois personnes qui ressemblent à ton client idéal.",
+     "Envoie-leur trois questions simples. Ton plus gros souci ? Qu'as-tu déjà essayé ? Qu'est-ce qui t'a déçu ?",
+     "Et note leurs réponses, mot pour mot. Tu vas être surpris de ce que tu apprends."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Ne demande pas « Tu achèterais mon produit ? ».<br>Les gens disent oui pour être gentils. Demande ce qu'ils ont <b>déjà fait</b>.",
+    "say": [
+     "Attention à un piège.",
+     "Ne demande jamais : « Tu achèterais mon produit ? ». Les gens disent oui pour être gentils.",
+     "Demande plutôt ce qu'ils ont déjà fait, et déjà payé. Le passé ne ment pas."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Écris le <b>portrait</b> de ton client idéal,<br>puis interroge <b>3 personnes</b>.",
+    "minutes": 15,
+    "say": [
+     "Pause. Dans ta fiche, écris le portrait de ton client idéal. Puis envoie tes trois questions à trois personnes, et note leurs mots exacts."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Un client idéal, <b>une seule personne</b>.",
+     "4 questions : qui, que veut-il, ce qui le bloque, où le trouver.",
+     "Note ses <b>mots exacts</b>, et demande ce qu'il a <b>déjà fait</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Un client idéal, c'est une seule personne précise.",
+     "Quatre questions : qui, ce qu'il veut, ce qui le bloque, où le trouver.",
+     "Note ses mots exacts, et demande ce qu'il a déjà fait."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 2,
+    "of": 5,
+    "label": "Leçon 2.3 · Observer la concurrence",
+    "say": [
+     "Prochaine leçon : on va regarder, légalement, les publicités de tes concurrents. Tu vas adorer."
+    ]
+   }
+  ]
+ },
+ "2-3": {
+  "file": "VIDEO 2.3 - Observer la concurrence",
+  "chip": "Module 2 · Leçon 2.3",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 2 · Leçon 2.3",
+    "l1": "Observer",
+    "l2": "<em>la concurrence</em>",
+    "sub": "Les bibliothèques publicitaires, en toute légalité",
+    "say": [
+     "Leçon trois : observer la concurrence, en toute légalité."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Les publicités de tes concurrents",
+     "sont <em>publiques</em>.",
+     "Et gratuites à consulter."
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ],
+    "say": [
+     "Tu ne le sais peut-être pas encore :",
+     "les publicités de tes concurrents sont publiques.",
+     "Meta, TikTok et Google les montrent à tout le monde, gratuitement. C'est de la transparence. Profitons-en."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 outils gratuits",
+    "heading": "Les <em>bibliothèques</em> de publicités",
+    "cards": [
+     {
+      "icon": "megaphone",
+      "title": "Meta",
+      "text": "Bibliothèque publicitaire : Facebook et Instagram",
+      "seg": 1
+     },
+     {
+      "icon": "phone",
+      "title": "TikTok",
+      "text": "Creative Center : les pubs qui marchent",
+      "seg": 2
+     },
+     {
+      "icon": "chart",
+      "title": "Google",
+      "text": "Centre de transparence des annonces",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Il existe trois outils gratuits.",
+     "Pour Facebook et Instagram : la Bibliothèque publicitaire de Meta.",
+     "Pour TikTok : le Creative Center, avec les publicités qui marchent le mieux.",
+     "Et pour Google et YouTube : le Centre de transparence des annonces."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "La <em>Bibliothèque publicitaire</em> Meta",
+    "steps": [
+     [
+      "Ouvre la bibliothèque",
+      1
+     ],
+     [
+      "Choisis ton pays",
+      2
+     ],
+     [
+      "Tape ton mot-clé",
+      3
+     ],
+     [
+      "Regarde la date de début",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Bibliothèque publicitaire",
+      "tapAt": 1,
+      "tapDelay": 2.6,
+      "rows": [
+       {
+        "t": "Meta",
+        "sub": "facebook.com/ads/library",
+        "ic": "#1877f2",
+        "l": "∞"
+       },
+       {
+        "kind": "btn",
+        "t": "Rechercher des publicités",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Filtres",
+      "tapDelay": 1.6,
+      "rows": [
+       {
+        "t": "Pays",
+        "sub": "Côte d'Ivoire",
+        "hl": true
+       },
+       {
+        "t": "Catégorie",
+        "sub": "Toutes les publicités"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Recherche",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Mot-clé",
+        "t": "soin cheveux"
+       },
+       {
+        "kind": "btn",
+        "t": "Rechercher",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Résultats",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Beauté Nappy CI",
+        "sub": "Active · depuis 4 mois",
+        "ic": "#8e44ad",
+        "l": "B",
+        "hl": true
+       },
+       {
+        "t": "Kera Glow",
+        "sub": "Active · depuis 6 jours",
+        "ic": "#f59e0b",
+        "l": "K"
+       },
+       {
+        "t": "Natur'Afro",
+        "sub": "Active · depuis 2 mois",
+        "ic": "#16a085",
+        "l": "N"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre la Bibliothèque publicitaire de Meta.",
+     "Ouvre-la dans ton navigateur : facebook point com, barre oblique, ads, barre oblique, library.",
+     "Choisis ton pays. Par exemple, Côte d'Ivoire.",
+     "Tape ton mot-clé, par exemple « soin cheveux », et lance la recherche.",
+     "Et maintenant, le secret : regarde la date de début. Une publicité active depuis des mois, c'est une publicité qui rapporte. Sinon, le vendeur l'aurait arrêtée."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "retenir",
+    "text": "Une publicité active depuis <b>plus de 30 jours</b><br>est très probablement <b>rentable</b>. C'est elle qu'on étudie.",
+    "say": [
+     "Retiens bien ce signal.",
+     "Une publicité active depuis plus de trente jours est très probablement rentable.",
+     "C'est elle qu'on étudie en priorité."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Ta grille d'observation",
+    "heading": "Ce que tu <em>notes</em>",
+    "items": [
+     {
+      "icon": "target",
+      "title": "L'accroche",
+      "text": "La première phrase, les 3 premières secondes",
+      "show": 1
+     },
+     {
+      "icon": "bag",
+      "title": "L'offre",
+      "text": "Prix, bonus, garantie, livraison",
+      "show": 2
+     },
+     {
+      "icon": "brush",
+      "title": "Le format",
+      "text": "Vidéo, photo, témoignage, avant/après",
+      "show": 3
+     },
+     {
+      "icon": "chat",
+      "title": "Les commentaires",
+      "text": "Les questions et les plaintes des clients",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Pour chaque publicité qui marche, note quatre choses.",
+     "L'accroche : la première phrase, les trois premières secondes.",
+     "L'offre : le prix, les bonus, la garantie, la livraison.",
+     "Le format : vidéo, photo, témoignage, avant-après.",
+     "Et les commentaires. Ce que les clients demandent, et ce dont ils se plaignent. Ce sont des trous que tu peux combler."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "eviter",
+    "text": "S'inspirer, oui. <b>Copier, non</b>.<br>Ne reprends jamais les photos, vidéos ou textes d'un autre vendeur.",
+    "strike": "Copier-coller la pub d'un concurrent",
+    "strikeAt": 0,
+    "say": [
+     "Attention, une limite claire.",
+     "S'inspirer, oui. Copier, non.",
+     "Ne reprends jamais les photos, les vidéos ou les textes d'un autre vendeur. C'est interdit, et Meta peut bloquer ton compte."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Trouve <b>5 publicités</b> actives depuis plus de 30 jours<br>et remplis ta grille.",
+    "minutes": 15,
+    "say": [
+     "Pause. Trouve cinq publicités de ton marché, actives depuis plus de trente jours. Et pour chacune, remplis ta grille : accroche, offre, format, commentaires."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Les pubs de tes concurrents sont <b>publiques</b> : Meta, TikTok, Google.",
+     "Active depuis <b>plus de 30 jours</b> = probablement rentable.",
+     "On s'inspire, on <b>ne copie jamais</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Les publicités de tes concurrents sont publiques.",
+     "Une publicité active depuis plus de trente jours est probablement rentable.",
+     "Et on s'inspire, sans jamais copier."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 3,
+    "of": 5,
+    "label": "Leçon 2.4 · Fixer ton prix",
+    "say": [
+     "Prochaine leçon : fixer ton prix. Ni trop bas, ni trop haut, et en francs CFA."
+    ]
+   }
+  ]
+ },
+ "2-4": {
+  "file": "VIDEO 2.4 - Fixer ton prix",
+  "chip": "Module 2 · Leçon 2.4",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 2 · Leçon 2.4",
+    "l1": "Fixer",
+    "l2": "<em>ton prix</em>",
+    "sub": "Coûts, marge, prix psychologique",
+    "say": [
+     "Leçon quatre : fixer ton prix."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "eviter",
+    "text": "Le prix le plus bas n'est pas une stratégie.<br>Il attire les clients difficiles et <b>tue ta marge</b>.",
+    "strike": "Je vends moins cher que tout le monde",
+    "strikeAt": 0,
+    "say": [
+     "Commençons par l'erreur la plus fréquente : vendre moins cher que tout le monde.",
+     "Le prix le plus bas n'est pas une stratégie. Il attire les clients les plus difficiles, et il tue ta marge."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "La méthode",
+    "heading": "Ton prix en <em>3 étapes</em>",
+    "steps": [
+     [
+      "Le plancher",
+      "Tous tes coûts, sans marge",
+      1
+     ],
+     [
+      "Le marché",
+      "Les prix des concurrents",
+      2
+     ],
+     [
+      "Le bon chiffre",
+      "Le prix psychologique",
+      3
+     ]
+    ],
+    "note": [
+     "Ton prix se place <b>entre ton plancher et le marché</b>.",
+     4
+    ],
+    "say": [
+     "Voici la méthode, en trois étapes.",
+     "Un : le plancher. La somme de tous tes coûts. En dessous, tu perds de l'argent.",
+     "Deux : le marché. Les prix de tes concurrents, que tu as notés à la leçon précédente.",
+     "Trois : le bon chiffre. Le prix psychologique.",
+     "Ton prix se place entre ton plancher et le marché."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Le <em>plancher</em> d'un kit de soins",
+    "cols": [
+     "Pour un kit",
+     "Montant"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Produits et flacons",
+      "3 500 F",
+      0,
+      0.6
+     ],
+     [
+      "Emballage",
+      "500 F",
+      1,
+      0.6
+     ],
+     [
+      "Livraison offerte",
+      "1 000 F",
+      2,
+      0.6
+     ],
+     [
+      "Publicité par vente",
+      "2 000 F",
+      3,
+      0.6
+     ],
+     [
+      "Plancher (sans marge)",
+      "7 000 F",
+      4,
+      0.6
+     ]
+    ],
+    "say": [
+     {
+      "say": "Prenons un kit de soins. Les produits et les flacons : trois mille cinq cents francs.",
+      "cap": "Prenons un kit de soins. Les produits et les flacons : 3 500 F."
+     },
+     {
+      "say": "L'emballage : cinq cents francs.",
+      "cap": "L'emballage : 500 F."
+     },
+     {
+      "say": "La livraison, que tu offres : mille francs.",
+      "cap": "La livraison, que tu offres : 1 000 F."
+     },
+     {
+      "say": "La publicité, par vente : deux mille francs.",
+      "cap": "La publicité, par vente : 2 000 F."
+     },
+     {
+      "say": "Total : sept mille francs. C'est ton plancher. À sept mille, tu ne gagnes rien.",
+      "cap": "Total : 7 000 F. C'est ton plancher. À 7 000 F, tu ne gagnes rien."
+     }
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Le <em>bon chiffre</em>",
+    "cols": [
+     "Prix",
+     "Ce qu'il donne"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "7 000 F",
+      "0 F de marge : à éviter",
+      1,
+      0.8
+     ],
+     [
+      "9 900 F",
+      "2 900 F de marge, sous la barre des 10 000",
+      2,
+      0.8
+     ],
+     [
+      "12 000 F",
+      "Le prix moyen des concurrents",
+      3,
+      0.8
+     ]
+    ],
+    "say": [
+     "Maintenant, le marché.",
+     {
+      "say": "À sept mille francs, zéro marge : on oublie.",
+      "cap": "À 7 000 F, zéro marge : on oublie."
+     },
+     {
+      "say": "À neuf mille neuf cents francs, tu gagnes deux mille neuf cents francs par vente. Et ton prix reste sous la barre des dix mille : il paraît plus accessible.",
+      "cap": "À 9 900 F, tu gagnes 2 900 F par vente. Et ton prix reste sous la barre des 10 000 : il paraît plus accessible."
+     },
+     {
+      "say": "Et les concurrents sont autour de douze mille. Tu es bien placé.",
+      "cap": "Et les concurrents sont autour de 12 000 F. Tu es bien placé."
+     }
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Prix psychologique",
+    "heading": "3 astuces <em>en FCFA</em>",
+    "cards": [
+     {
+      "icon": "coin",
+      "title": "Sous la barre",
+      "text": "9 900 plutôt que 10 000",
+      "seg": 1
+     },
+     {
+      "icon": "bag",
+      "title": "Le pack",
+      "text": "1 pour 5 000, 3 pour 12 500",
+      "seg": 2
+     },
+     {
+      "icon": "rise",
+      "title": "L'ancre",
+      "text": "Montre la valeur avant le prix",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois astuces de prix psychologique.",
+     "Un : rester sous la barre. Neuf mille neuf cents se lit « neuf mille quelque chose ». Dix mille se lit « dix mille ».",
+     "Deux : le pack. Un pour cinq mille, trois pour douze mille cinq cents. Le client a l'impression de gagner, et toi tu vends plus.",
+     "Trois : l'ancre. Montre d'abord la valeur, par exemple ce que coûterait un passage au salon, avant d'annoncer ton prix."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Un prix doit rester <b>honnête</b>.<br>Ne gonfle jamais un « ancien prix » qui n'a jamais existé.",
+    "say": [
+     "Attention, une règle d'honnêteté.",
+     "Ne barre jamais un faux ancien prix qui n'a jamais existé. C'est trompeur, et les clients finissent toujours par le voir."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Calcule ton <b>plancher</b>, relève le prix du <b>marché</b>,<br>et choisis ton <b>prix</b>.",
+    "minutes": 8,
+    "say": [
+     "Pause. Dans ta fiche : calcule ton plancher, note les prix de trois concurrents, et choisis ton prix. Pense au chiffre sous la barre, et au pack."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Le prix le plus bas <b>n'est pas une stratégie</b>.",
+     "Plancher → marché → <b>bon chiffre</b>.",
+     "Prix psychologique, mais toujours <b>honnête</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Le prix le plus bas n'est pas une stratégie.",
+     "Plancher, marché, puis le bon chiffre.",
+     "Un prix psychologique, mais toujours honnête."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 4,
+    "of": 5,
+    "label": "Leçon 2.5 · Valider avant de créer",
+    "say": [
+     "Dernière leçon du module : on va vérifier que ton produit se vend, avant d'y mettre un seul franc."
+    ]
+   }
+  ]
+ },
+ "2-5": {
+  "file": "VIDEO 2.5 - Valider avant de créer",
+  "chip": "Module 2 · Leçon 2.5",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 2 · Leçon 2.5",
+    "l1": "Valider",
+    "l2": "<em>avant de créer</em>",
+    "sub": "Précommande, sondage, page test",
+    "say": [
+     "Leçon cinq : valider avant de créer."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Des « j'aime », ce n'est pas",
+     "une <em>validation</em>.",
+     "Une validation, c'est <em>un geste</em>."
+    ],
+    "at": [
+     0,
+     0,
+     1
+    ],
+    "foot": "Un message, une inscription, un paiement.",
+    "footAt": 2,
+    "say": [
+     "Des « j'aime » et des « trop bien », ce n'est pas une validation.",
+     "Une validation, c'est quand quelqu'un fait un geste : il t'écrit, il s'inscrit, ou il paie.",
+     "Et on va en chercher au moins dix."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 méthodes",
+    "heading": "Du plus simple au <em>plus fort</em>",
+    "cards": [
+     {
+      "icon": "chat",
+      "title": "Sondage WhatsApp",
+      "text": "Gratuit, en 1 heure",
+      "seg": 1
+     },
+     {
+      "icon": "note",
+      "title": "Page test",
+      "text": "Une page, une liste d'attente",
+      "seg": 2
+     },
+     {
+      "icon": "coin",
+      "title": "Précommande",
+      "text": "La preuve la plus forte : un paiement",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois méthodes, de la plus simple à la plus forte.",
+     "Le sondage WhatsApp : gratuit, et fait en une heure.",
+     "La page test : une page simple avec une liste d'attente.",
+     "Et la précommande : la preuve la plus forte, parce que quelqu'un sort son argent."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Un <em>sondage</em> sur WhatsApp",
+    "steps": [
+     [
+      "Ouvre ton groupe WhatsApp",
+      1
+     ],
+     [
+      "Crée un sondage",
+      2
+     ],
+     [
+      "Écris 3 réponses",
+      3
+     ],
+     [
+      "Relance les intéressés",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Groupe · Beauté Abidjan",
+      "tapAt": 1,
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Document"
+       },
+       {
+        "t": "Sondage",
+        "ic": "#25d366",
+        "l": "≡",
+        "hl": true
+       },
+       {
+        "t": "Contact"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Créer un sondage",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Question",
+        "t": "Une routine pour cheveux qui cassent, ça t'intéresse ?"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Créer un sondage",
+      "tapDelay": 3.0,
+      "rows": [
+       {
+        "t": "Oui, je la veux dès qu'elle sort",
+        "ic": "#25d366",
+        "l": "1"
+       },
+       {
+        "t": "Peut-être, dis-m'en plus",
+        "ic": "#8a8d94",
+        "l": "2"
+       },
+       {
+        "t": "Non merci",
+        "ic": "#8a8d94",
+        "l": "3"
+       },
+       {
+        "kind": "btn",
+        "t": "Envoyer",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Résultats",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Oui, je la veux",
+        "sub": "14 votes",
+        "ic": "#25d366",
+        "l": "✓",
+        "hl": true
+       },
+       {
+        "t": "Peut-être",
+        "sub": "9 votes",
+        "ic": "#8a8d94",
+        "l": "?"
+       },
+       {
+        "kind": "note",
+        "t": "Écris en privé à chaque « Oui » : « Je te garde une place ? »"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre le sondage WhatsApp.",
+     "Dans ton groupe, ou dans une discussion, appuie sur la pièce jointe, puis « Sondage ».",
+     "Écris une question claire, qui parle du problème.",
+     "Propose trois réponses : « Oui, je la veux dès qu'elle sort », « Peut-être », et « Non merci ». Et envoie.",
+     "Ensuite, le plus important : écris en privé à chaque personne qui a dit oui. « Je te garde une place ? » Une réponse privée vaut dix votes."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "La précommande",
+    "heading": "Vendre <em>avant de créer</em>",
+    "cols": [
+     "Ce que tu fais",
+     "Pourquoi"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "Une page ou un message avec l'offre",
+      "Le client sait ce qu'il achète",
+      1,
+      0.8
+     ],
+     [
+      "Un prix de lancement, une date de livraison",
+      "Il a une raison d'agir maintenant",
+      2,
+      0.8
+     ],
+     [
+      "Un petit acompte par Mobile Money",
+      "Un geste réel, pas une promesse",
+      3,
+      0.8
+     ],
+     [
+      "Remboursement si tu ne livres pas",
+      "Tu restes honnête et crédible",
+      4,
+      0.8
+     ]
+    ],
+    "say": [
+     "Et la précommande, la méthode la plus forte.",
+     "Tu présentes ton offre, dans une page ou dans un message.",
+     "Tu donnes un prix de lancement, et une date de livraison précise.",
+     "Tu demandes un petit acompte, par Mobile Money. C'est un vrai geste.",
+     "Et tu promets le remboursement si tu ne livres pas. Tu restes honnête, et ça rassure."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Ton verdict",
+    "heading": "Combien de <em>gestes</em> ?",
+    "cols": [
+     "Résultat",
+     "Décision"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "10 gestes ou plus",
+      "Validé : on crée le produit",
+      1,
+      0.8
+     ],
+     [
+      "Entre 3 et 9",
+      "On ajuste l'offre ou le prix, et on reteste",
+      2,
+      0.8
+     ],
+     [
+      "Moins de 3",
+      "On change d'idée : tu as gagné du temps",
+      3,
+      0.8
+     ]
+    ],
+    "say": [
+     "Maintenant, le verdict.",
+     "Dix gestes ou plus : ton idée est validée. On crée le produit.",
+     "Entre trois et neuf : on ajuste l'offre ou le prix, et on reteste.",
+     "Moins de trois : on passe à l'idée suivante. Ce n'est pas un échec. Tu viens d'économiser des semaines de travail et de l'argent."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Lance ta validation et obtiens<br><b>10 gestes</b> de ta cible.",
+    "minutes": 20,
+    "say": [
+     "Ta grande action du module. Pause.",
+     "Lance ta validation : sondage, page test ou précommande. Et va chercher dix gestes de ta cible. Ça peut prendre quelques jours : prends-les."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Module 2 terminé",
+    "heading": "Ton produit est <em>validé</em>",
+    "items": [
+     {
+      "icon": "warn",
+      "title": "Un vrai problème, passé au filtre",
+      "check": 0,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "users",
+      "title": "Le portrait de ton client idéal",
+      "check": 1,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "eye",
+      "title": "5 publicités concurrentes étudiées",
+      "check": 2,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "coin",
+      "title": "Ton prix fixé",
+      "check": 3,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "shield",
+      "title": "10 gestes de validation",
+      "check": 4,
+      "checkDelay": 0.5
+     }
+    ],
+    "say": [
+     "Faisons le point. Ton problème : trouvé et filtré.",
+     "Ton client idéal : dessiné.",
+     "Tes concurrents : étudiés.",
+     "Ton prix : fixé.",
+     "Et ton idée : validée par dix gestes."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 5,
+    "of": 5,
+    "label": "Module 3 · Créer ton produit",
+    "say": [
+     "Bravo, le module deux est terminé. Tu as maintenant un produit que des gens veulent vraiment.",
+     "Fais le quiz, et rendez-vous au module trois : on crée ton produit. Digital ou physique, chacun son parcours."
+    ]
+   }
+  ]
+ }
+}

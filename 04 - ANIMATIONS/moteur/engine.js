@@ -274,7 +274,7 @@
   // checklist : cases cochées une à une
   R.checklist = (s, d) => {
     s.innerHTML = `<div class="head"><div class="over">${d.over}</div>${d.heading ? `<div class="h">${d.heading}</div>` : ''}</div>
-      <div class="ckl">${d.items.map(it => `<div class="ck"><div class="bx"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><div class="ic">${svg(it.icon)}</div><div><b>${it.title}</b>${it.text ? `<span>${it.text}</span>` : ''}</div></div>`).join('')}</div>`;
+      <div class="ckl${d.items.length > 3 ? ' n' + d.items.length : ''}">${d.items.map(it => `<div class="ck"><div class="bx"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><div class="ic">${svg(it.icon)}</div><div><b>${it.title}</b>${it.text ? `<span>${it.text}</span>` : ''}</div></div>`).join('')}</div>`;
     A(s.querySelector('.head'), 'up', .6, d.t0 + .1);
     s.querySelectorAll('.ck').forEach((e, k) => {
       const it = d.items[k]; A(e, 'up', .5, seg(d, it.show || 0) + k * (it.show == null ? .25 : 0));

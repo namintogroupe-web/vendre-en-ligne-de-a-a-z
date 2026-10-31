@@ -299,3 +299,12 @@ b{font-weight:800}
 /* lignes de téléphone : le titre garde sa place, le sous-texte passe à la ligne */
 .pr > span:not(.pi){flex:1 1 0;min-width:45%;overflow-wrap:anywhere}
 .pr em{flex:0 1 auto;max-width:48%}
+/* checklists de 4 ou 5 lignes : plus compactes pour laisser la place aux sous-titres */
+.s-checklist .ckl.n4{top:370px;gap:14px}
+.s-checklist .ckl.n4 .ck{padding:18px 36px;gap:28px}
+.s-checklist .ckl.n4 b{font-size:34px}.s-checklist .ckl.n4 span{font-size:23px;margin-top:4px}
+.s-checklist .ckl.n4 .ic{width:62px;height:62px}.s-checklist .ckl.n4 .bx{width:54px;height:54px}
+.s-checklist .ckl.n5{top:360px;gap:10px}
+.s-checklist .ckl.n5 .ck{padding:12px 32px;gap:26px}
+.s-checklist .ckl.n5 b{font-size:31px}.s-checklist .ckl.n5 span{font-size:21px;margin-top:2px}
+.s-checklist .ckl.n5 .ic{width:56px;height:56px}.s-checklist .ckl.n5 .bx{width:50px;height:50px}
