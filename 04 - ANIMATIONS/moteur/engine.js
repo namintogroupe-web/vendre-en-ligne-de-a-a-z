@@ -18,7 +18,27 @@
     physical: '<path d="M3 7l9-4 9 4-9 4z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/>',
     medal: '<circle cx="12" cy="9" r="5"/><path d="M8.5 13 7 21l5-3 5 3-1.5-8"/>',
     rise: '<path d="M4 18 L18 6"/><path d="M10 6h8v8"/>',
-    check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>'
+    check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+    phone: '<rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/>',
+    tablet: '<rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M11 17.5h2"/>',
+    laptop: '<rect x="4" y="5" width="16" height="11" rx="2"/><path d="M2 19h20"/>',
+    quiz: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 0 1 4.8 1c0 1.7-2.3 2-2.3 3.5"/><path d="M12 17h.01"/>',
+    help: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/>',
+    cc: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 10.5a2 2 0 1 0 0 3M16 10.5a2 2 0 1 0 0 3"/>',
+    speed: '<path d="M4 15a8 8 0 1 1 16 0"/><path d="M12 15l4-5"/>',
+    data: '<path d="M4 18h3v-4H4zM10.5 18h3V10h-3zM17 18h3V6h-3z"/>',
+    mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
+    chat: '<path d="M4 20l1.4-4A8 8 0 1 1 8 18.6z"/><path d="M9 10.5h6M9 13.5h4"/>',
+    brush: '<path d="M14 4l6 6-8 8H6v-6z"/><path d="M11 7l6 6"/>',
+    lock: '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>',
+    wifi: '<path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><path d="M12 19.5h.01"/>',
+    note: '<path d="M6 3h12v18H6z"/><path d="M9 7h6M9 11h6M9 15h4"/>',
+    bulb: '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.8 1 1.5 1 2.5h6c0-1 .2-1.7 1-2.5A6 6 0 0 0 12 3z"/>',
+    warn: '<path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17h.01"/>',
+    stop: '<circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/>',
+    cal: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+    target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>',
+    bag: '<path d="M5 8h14l-1 13H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>'
   };
   const svg = (k, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24">${ICON[k]}</svg>`;
 
@@ -57,9 +77,9 @@
 
   R.statement = (s, d) => {
     s.innerHTML = `<div class="wrap">${d.lines.map(l => `<div class="ln"><i>${l}</i></div>`).join('')}${d.foot ? `<div class="foot">${d.foot}</div>` : ''}</div>`;
-    s.querySelectorAll('.ln i').forEach((e, k) => { const t = seg(d, k); A(e, 'upMask', .7, t); });
-    const last = s.querySelectorAll('.ln')[d.lines.length - 1]; if (d.lines.length > 2) cue(seg(d, d.lines.length - 1), 'hit', .8);
-    if (d.foot) A(s.querySelector('.foot'), 'up', .6, seg(d, d.lines.length));
+    s.querySelectorAll('.ln i').forEach((e, k) => { const t = seg(d, d.at ? d.at[k] : k); A(e, 'upMask', .7, t); });
+    const last = s.querySelectorAll('.ln')[d.lines.length - 1]; if (d.lines.length > 2) cue(seg(d, d.at ? d.at[d.lines.length - 1] : d.lines.length - 1), 'hit', .8);
+    if (d.foot) A(s.querySelector('.foot'), 'up', .6, seg(d, d.footAt != null ? d.footAt : d.lines.length));
   };
 
   R.welcome = (s, d) => {
@@ -193,6 +213,132 @@
     A(s.querySelector('.pl'), 'up', .5, d.t0 + 1.8);
     A(s.querySelector('.btn'), 'pop', .7, d.t0 + 2.2, { ease: RISE }); cue(d.t0 + 2.2, 'pop', 1.2);
     A(s.querySelector('.lb2'), 'up', .5, d.t0 + 2.5);
+  };
+
+
+  // ---------- scènes génériques (leçons 0.2 et suivantes) ----------
+  // cards : 2 à 4 cartes {icon,title,text,seg}
+  R.cards = (s, d) => {
+    const n = d.cards.length;
+    s.innerHTML = `${d.over || d.heading ? `<div class="head"><div class="over">${d.over || ''}</div>${d.heading ? `<div class="h">${d.heading}</div>` : ''}</div>` : ''}
+      <div class="cards c${n}">${d.cards.map(c => `<div class="card"><div class="ic">${svg(c.icon)}</div><h3>${c.title}</h3>${c.text ? `<p>${c.text}</p>` : ''}<div class="bar"></div></div>`).join('')}</div>
+      ${d.note ? `<div class="note">${d.note[0]}</div>` : ''}`;
+    if (s.querySelector('.head')) A(s.querySelector('.head'), 'up', .6, d.t0 + .1);
+    s.querySelectorAll('.card').forEach((c, k) => { const t = seg(d, d.cards[k].seg || 0) + (d.cards[k].delay || 0); A(c, 'up', .7, t); cue(t, 'pop'); A(c.querySelector('.bar'), 'grow', .9, t + .3); });
+    if (d.note) A(s.querySelector('.note'), 'up', .6, seg(d, d.note[1]));
+  };
+
+  // flow : étapes horizontales qui s'allument
+  R.flow = (s, d) => {
+    s.innerHTML = `<div class="head"><div class="over">${d.over}</div>${d.heading ? `<div class="h">${d.heading}</div>` : ''}</div>
+      <div class="flow">${d.steps.map((st, k) => `<div class="fs${k === d.steps.length - 1 ? ' last' : ''}"><div class="fn">${k + 1}</div><div class="fon">${k + 1}</div><div class="ft">${st[0]}</div><div class="fd">${st[1] || ''}</div></div>`).join('<div class="fa"><i></i></div>')}</div>
+      ${d.note ? `<div class="note">${d.note[0]}</div>` : ''}`;
+    A(s.querySelector('.head'), 'up', .6, d.t0 + .1);
+    s.querySelectorAll('.fs').forEach((e, k) => { const t = seg(d, d.steps[k][2]); A(e.querySelector('.fon'), 'pop', .5, t, { ease: RISE }); A(e.querySelector('.ft'), 'lit', .3, t); A(e.querySelector('.fd'), 'lit', .3, t); cue(t, 'pop'); });
+    s.querySelectorAll('.fa i').forEach((e, k) => A(e, 'grow', .5, seg(d, d.steps[k + 1][2]) - .3));
+    if (d.note) { A(s.querySelector('.note'), 'up', .6, seg(d, d.note[1])); cue(seg(d, d.note[1]), 'hit', .7); }
+  };
+
+  // compare : lignes gauche → droite (✗ / ✓, test → résultat)
+  R.compare = (s, d) => {
+    s.innerHTML = `<div class="head"><div class="over">${d.over}</div>${d.heading ? `<div class="h">${d.heading}</div>` : ''}</div>
+      <div class="cmp"><div class="ch"><span>${d.cols[0]}</span><span>${d.cols[1]}</span></div>${d.rows.map(r => `<div class="cr"><div class="cl ${d.leftBad ? 'bad' : ''}">${r[0]}</div><div class="cv ${d.rightGood ? 'good' : ''}">${r[1]}</div></div>`).join('')}</div>
+      ${d.example ? '<div class="tagx">EXEMPLE</div>' : ''}`;
+    A(s.querySelector('.head'), 'up', .6, d.t0 + .1);
+    A(s.querySelector('.ch'), 'up', .5, d.t0 + .3);
+    s.querySelectorAll('.cr').forEach((e, k) => { const t = seg(d, d.rows[k][2]); A(e.querySelector('.cl'), 'up', .5, t); A(e.querySelector('.cv'), 'up', .5, t + (d.rows[k][3] || .5)); cue(t, 'pop'); });
+  };
+
+  // callout : grand encadré Astuce / Attention / À éviter
+  R.callout = (s, d) => {
+    const K = { astuce: ['bulb', 'Astuce'], attention: ['warn', 'Attention'], eviter: ['stop', 'À éviter'], retenir: ['rise', 'À retenir'] }[d.kind];
+    s.innerHTML = `<div class="cb ${d.kind}"><div class="cbl">${svg(K[0])}${K[1]}</div><div class="cbt">${d.text}</div>${d.strike ? `<div class="strike"><span>${d.strike}</span><i></i></div>` : ''}</div>`;
+    A(s.querySelector('.cb'), 'up', .7, d.t0 + .1); cue(d.t0 + .1, 'hit', .7);
+    if (d.strike) { A(s.querySelector('.strike'), 'up', .5, d.t0 + .5); A(s.querySelector('.strike i'), 'grow', .5, seg(d, d.strikeAt || 0) + .6); }
+  };
+
+  // checklist : cases cochées une à une
+  R.checklist = (s, d) => {
+    s.innerHTML = `<div class="head"><div class="over">${d.over}</div>${d.heading ? `<div class="h">${d.heading}</div>` : ''}</div>
+      <div class="ckl">${d.items.map(it => `<div class="ck"><div class="bx"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><div class="ic">${svg(it.icon)}</div><div><b>${it.title}</b>${it.text ? `<span>${it.text}</span>` : ''}</div></div>`).join('')}</div>`;
+    A(s.querySelector('.head'), 'up', .6, d.t0 + .1);
+    s.querySelectorAll('.ck').forEach((e, k) => {
+      const it = d.items[k]; A(e, 'up', .5, seg(d, it.show || 0) + k * (it.show == null ? .25 : 0));
+      if (it.check != null) { const t = seg(d, it.check) + (it.checkDelay || 0); A(e.querySelector('.bx'), 'boxOn', .35, t); A(e.querySelector('.bx path'), 'dash', .4, t + .1); cue(t, 'valid', .8); }
+    });
+  };
+
+  // week : semaine type avec créneaux
+  R.week = (s, d) => {
+    const days = ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'], hours = ['7 h', '12 h', '18 h', '20 h'];
+    let g = '<div></div>' + days.map(x => `<div class="wd">${x}</div>`).join('');
+    hours.forEach((h, r) => { g += `<div class="wh">${h}</div>`; days.forEach((x, c) => { const on = d.slots.findIndex(sl => sl[0] === c && sl[1] === r); g += `<div class="wc">${on >= 0 ? `<i data-k="${on}">Formation<br>Digital Pro<em>1 h · ↻</em></i>` : ''}</div>`; }); });
+    s.innerHTML = `<div class="head"><div class="over">${d.over}</div><div class="h">${d.heading}</div>${d.sub ? `<div class="sub">${d.sub}</div>` : ''}</div><div class="wk card"><div class="wg">${g}</div></div>`;
+    A(s.querySelector('.head'), 'up', .6, d.t0 + .1); A(s.querySelector('.wk'), 'up', .7, d.t0 + .3);
+    s.querySelectorAll('.wc i').forEach(e => { const k = +e.dataset.k, t = seg(d, d.slotsAt) + k * .45; A(e, 'pop', .5, t, { ease: RISE }); cue(t, 'pop'); });
+  };
+
+  // duo : deux personnes sur la même ligne, l'une s'arrête
+  R.duo = (s, d) => {
+    const fig = c => `<svg viewBox="0 0 60 120" class="fig ${c}"><circle cx="30" cy="18" r="14"/><path d="M8 118V62a22 22 0 0 1 44 0v56z"/></svg>`;
+    s.innerHTML = `<svg class="dl" viewBox="0 0 1920 1080"><path d="M200 900 L1720 300" stroke="#2a2d33" stroke-width="10" stroke-linecap="round"/><path class="dlit" d="M200 900 L1720 300" stroke="#006cfb" stroke-width="10" stroke-linecap="round" stroke-dasharray="1635" stroke-dashoffset="1635"/></svg>
+      <div class="pa">${fig('a')}<div class="bub">${d.a}</div></div><div class="pb">${fig('b')}<div class="bub">${d.b}</div></div>
+      ${d.heading ? `<div class="dh">${d.heading}</div>` : ''}`;
+    const pa = s.querySelector('.pa'), pb = s.querySelector('.pb'), t0 = d.t0 + .2;
+    A(s.querySelector('.dlit'), 'dash', 2.4, t0, { ease: IO });
+    kf('duoA' + d.t0.toFixed(0), 'from{transform:translate(0,0)}to{transform:translate(1180px,-466px)}');
+    kf('duoB' + d.t0.toFixed(0), 'from{transform:translate(0,0)}to{transform:translate(520px,-205px)}');
+    A(pa, 'fadeIn', .4, t0); A(pb, 'fadeIn', .4, t0);
+    A(pa, 'duoA' + d.t0.toFixed(0), (d.t1 - d.t0) * .8, t0 + .3, { ease: 'cubic-bezier(.3,.1,.3,1)' });
+    A(pb, 'duoB' + d.t0.toFixed(0), (d.t1 - d.t0) * .35, t0 + .3, { ease: OUT });
+    A(pb.querySelector('.bub'), 'pop', .5, seg(d, d.bubbleAt || 1), { ease: RISE }); A(pa.querySelector('.bub'), 'pop', .5, seg(d, d.bubbleAt || 1) + .5, { ease: RISE });
+    cue(seg(d, d.bubbleAt || 1), 'pop');
+    if (d.heading) A(s.querySelector('.dh'), 'up', .6, seg(d, d.headingAt || 1));
+  };
+
+  // phone : démonstration téléphone générique, un écran par étape
+  // screens: [{at, title, theme, rows:[{t, kind:'row|btn|input|toggle|field|chip', hl, ic}], tap:[x,y]?}]
+  R.phone = (s, d) => {
+    const row = r => {
+      const k = r.kind || 'row';
+      if (k === 'input') return `<div class="pr in${r.hl ? ' hl' : ''}"><span class="lb">${r.label || ''}</span><span class="vl"><i style="--w:${(r.t || '').length * .62}em">${r.t || ''}</i></span></div>`;
+      if (k === 'toggle') return `<div class="pr tg${r.hl ? ' hl' : ''}">${r.t}<span class="sw"><b></b></span></div>`;
+      if (k === 'btn') return `<div class="pr bt${r.hl ? ' hl' : ''}${r.alt ? ' alt' : ''}">${r.t}</div>`;
+      if (k === 'note') return `<div class="pr nt">${r.t}</div>`;
+      return `<div class="pr${r.hl ? ' hl' : ''}">${r.ic ? `<span class="pi" style="background:${r.ic}">${r.l || ''}</span>` : ''}<span>${r.t}</span>${r.sub ? `<em>${r.sub}</em>` : ''}</div>`;
+    };
+    s.innerHTML = `<div class="head"><div class="over">${d.over}</div><div class="h">${d.heading}</div></div>
+      <div class="steps">${d.steps.map((st, k) => `<div class="stp"><div class="nw"><div class="n">${k + 1}</div><div class="n on">${k + 1}</div></div>${st[0]}</div>`).join('')}</div>
+      <div class="phone pd"><div class="notch"></div>${d.screens.map((sc, k) => `<div class="scr ${sc.theme || ''}" data-k="${k}"><div class="sb" style="${sc.color ? `background:${sc.color}` : ''}">${sc.title}</div><div class="sl">${sc.rows.map(row).join('')}</div></div>`).join('')}<div class="tap"></div></div>`;
+    A(s.querySelector('.head'), 'up', .6, d.t0 + .1);
+    A(s.querySelector('.pd'), 'up', .8, d.t0 + .2);
+    s.querySelectorAll('.stp').forEach((e, k) => { const t = seg(d, d.steps[k][1]); A(e, 'lit', .3, t); A(e.querySelector('.n.on'), 'pop', .5, t, { ease: RISE }); });
+    const scr = s.querySelectorAll('.scr'), tap = s.querySelector('.tap');
+    d.screens.forEach((sc, k) => {
+      const t = k === 0 ? d.t0 + .2 : seg(d, sc.at) + (sc.delay || 0);
+      const el = scr[k]; A(el, k === 0 ? 'fadeIn' : 'scrIn', k === 0 ? .01 : .45, t, { ease: OUT });
+      if (k + 1 < d.screens.length) { const t2 = seg(d, d.screens[k + 1].at) + (d.screens[k + 1].delay || 0); A(el, 'fadeOut', .3, t2 + .2, { fill: 'forwards' }); }
+      el.querySelectorAll('.pr.in .vl i').forEach(i => { A(i, 'type', 1.1, t + .7, { ease: 'steps(14,end)' }); cue(t + .7, 'data', .7); });
+      el.querySelectorAll('.pr.tg .sw').forEach(w => A(w, 'swOn', .3, t + 1.3));
+      // clic sur la ligne mise en avant
+      const hl = el.querySelector('.hl');
+      if (hl && sc.tap !== false) {
+        const tt = sc.tapAt != null ? seg(d, sc.tapAt) + (sc.tapDelay || 0) : t + (sc.tapDelay != null ? sc.tapDelay : 1.4);
+        A(hl, 'hlOn', .35, tt);
+        const n = 'tp' + d.t0.toFixed(0) + 'k' + k, y = sc.tapY || 0;
+        // position calculée plus bas, après mise en page
+        hl.dataset.tap = tt; hl.dataset.n = n;
+        cue(tt, 'click', 1);
+      }
+    });
+    // positions de clic : mesurées tout de suite (mise en page synchrone), relatives à l'écran du téléphone
+    let first = true;
+    s.querySelectorAll('.hl[data-tap]').forEach(hl => {
+      const base = hl.closest('.scr').getBoundingClientRect(), r = hl.getBoundingClientRect();
+      const x = r.left - base.left + r.width - 70, y = r.top - base.top + r.height / 2 - 55, n = hl.dataset.n;
+      kf(n, `0%{opacity:0;transform:scale(1.6);left:${x}px;top:${y}px}30%{opacity:1;transform:scale(1);left:${x}px;top:${y}px}80%{opacity:1;left:${x}px;top:${y}px}100%{opacity:0;transform:scale(.9);left:${x}px;top:${y}px}`);
+      A(tap, n, .7, +hl.dataset.tap - .25, { fill: first ? 'both' : 'forwards' }); first = false;
+    });
   };
 
   D.scenes.forEach((d, i) => { const s = sceneBox(d, i); (R[d.type] || (() => { }))(s, d); });

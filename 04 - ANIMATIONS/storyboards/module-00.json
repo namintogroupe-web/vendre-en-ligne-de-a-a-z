@@ -1,37 +1,1596 @@
 {
-  "0-1": {
-    "file": "VIDEO 0.1 - Ce que tu vas construire",
-    "chip": "Module 0 · Leçon 0.1",
-    "scenes": [
-      { "type": "title", "over": "Module 0 · Bienvenue", "l1": "Ce que tu vas", "l2": "<em>construire</em>", "sub": "De l'idée à la vente, de A à Z",
-        "say": ["Bienvenue."] },
-      { "type": "notif", "app": "Digital Pro Shop", "msg": "Nouvelle vente : 15&nbsp;000&nbsp;FCFA", "time": "03:12", "kw": "Pendant que tu dors", "example": true,
-        "say": ["Imagine. Tu te réveilles.", "Sur ton téléphone, un message : « Nouvelle vente ».", "Quelqu'un a acheté ton produit pendant la nuit. Sans que tu fasses quoi que ce soit."] },
-      { "type": "statement", "lines": ["Ce n'est pas de la magie.", "Ce n'est pas de la chance.", "C'est un <em>système</em>."], "foot": "Et tu vas le construire toi-même, pas à pas.",
-        "say": ["Ce n'est pas de la magie.", "Ce n'est pas de la chance.", "C'est un système.", "Et ce système, tu vas le construire toi-même, pas à pas, dans cette formation."] },
-      { "type": "welcome", "over": "Bienvenue dans", "title": "VENDRE EN LIGNE<br>DE A À Z", "tag": "Ici, on ne regarde pas : on <b>fait</b>.",
-        "say": ["Bienvenue dans « Vendre en ligne de A à Z ». Je suis ravi que tu sois là.", "Ici, on ne fait pas que regarder des vidéos.", "À chaque leçon, tu vas faire quelque chose de concret."] },
-      { "type": "path", "over": "Le chemin", "heading": "De l'idée à la <em>vente</em>, en 6 étapes",
-        "steps": [["Produit", "Choisir et valider", 1], ["Message", "Donner envie", 2], ["Page", "Vendre en ligne", 3], ["Paiement", "Mobile Money, carte", 4], ["Publicité", "Attirer les clients", 5], ["IA", "Tout automatiser", 6]],
-        "say": ["Voici le chemin.", "D'abord, tu choisis ton produit, et tu vérifies que les gens le veulent.", "Ensuite, tu écris le message qui donne envie d'acheter.", "Puis tu crées ta page de vente.", "Tu installes le paiement, Mobile Money compris.", "Tu lances tes publicités.", "Et enfin, tu automatises tout avec l'intelligence artificielle."] },
-      { "type": "doors", "over": "Deux chemins possibles",
-        "cards": [["digital", "Produit digital", "Formation · ebook · coaching · modèles", 1], ["physical", "Produit physique", "Vêtements · cosmétiques · accessoires", 2]], "note": ["Tu choisis au <b>module 3</b>.", 3],
-        "say": ["Tu peux vendre deux types de produits.", "Un produit digital : une formation, un ebook, un coaching.", "Ou un produit physique : des vêtements, des cosmétiques, des accessoires.", "Les deux marchent. Tu choisiras ton chemin au module trois."] },
-      { "type": "finale", "over": "Le projet final", "heading": "Tes <em>premières vraies ventes</em>, en 14 jours", "badge": "Certificat Digital Pro",
-        "say": ["À la fin, il y a un projet final.", "Pendant quatorze jours, je t'accompagne jour par jour pour faire tes premières vraies ventes.", "Et tu obtiens ton certificat Digital Pro."] },
-      { "type": "statement", "lines": ["Mais d'abord…", "on prépare ton <em>espace de travail</em>."],
-        "say": ["Mais avant tout ça, on va faire une première chose simple.", "Tu vas créer ton dossier de projet. C'est là que tu vas ranger tout ce que tu construis."] },
-      { "type": "demo", "over": "Démonstration", "heading": "Crée ton dossier <em>MON BUSINESS</em>",
-        "steps": [["Ouvre Google Drive", 0], ["Appuie sur « + »", 2], ["Choisis « Dossier »", 3], ["Écris MON BUSINESS", 4], ["Crée 3 sous-dossiers", 6]],
-        "say": ["Regarde. J'ouvre l'application Google Drive.", "Elle est déjà sur la plupart des téléphones Android. Sinon, télécharge-la, c'est gratuit.", "J'appuie sur le plus, en bas à droite.", "Je choisis « Dossier ».", "J'écris « MON BUSINESS ». Et je crée.", "Maintenant, j'entre dans ce dossier.", "Et je crée trois sous-dossiers : Produit, Vente, et Publicité.", "Voilà. Ton bureau est prêt."] },
-      { "type": "pause", "task": "Crée ton dossier <b>MON BUSINESS</b><br>avec ses 3 sous-dossiers.", "minutes": 3,
-        "say": ["À toi.", "Mets la vidéo en pause, et crée ton dossier maintenant.", "Ça prend deux minutes. Je t'attends."] },
-      { "type": "check", "text": "Dossier créé", "sub": "Ta première action d'entrepreneur en ligne",
-        "say": ["C'est fait ? Bravo.", "Tu viens de faire ta première action d'entrepreneur en ligne.", "Ça a l'air petit. Mais c'est comme ça qu'on construit : une action après l'autre."] },
-      { "type": "recap", "items": ["Vendre en ligne, c'est un <b>système</b>.", "Le chemin : produit → message → page → paiement → publicité → IA.", "Ici, on <b>agit</b> à chaque leçon."],
-        "say": ["À retenir.", "Une vente en ligne, c'est un système.", "Le chemin a six étapes.", "Et dans cette formation, on agit à chaque leçon."] },
-      { "type": "next", "done": 1, "of": 4, "label": "Leçon 0.2 · Bien suivre ta formation",
-        "say": ["Dans la prochaine leçon, je te montre comment suivre la formation pour aller vite, même avec un petit téléphone et peu de connexion.", "On y va."] }
+ "0-1": {
+  "file": "VIDEO 0.1 - Ce que tu vas construire",
+  "chip": "Module 0 · Leçon 0.1",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 0 · Bienvenue",
+    "l1": "Ce que tu vas",
+    "l2": "<em>construire</em>",
+    "sub": "De l'idée à la vente, de A à Z",
+    "say": [
+     "Bienvenue."
     ]
-  }
+   },
+   {
+    "type": "notif",
+    "app": "Digital Pro Shop",
+    "msg": "Nouvelle vente : 15&nbsp;000&nbsp;FCFA",
+    "time": "03:12",
+    "kw": "Pendant que tu dors",
+    "example": true,
+    "say": [
+     "Imagine. Tu te réveilles.",
+     "Sur ton téléphone, un message : « Nouvelle vente ».",
+     "Quelqu'un a acheté ton produit pendant la nuit. Sans que tu fasses quoi que ce soit."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Ce n'est pas de la magie.",
+     "Ce n'est pas de la chance.",
+     "C'est un <em>système</em>."
+    ],
+    "foot": "Et tu vas le construire toi-même, pas à pas.",
+    "say": [
+     "Ce n'est pas de la magie.",
+     "Ce n'est pas de la chance.",
+     "C'est un système.",
+     "Et ce système, tu vas le construire toi-même, pas à pas, dans cette formation."
+    ]
+   },
+   {
+    "type": "welcome",
+    "over": "Bienvenue dans",
+    "title": "VENDRE EN LIGNE<br>DE A À Z",
+    "tag": "Ici, on ne regarde pas : on <b>fait</b>.",
+    "say": [
+     "Bienvenue dans « Vendre en ligne de A à Z ». Je suis ravi que tu sois là.",
+     "Ici, on ne fait pas que regarder des vidéos.",
+     "À chaque leçon, tu vas faire quelque chose de concret."
+    ]
+   },
+   {
+    "type": "path",
+    "over": "Le chemin",
+    "heading": "De l'idée à la <em>vente</em>, en 6 étapes",
+    "steps": [
+     [
+      "Produit",
+      "Choisir et valider",
+      1
+     ],
+     [
+      "Message",
+      "Donner envie",
+      2
+     ],
+     [
+      "Page",
+      "Vendre en ligne",
+      3
+     ],
+     [
+      "Paiement",
+      "Mobile Money, carte",
+      4
+     ],
+     [
+      "Publicité",
+      "Attirer les clients",
+      5
+     ],
+     [
+      "IA",
+      "Tout automatiser",
+      6
+     ]
+    ],
+    "say": [
+     "Voici le chemin.",
+     "D'abord, tu choisis ton produit, et tu vérifies que les gens le veulent.",
+     "Ensuite, tu écris le message qui donne envie d'acheter.",
+     "Puis tu crées ta page de vente.",
+     "Tu installes le paiement, Mobile Money compris.",
+     "Tu lances tes publicités.",
+     "Et enfin, tu automatises tout avec l'intelligence artificielle."
+    ]
+   },
+   {
+    "type": "doors",
+    "over": "Deux chemins possibles",
+    "cards": [
+     [
+      "digital",
+      "Produit digital",
+      "Formation · ebook · coaching · modèles",
+      1
+     ],
+     [
+      "physical",
+      "Produit physique",
+      "Vêtements · cosmétiques · accessoires",
+      2
+     ]
+    ],
+    "note": [
+     "Tu choisis au <b>module 3</b>.",
+     3
+    ],
+    "say": [
+     "Tu peux vendre deux types de produits.",
+     "Un produit digital : une formation, un ebook, un coaching.",
+     "Ou un produit physique : des vêtements, des cosmétiques, des accessoires.",
+     "Les deux marchent. Tu choisiras ton chemin au module trois."
+    ]
+   },
+   {
+    "type": "finale",
+    "over": "Le projet final",
+    "heading": "Tes <em>premières vraies ventes</em>, en 14 jours",
+    "badge": "Certificat Digital Pro",
+    "say": [
+     "À la fin, il y a un projet final.",
+     "Pendant quatorze jours, je t'accompagne jour par jour pour faire tes premières vraies ventes.",
+     "Et tu obtiens ton certificat Digital Pro."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Mais d'abord…",
+     "on prépare ton <em>espace de travail</em>."
+    ],
+    "say": [
+     "Mais avant tout ça, on va faire une première chose simple.",
+     "Tu vas créer ton dossier de projet. C'est là que tu vas ranger tout ce que tu construis."
+    ]
+   },
+   {
+    "type": "demo",
+    "over": "Démonstration",
+    "heading": "Crée ton dossier <em>MON BUSINESS</em>",
+    "steps": [
+     [
+      "Ouvre Google Drive",
+      0
+     ],
+     [
+      "Appuie sur « + »",
+      2
+     ],
+     [
+      "Choisis « Dossier »",
+      3
+     ],
+     [
+      "Écris MON BUSINESS",
+      4
+     ],
+     [
+      "Crée 3 sous-dossiers",
+      6
+     ]
+    ],
+    "say": [
+     "Regarde. J'ouvre l'application Google Drive.",
+     "Elle est déjà sur la plupart des téléphones Android. Sinon, télécharge-la, c'est gratuit.",
+     "J'appuie sur le plus, en bas à droite.",
+     "Je choisis « Dossier ».",
+     "J'écris « MON BUSINESS ». Et je crée.",
+     "Maintenant, j'entre dans ce dossier.",
+     "Et je crée trois sous-dossiers : Produit, Vente, et Publicité.",
+     "Voilà. Ton bureau est prêt."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée ton dossier <b>MON BUSINESS</b><br>avec ses 3 sous-dossiers.",
+    "minutes": 3,
+    "say": [
+     "À toi.",
+     "Mets la vidéo en pause, et crée ton dossier maintenant.",
+     "Ça prend deux minutes. Je t'attends."
+    ]
+   },
+   {
+    "type": "check",
+    "text": "Dossier créé",
+    "sub": "Ta première action d'entrepreneur en ligne",
+    "say": [
+     "C'est fait ? Bravo.",
+     "Tu viens de faire ta première action d'entrepreneur en ligne.",
+     "Ça a l'air petit. Mais c'est comme ça qu'on construit : une action après l'autre."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Vendre en ligne, c'est un <b>système</b>.",
+     "Le chemin : produit → message → page → paiement → publicité → IA.",
+     "Ici, on <b>agit</b> à chaque leçon."
+    ],
+    "say": [
+     "À retenir.",
+     "Une vente en ligne, c'est un système.",
+     "Le chemin a six étapes.",
+     "Et dans cette formation, on agit à chaque leçon."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 1,
+    "of": 4,
+    "label": "Leçon 0.2 · Bien suivre ta formation",
+    "say": [
+     "Dans la prochaine leçon, je te montre comment suivre la formation pour aller vite, même avec un petit téléphone et peu de connexion.",
+     "On y va."
+    ]
+   }
+  ]
+ },
+ "0-2": {
+  "file": "VIDEO 0.2 - Bien suivre ta formation",
+  "chip": "Module 0 · Leçon 0.2",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 0 · Leçon 0.2",
+    "l1": "Bien suivre",
+    "l2": "<em>ta formation</em>",
+    "sub": "Réglages, ressources, rythme",
+    "say": [
+     "Leçon deux : bien suivre ta formation."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Partout",
+    "heading": "Regarde sur un écran,<br><em>pratique sur ton téléphone</em>",
+    "cards": [
+     {
+      "icon": "phone",
+      "title": "Téléphone",
+      "text": "Là où tes clients achètent",
+      "seg": 0
+     },
+     {
+      "icon": "tablet",
+      "title": "Tablette",
+      "text": "Confortable pour regarder",
+      "seg": 0,
+      "delay": 0.4
+     },
+     {
+      "icon": "laptop",
+      "title": "Ordinateur",
+      "text": "Idéal pour les boutiques",
+      "seg": 0,
+      "delay": 0.8
+     }
+    ],
+    "say": [
+     "Tu peux suivre cette formation sur ton téléphone, ta tablette ou un ordinateur.",
+     "Tout s'adapte.",
+     "Mais je te conseille une chose : regarde sur un écran, et pratique sur ton téléphone.",
+     "C'est là que tes clients achètent."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Règle ton <em>lecteur vidéo</em>",
+    "steps": [
+     [
+      "Active les sous-titres",
+      1
+     ],
+     [
+      "Choisis ta vitesse",
+      3
+     ],
+     [
+      "Économise tes données",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Réglages de la vidéo",
+      "theme": "dark",
+      "tapAt": 1,
+      "tapDelay": 1.2,
+      "rows": [
+       {
+        "t": "Sous-titres",
+        "sub": "Désactivés",
+        "ic": "#2f86ff",
+        "l": "CC",
+        "hl": true
+       },
+       {
+        "t": "Vitesse",
+        "sub": "1×",
+        "ic": "#5f6368",
+        "l": "×"
+       },
+       {
+        "t": "Qualité",
+        "sub": "Auto",
+        "ic": "#5f6368",
+        "l": "HD"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "delay": 1.6,
+      "title": "Sous-titres",
+      "theme": "dark",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "toggle",
+        "t": "Français"
+       },
+       {
+        "kind": "note",
+        "t": "Le texte apparaît en bas de la vidéo."
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Vitesse",
+      "theme": "dark",
+      "tapDelay": 2.6,
+      "rows": [
+       {
+        "t": "0,75×"
+       },
+       {
+        "t": "1× · normale"
+       },
+       {
+        "t": "1,25×",
+        "hl": true
+       },
+       {
+        "t": "1,5×"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "delay": 0.4,
+      "title": "Qualité",
+      "theme": "dark",
+      "tapAt": 5,
+      "tapDelay": 1.6,
+      "rows": [
+       {
+        "t": "Auto"
+       },
+       {
+        "t": "Haute · 1080p"
+       },
+       {
+        "t": "Économie de données",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Trois réglages utiles.",
+     "Un : les sous-titres. Active-les ici.",
+     "Tu peux suivre même dans le bruit, ou sans le son.",
+     {
+      "say": "Deux : la vitesse. Si je parle trop lentement pour toi, passe en un virgule vingt-cinq.",
+      "cap": "Deux : la vitesse. Si je parle trop lentement pour toi, passe en 1,25."
+     },
+     "Trois : la qualité.",
+     "Si ta connexion est faible, choisis « économie de données »."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Active les <b>sous-titres</b><br>et choisis ta vitesse.",
+    "minutes": 1,
+    "say": [
+     "Fais-le maintenant.",
+     "Pause, réglage, et on reprend."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Télécharge ta fiche <em>Mon projet</em>",
+    "steps": [
+     [
+      "Ouvre « Ressources »",
+      0
+     ],
+     [
+      "Télécharge la fiche",
+      1
+     ],
+     [
+      "Range-la dans MON BUSINESS",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Leçon 0.2",
+      "tapAt": 0,
+      "tapDelay": 2.6,
+      "rows": [
+       {
+        "t": "Vidéo"
+       },
+       {
+        "t": "Ressources",
+        "hl": true
+       },
+       {
+        "t": "Questions"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Ressources",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "t": "Fiche « Mon projet »",
+        "sub": "PDF",
+        "ic": "#d93025",
+        "l": "PDF"
+       },
+       {
+        "t": "Checklist de lancement",
+        "sub": "PDF",
+        "ic": "#d93025",
+        "l": "PDF"
+       },
+       {
+        "kind": "btn",
+        "t": "Télécharger la fiche",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "MON BUSINESS",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "1 - PRODUIT",
+        "ic": "#5f6368"
+       },
+       {
+        "t": "2 - VENTE",
+        "ic": "#5f6368"
+       },
+       {
+        "t": "3 - PUBLICITÉ",
+        "ic": "#5f6368"
+       },
+       {
+        "t": "Fiche - Mon projet.pdf",
+        "ic": "#d93025",
+        "l": "PDF",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Sous chaque leçon, il y a des ressources : fiches, modèles, checklists.",
+     "Pour ce module, télécharge la fiche « Mon projet ».",
+     "Range-la dans ton dossier « MON BUSINESS », celui que tu as créé tout à l'heure.",
+     "On va la remplir ensemble."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Télécharge ta fiche et range-la<br>dans <b>MON BUSINESS</b>.",
+    "minutes": 2,
+    "say": [
+     "Pause.",
+     "Télécharge ta fiche, range-la, et reviens."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Chaque leçon",
+    "heading": "Toujours le <em>même rythme</em>",
+    "steps": [
+     [
+      "Accroche",
+      "Un problème concret",
+      1
+     ],
+     [
+      "Objectif",
+      "Ce que tu sauras faire",
+      2
+     ],
+     [
+      "Démo",
+      "Écran par écran",
+      3
+     ],
+     [
+      "À retenir",
+      "3 points",
+      4
+     ],
+     [
+      "Ton action",
+      "Tout de suite",
+      5
+     ]
+    ],
+    "note": [
+     "Si tu sautes l'action, <b>tu perds l'essentiel</b>.",
+     6
+    ],
+    "say": [
+     "Chaque leçon suit le même rythme.",
+     "Un problème concret.",
+     "L'objectif.",
+     "La démonstration, écran par écran.",
+     "Ce qu'il faut retenir.",
+     "Et ton action.",
+     "Si tu sautes l'action, tu perds l'essentiel."
+    ]
+   },
+   {
+    "type": "week",
+    "over": "Ton rythme",
+    "heading": "4 heures <em>par semaine</em>",
+    "sub": "Pendant 10 semaines, et tout est construit.",
+    "slots": [
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      5,
+      0
+     ],
+     [
+      6,
+      2
+     ]
+    ],
+    "slotsAt": 1,
+    "say": [
+     "Combien de temps faut-il ?",
+     "Compte environ quatre heures par semaine. Par exemple, une heure, quatre fois par semaine.",
+     "En dix semaines, tu as tout construit.",
+     "Tu peux aller plus vite si tu as plus de temps."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Tu n'es pas seul",
+    "cards": [
+     {
+      "icon": "quiz",
+      "title": "Un quiz par module",
+      "text": "Pour vérifier que tout est clair, pas pour te piéger",
+      "seg": 0
+     },
+     {
+      "icon": "help",
+      "title": "L'espace d'entraide",
+      "text": "Pose ta question sous la leçon",
+      "seg": 2
+     }
+    ],
+    "say": [
+     "À la fin de chaque module, un petit quiz de quelques questions.",
+     "Pas pour te piéger. Pour vérifier que tout est clair avant d'avancer.",
+     "Et si tu bloques ? Pose ta question sous la leçon, dans l'espace d'entraide.",
+     "Personne n'avance seul ici."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Sous-titres et vitesse <b>réglés</b>.",
+     "Les ressources sont <b>sous chaque leçon</b>.",
+     "4 h par semaine, et <b>toujours l'action</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Règle ton lecteur.",
+     "Télécharge les ressources.",
+     "Et fais toujours l'action."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 2,
+    "of": 4,
+    "label": "Leçon 0.3 · L'état d'esprit du vendeur sérieux",
+    "say": [
+     "Prochaine leçon : l'état d'esprit qui fait la différence entre ceux qui abandonnent, et ceux qui vendent."
+    ]
+   }
+  ]
+ },
+ "0-3": {
+  "file": "VIDEO 0.3 - L'état d'esprit du vendeur sérieux",
+  "chip": "Module 0 · Leçon 0.3",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 0 · Leçon 0.3",
+    "l1": "L'état d'esprit",
+    "l2": "<em>qui fait vendre</em>",
+    "sub": "Patience, tests, régularité",
+    "say": [
+     "Leçon trois : l'état d'esprit du vendeur sérieux."
+    ]
+   },
+   {
+    "type": "duo",
+    "a": "Je teste autre chose",
+    "b": "Ça ne marche pas",
+    "bubbleAt": 2,
+    "heading": "Même formation.<br><em>Même jour.</em>",
+    "headingAt": 0,
+    "say": [
+     "Deux personnes commencent la même formation, le même jour.",
+     "Six mois plus tard, l'une vend chaque semaine.",
+     "L'autre a abandonné.",
+     "Pourtant, elles avaient les mêmes vidéos. Qu'est-ce qui a changé ?"
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Pas le talent.",
+     "Pas l'argent.",
+     "L'<em>état d'esprit</em>."
+    ],
+    "foot": "Patience · tests · régularité",
+    "say": [
+     "La différence, ce n'est pas le talent.",
+     "Ce n'est pas l'argent.",
+     "C'est l'état d'esprit.",
+     "Il tient en trois mots : patience, tests, régularité."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "<em>1.</em> La patience.",
+     "Au début, tu apprends.",
+     "Les ventes viennent <em>après les essais</em>."
+    ],
+    "foot": "Reste assez longtemps pour voir la courbe monter.",
+    "say": [
+     "Un : la patience.",
+     "Ta première publicité ne sera pas parfaite. Ta première page non plus. C'est normal.",
+     "Au début, tu apprends. Les ventes viennent souvent après plusieurs essais.",
+     "Ceux qui réussissent sont ceux qui restent assez longtemps pour voir la courbe monter."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "eviter",
+    "text": "Méfie-toi des promesses magiques.<br>Vendre en ligne, c'est un <b>vrai métier</b>.",
+    "strike": "Gagne 1 million en 7 jours",
+    "strikeAt": 0,
+    "say": [
+     "Méfie-toi de ceux qui promettent de devenir riche en sept jours.",
+     "Ici, on te dit la vérité : vendre en ligne, c'est un vrai métier.",
+     "Ça s'apprend. Et ça prend un peu de temps."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "<em>2.</em> Les tests.",
+     "Essaie. Regarde. Garde.",
+     "Un échec = une <em>information</em>."
+    ],
+    "at": [
+     0,
+     1,
+     3
+    ],
+    "say": [
+     "Deux : les tests.",
+     "Un vendeur sérieux ne devine pas. Il essaie. Il fait trois publicités différentes.",
+     "Il regarde laquelle marche. Il garde la meilleure. Et il recommence.",
+     "Une publicité qui ne marche pas, ce n'est pas un échec. C'est une information."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Tester, c'est <em>avancer</em>",
+    "cols": [
+     "Le test",
+     "Ce que tu fais"
+    ],
+    "rightGood": true,
+    "example": true,
+    "rows": [
+     [
+      "Test 1 · 0 vente",
+      "J'apprends pourquoi",
+      1,
+      1.4
+     ],
+     [
+      "Test 2 · 2 ventes",
+      "J'améliore",
+      2,
+      1.4
+     ],
+     [
+      "Test 3 · 7 ventes",
+      "Je garde et j'augmente",
+      3,
+      1.4
+     ]
+    ],
+    "say": [
+     "Regarde.",
+     "Premier test, zéro vente. Tu apprends pourquoi.",
+     "Deuxième test, deux ventes. Tu améliores.",
+     "Troisième test, sept ventes. Tu gardes, et tu augmentes.",
+     "C'est comme ça que tout le monde avance."
+    ]
+   },
+   {
+    "type": "week",
+    "over": "3. La régularité",
+    "heading": "Des petites actions,<br><em>répétées</em>",
+    "sub": "Mieux vaut 1 h quatre fois par semaine que 10 h un dimanche.",
+    "slots": [
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      5,
+      0
+     ],
+     [
+      6,
+      2
+     ]
+    ],
+    "slotsAt": 1,
+    "say": [
+     "Trois : la régularité.",
+     "Mieux vaut une heure, quatre fois par semaine, que dix heures un dimanche, puis plus rien.",
+     "Ton business grandit avec des petites actions répétées."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Bloque tes <em>4 rendez-vous</em>",
+    "steps": [
+     [
+      "Ouvre ton agenda",
+      1
+     ],
+     [
+      "Crée « Formation Digital Pro »",
+      2
+     ],
+     [
+      "Choisis un vrai moment libre",
+      3
+     ],
+     [
+      "Répète chaque semaine",
+      4
+     ],
+     [
+      "Recommence 3 fois",
+      6
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Agenda",
+      "tapAt": 2,
+      "tapDelay": 0.2,
+      "rows": [
+       {
+        "t": "Mardi 14",
+        "sub": "Aucun événement"
+       },
+       {
+        "t": "Mercredi 15",
+        "sub": "Aucun événement"
+       },
+       {
+        "kind": "btn",
+        "t": "+ Événement",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "delay": 0.8,
+      "title": "Nouvel événement",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Titre",
+        "t": "Formation Digital Pro"
+       },
+       {
+        "t": "Date et heure",
+        "sub": "À choisir"
+       },
+       {
+        "t": "Répétition",
+        "sub": "Ne se répète pas"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Nouvel événement",
+      "tapDelay": 3.0,
+      "rows": [
+       {
+        "t": "Formation Digital Pro",
+        "ic": "#0b57d0",
+        "l": "DP"
+       },
+       {
+        "t": "Mardi 14 oct.",
+        "sub": "20:00 – 21:00",
+        "hl": true
+       },
+       {
+        "t": "Répétition",
+        "sub": "Ne se répète pas"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Répétition",
+      "tapDelay": 1.6,
+      "rows": [
+       {
+        "t": "Ne se répète pas"
+       },
+       {
+        "t": "Tous les jours"
+       },
+       {
+        "t": "Toutes les semaines",
+        "hl": true
+       },
+       {
+        "t": "Tous les mois"
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "title": "Agenda · cette semaine",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Formation Digital Pro",
+        "sub": "Mar · 20 h ↻",
+        "ic": "#0b57d0",
+        "l": "1"
+       },
+       {
+        "t": "Formation Digital Pro",
+        "sub": "Jeu · 20 h ↻",
+        "ic": "#0b57d0",
+        "l": "2"
+       },
+       {
+        "t": "Formation Digital Pro",
+        "sub": "Sam · 7 h ↻",
+        "ic": "#0b57d0",
+        "l": "3"
+       },
+       {
+        "t": "Formation Digital Pro",
+        "sub": "Dim · 18 h ↻",
+        "ic": "#0b57d0",
+        "l": "4"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Maintenant, on rend ça concret.",
+     "Ouvre ton agenda.",
+     "Je crée un événement : « Formation Digital Pro ».",
+     {
+      "say": "Je choisis un jour et une heure où je suis vraiment libre. Par exemple, mardi, de vingt heures à vingt et une heures.",
+      "cap": "Je choisis un jour et une heure où je suis vraiment libre. Par exemple, mardi, de 20 h à 21 h."
+     },
+     "Je mets « Répéter chaque semaine ».",
+     "J'enregistre.",
+     "Et je fais pareil pour trois autres créneaux. Quatre rendez-vous avec ton business, chaque semaine."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Bloque <b>4 créneaux</b> d'une heure,<br>répétés chaque semaine.",
+    "minutes": 3,
+    "say": [
+     "À toi.",
+     "Pause, et bloque tes quatre créneaux.",
+     "Traite-les comme un rendez-vous important. Parce que c'en est un."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Ton objectif à 14 jours",
+    "heading": "Petit, clair, <em>vérifiable</em>",
+    "cols": [
+     "Trop flou",
+     "Clair"
+    ],
+    "leftBad": true,
+    "rightGood": true,
+    "rows": [
+     [
+      "Devenir riche",
+      "Avoir validé mon produit auprès de 10 personnes",
+      1,
+      1.2
+     ],
+     [
+      "Réussir sur internet",
+      "Avoir publié ma première page de vente",
+      2,
+      1.2
+     ],
+     [
+      "Avoir du succès",
+      "Avoir créé mes 3 premiers visuels",
+      3,
+      0.8
+     ]
+    ],
+    "say": [
+     "Dernière chose. Ouvre ta fiche « Mon projet ».",
+     "Dans la case « Mon objectif », écris ce que tu veux avoir réussi dans les quatorze prochains jours.",
+     "Un objectif petit et clair. Pas « devenir riche ». Plutôt : « avoir trouvé mon produit », ou « avoir fait ma première page ».",
+     "Une astuce : un bon objectif, on peut y répondre par oui ou par non. « Ai-je fait ma page ? » Oui, ou non."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Écris ton <b>objectif à 14 jours</b><br>dans ta fiche.",
+    "minutes": 2,
+    "say": [
+     "Pause. Écris ton objectif. Et reviens."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Il lui manquait juste",
+     "<em>un plan et des rendez-vous</em>.",
+     "Toi, tu viens de te les donner."
+    ],
+    "at": [
+     1,
+     1,
+     2
+    ],
+    "say": [
+     "Tu sais quoi ? Même la personne qui a abandonné aurait pu réussir.",
+     "Il lui manquait juste un plan, et des rendez-vous.",
+     "Toi, tu viens de te les donner."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Patience</b> : les ventes viennent après les essais.",
+     "<b>Tests</b> : un échec est une information.",
+     "<b>Régularité</b> : 4 rendez-vous par semaine."
+    ],
+    "say": [
+     "À retenir.",
+     "Patience.",
+     "Tests.",
+     "Régularité. Tes quatre créneaux sont dans ton agenda, et ton objectif est écrit."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 3,
+    "of": 4,
+    "label": "Leçon 0.4 · Ton matériel de départ",
+    "say": [
+     "Dernière leçon du module : on prépare ton matériel et tes comptes. Tu vas voir, il ne te faut presque rien."
+    ]
+   }
+  ]
+ },
+ "0-4": {
+  "file": "VIDEO 0.4 - Ton matériel de départ",
+  "chip": "Module 0 · Leçon 0.4",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 0 · Leçon 0.4",
+    "l1": "Ton matériel",
+    "l2": "<em>de départ</em>",
+    "sub": "Un téléphone, une connexion, 3 comptes",
+    "say": [
+     "Leçon quatre : ton matériel de départ."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Bonne nouvelle",
+    "heading": "Il ne te faut <em>presque rien</em>",
+    "cards": [
+     {
+      "icon": "phone",
+      "title": "Un téléphone",
+      "text": "Qui marche bien",
+      "seg": 1
+     },
+     {
+      "icon": "wifi",
+      "title": "Une connexion",
+      "text": "Internet, même modeste",
+      "seg": 2
+     },
+     {
+      "icon": "lock",
+      "title": "3 comptes",
+      "text": "Gratuits",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Bonne nouvelle : pour commencer, il ne te faut presque rien.",
+     "Un téléphone qui marche bien.",
+     "Une connexion internet.",
+     "Et quelques comptes gratuits. C'est tout."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Un ordinateur aide pour créer ta boutique.<br>Mais tu peux commencer sans : on te montre toujours <b>la version téléphone</b>.",
+    "say": [
+     "Un ordinateur, c'est un plus, surtout pour créer ta boutique.",
+     "Mais tu peux commencer sans. On te montrera toujours la version téléphone."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Aujourd'hui",
+    "heading": "3 comptes <em>à créer</em>",
+    "items": [
+     {
+      "icon": "mail",
+      "title": "Adresse Gmail pro",
+      "text": "prenom.activite@gmail.com",
+      "show": 1
+     },
+     {
+      "icon": "chat",
+      "title": "WhatsApp Business",
+      "text": "Catalogue, horaires, réponses automatiques",
+      "show": 2
+     },
+     {
+      "icon": "brush",
+      "title": "Canva",
+      "text": "Tes visuels, tes publicités, ton ebook",
+      "show": 3
+     }
+    ],
+    "say": [
+     "Aujourd'hui, on crée trois comptes. Ils te serviront pendant toute la formation.",
+     "Un : une adresse Gmail professionnelle.",
+     "Deux : WhatsApp Business.",
+     "Trois : Canva, pour tes visuels."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Compte 1 · Gmail",
+    "heading": "Une adresse qui fait <em>sérieux</em>",
+    "cols": [
+     "À éviter",
+     "Professionnel"
+    ],
+    "leftBad": true,
+    "rightGood": true,
+    "rows": [
+     [
+      "bebe.dou2003@gmail.com",
+      "aminata.cosmetiques@gmail.com",
+      2,
+      0.8
+     ],
+     [
+      "lebossdu225@gmail.com",
+      "contact.ebookcuisine@gmail.com",
+      3,
+      0.8
+     ]
+    ],
+    "say": [
+     "Commençons par l'adresse e-mail.",
+     "Elle doit faire sérieux. Tes clients vont la voir.",
+     "Utilise ton prénom et ton activité. Par exemple : « aminata point cosmétiques ».",
+     "Évite les surnoms, et les dates de naissance."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Crée ton <em>adresse Gmail</em>",
+    "steps": [
+     [
+      "Paramètres › Comptes",
+      0
+     ],
+     [
+      "Ajouter un compte › Google",
+      1
+     ],
+     [
+      "Ton nom et ton adresse",
+      2
+     ],
+     [
+      "Un mot de passe solide",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Paramètres",
+      "tapAt": 0,
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "Réseau et Internet"
+       },
+       {
+        "t": "Comptes",
+        "hl": true
+       },
+       {
+        "t": "Sécurité"
+       },
+       {
+        "t": "Applications"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Ajouter un compte",
+      "tapAt": 1,
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Google",
+        "ic": "#4285f4",
+        "l": "G",
+        "hl": true
+       },
+       {
+        "t": "Microsoft",
+        "ic": "#5f6368",
+        "l": "M"
+       },
+       {
+        "t": "Autre",
+        "ic": "#5f6368",
+        "l": "+"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Créer un compte Google",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Prénom",
+        "t": "Aminata"
+       },
+       {
+        "kind": "input",
+        "label": "Adresse Gmail",
+        "t": "aminata.cosmetiques"
+       },
+       {
+        "kind": "note",
+        "t": "@gmail.com"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Mot de passe",
+      "tapDelay": 3.2,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Mot de passe",
+        "t": "••••••••••••••"
+       },
+       {
+        "kind": "note",
+        "t": "Au moins 12 caractères, avec des chiffres et des signes."
+       },
+       {
+        "kind": "btn",
+        "t": "Suivant",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Sur ton téléphone : ouvre Paramètres, puis Comptes.",
+     "Appuie sur « Ajouter un compte », puis Google, puis « Créer un compte ».",
+     "Remplis ton nom, et choisis ton adresse.",
+     "Puis un mot de passe solide : au moins douze caractères, avec des chiffres et des signes."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Ton mot de passe reste <b>secret</b>.<br>Personne de sérieux ne te le demandera jamais : ni Google, ni Facebook, ni moi.",
+    "say": [
+     "Attention. Garde ton mot de passe pour toi.",
+     "Personne de sérieux ne te le demandera jamais. Ni Google, ni Facebook, ni moi."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée ton adresse<br><b>Gmail professionnelle</b>.",
+    "minutes": 4,
+    "say": [
+     "Pause. Crée ton adresse maintenant. Reviens quand c'est fait."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Compte 2 · WhatsApp Business",
+    "heading": "Gratuit, et fait <em>pour vendre</em>",
+    "cards": [
+     {
+      "icon": "bag",
+      "title": "Catalogue",
+      "text": "Tes produits avec leurs prix",
+      "seg": 1
+     },
+     {
+      "icon": "cal",
+      "title": "Horaires",
+      "text": "Tes heures d'ouverture",
+      "seg": 1,
+      "delay": 0.7
+     },
+     {
+      "icon": "chat",
+      "title": "Réponses auto",
+      "text": "Et plus tard, l'IA",
+      "seg": 1,
+      "delay": 1.4
+     }
+    ],
+    "say": [
+     "Deuxième compte : WhatsApp Business. C'est une application gratuite, différente de WhatsApp normal.",
+     "Elle te donne un catalogue de produits, des horaires, et des réponses automatiques.",
+     "Plus tard, on y branchera même l'intelligence artificielle."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Installe <em>WhatsApp Business</em>",
+    "steps": [
+     [
+      "Installe l'application",
+      0
+     ],
+     [
+      "Entre ton numéro",
+      1
+     ],
+     [
+      "Nom de ton activité",
+      2
+     ],
+     [
+      "Ajoute une photo",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Play Store",
+      "tapAt": 0,
+      "tapDelay": 3.0,
+      "rows": [
+       {
+        "t": "WhatsApp Business",
+        "sub": "Meta",
+        "ic": "#25d366",
+        "l": "B"
+       },
+       {
+        "kind": "btn",
+        "t": "Installer",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Ton numéro",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Numéro de téléphone",
+        "t": "+225 07 00 00 00 00"
+       },
+       {
+        "kind": "btn",
+        "t": "Suivant",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Profil d'entreprise",
+      "tapDelay": 2.6,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Nom de l'activité",
+        "t": "Aminata Cosmétiques"
+       },
+       {
+        "t": "Catégorie",
+        "sub": "Beauté",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Profil d'entreprise",
+      "tapDelay": 1.6,
+      "rows": [
+       {
+        "t": "Photo de profil",
+        "sub": "Ton logo",
+        "ic": "#0b57d0",
+        "l": "AC",
+        "hl": true
+       },
+       {
+        "kind": "btn",
+        "t": "Terminé",
+        "alt": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Va sur le Play Store, ou l'App Store sur iPhone. Cherche « WhatsApp Business », et installe-la.",
+     "Entre ton numéro.",
+     "Donne le nom de ton activité, même provisoire, et choisis une catégorie.",
+     "Pour la photo, mets ton logo, ou une belle photo de toi qui sourit."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Si tu peux, prends un <b>numéro dédié</b> à ton business.<br>Une deuxième carte SIM suffit : c'est plus pro, et ta vie privée reste protégée.",
+    "say": [
+     "Si tu peux, prends un numéro séparé pour ton business. Une deuxième carte SIM suffit.",
+     "C'est plus pro, et tu protèges ta vie privée."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Installe <b>WhatsApp Business</b><br>et remplis ton profil.",
+    "minutes": 4,
+    "say": [
+     "Pause. Installe WhatsApp Business, et remplis ton profil."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Compte 3 · Canva",
+    "heading": "Connecte <em>Canva</em> à ton adresse pro",
+    "steps": [
+     [
+      "Installe Canva",
+      0
+     ],
+     [
+      "Continuer avec Google",
+      1
+     ],
+     [
+      "Choisis ton adresse pro",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Play Store",
+      "tapAt": 0,
+      "tapDelay": 4.0,
+      "rows": [
+       {
+        "t": "Canva",
+        "sub": "Design, photo et vidéo",
+        "ic": "#00c4cc",
+        "l": "C"
+       },
+       {
+        "kind": "btn",
+        "t": "Installer",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Canva",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "btn",
+        "t": "Continuer avec Google",
+        "hl": true
+       },
+       {
+        "t": "Continuer avec Facebook"
+       },
+       {
+        "t": "Continuer avec un e-mail"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Choisir un compte",
+      "tapDelay": 1.8,
+      "rows": [
+       {
+        "t": "aminata.cosmetiques@gmail.com",
+        "ic": "#0b57d0",
+        "l": "A",
+        "hl": true
+       },
+       {
+        "t": "Ajouter un compte"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Troisième compte : Canva. C'est l'outil de tes visuels, de tes publicités, et même de ton ebook. La version gratuite suffit.",
+     "Installe Canva. Au moment de t'inscrire, choisis « Continuer avec Google ».",
+     "Et sélectionne ta nouvelle adresse pro. Un seul bouton, et c'est fait."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Installe <b>Canva</b> et connecte-toi<br>avec ton adresse pro.",
+    "minutes": 3,
+    "say": [
+     "Pause. Canva, connexion, et on termine."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Ton matériel",
+    "heading": "<em>Prêt</em> à démarrer",
+    "items": [
+     {
+      "icon": "mail",
+      "title": "Adresse Gmail pro",
+      "check": 0,
+      "checkDelay": 0.6
+     },
+     {
+      "icon": "chat",
+      "title": "WhatsApp Business",
+      "check": 1,
+      "checkDelay": 0.8
+     },
+     {
+      "icon": "brush",
+      "title": "Canva",
+      "text": "Note ton e-mail et ton numéro dans ta fiche · jamais tes mots de passe",
+      "check": 2,
+      "checkDelay": 0.4
+     }
+    ],
+    "say": [
+     "Gmail pro : coché.",
+     "WhatsApp Business : coché.",
+     "Canva : coché. Ton matériel est prêt.",
+     "Dans ta fiche « Mon projet », note ton adresse e-mail pro, et ton numéro business. Pas tes mots de passe : eux, garde-les dans un endroit sûr."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Un <b>téléphone</b> et une <b>connexion</b> suffisent pour commencer.",
+     "<b>Gmail pro</b>, <b>WhatsApp Business</b> et <b>Canva</b> sont prêts.",
+     "Tes mots de passe restent <b>secrets</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Un téléphone suffit pour commencer.",
+     "Tes trois comptes sont créés.",
+     "Et tes mots de passe restent secrets."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 4,
+    "of": 4,
+    "label": "Module 1 · Les bases de la vente en ligne",
+    "say": [
+     "Bravo. Tu as terminé le module zéro. Ton dossier est créé, ton temps est bloqué, tes comptes sont prêts.",
+     "Fais le petit quiz, et rendez-vous au module un. On commence les bases de la vente en ligne."
+    ]
+   }
+  ]
+ }
 }
