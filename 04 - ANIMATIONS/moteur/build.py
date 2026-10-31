@@ -175,6 +175,12 @@ if __name__ == '__main__':
     ap.add_argument('--out', required=True); ap.add_argument('--fps', type=int, default=30); ap.add_argument('--html-only', action='store_true')
     a = ap.parse_args()
     sb = json.load(open(a.sb))[a.vid]; segs = segs_of(sb)
+    if a.audio:
+        # ElevenLabs s'arrête net après le dernier mot : on ajoute 1,2 s de silence pour le calage
+        os.makedirs(a.out, exist_ok=True)
+        padded = os.path.join(a.out, f'{a.vid}-voix.wav')
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', a.audio, '-af', 'apad=pad_dur=1.2', padded], check=True)
+        a.audio = padded
     times, sp_end = align(segs, a.audio) if a.audio else estimate(segs)
     os.makedirs(a.out, exist_ok=True)
     data = build_data(sb, segs, times, sp_end, a.assets)
