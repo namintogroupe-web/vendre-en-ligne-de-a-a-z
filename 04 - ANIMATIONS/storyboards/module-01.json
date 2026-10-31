@@ -1,0 +1,1288 @@
+{
+ "1-1": {
+  "file": "VIDEO 1.1 - Le parcours du client",
+  "chip": "Module 1 · Leçon 1.1",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 1 · Leçon 1.1",
+    "l1": "Le parcours",
+    "l2": "<em>du client</em>",
+    "sub": "Voir, s'intéresser, acheter, revenir",
+    "say": [
+     "Bienvenue dans le module un. Leçon une : le parcours du client."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Fatou voit une vidéo.",
+     "Elle clique. Elle lit.",
+     "Elle paie, et elle <em>revient</em>."
+    ],
+    "foot": "Elle n'a pas acheté par hasard.",
+    "footAt": 3,
+    "say": [
+     "Fatou fait défiler Facebook. Elle voit une vidéo sur une crème pour les mains.",
+     "Elle clique. Elle lit la page. Elle regarde les avis.",
+     "Elle paie par Mobile Money. Et un mois plus tard, elle revient en racheter deux.",
+     "Fatou n'a pas acheté par hasard. Elle a suivi un chemin."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Le chemin",
+    "heading": "4 étapes, <em>toujours les mêmes</em>",
+    "steps": [
+     [
+      "Voir",
+      "Il te découvre",
+      1
+     ],
+     [
+      "S'intéresser",
+      "Il veut en savoir plus",
+      2
+     ],
+     [
+      "Acheter",
+      "Il paie",
+      3
+     ],
+     [
+      "Revenir",
+      "Il rachète et en parle",
+      4
+     ]
+    ],
+    "note": [
+     "Ton travail : l'aider à passer <b>d'une étape à la suivante</b>.",
+     5
+    ],
+    "say": [
+     "Tous tes clients suivent ce même chemin, en quatre étapes.",
+     "Un : voir. Il te découvre.",
+     "Deux : s'intéresser. Il veut en savoir plus.",
+     "Trois : acheter.",
+     "Quatre : revenir. Il rachète, et il parle de toi.",
+     "Ton travail, c'est de l'aider à passer d'une étape à la suivante."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Ce qu'il faut à chaque étape",
+    "heading": "Un outil <em>par étape</em>",
+    "cards": [
+     {
+      "icon": "eye",
+      "title": "Voir",
+      "text": "Une publicité ou une vidéo",
+      "seg": 1
+     },
+     {
+      "icon": "heart",
+      "title": "S'intéresser",
+      "text": "Une page claire et rassurante",
+      "seg": 2
+     },
+     {
+      "icon": "cart",
+      "title": "Acheter",
+      "text": "Un paiement simple",
+      "seg": 3
+     },
+     {
+      "icon": "repeat",
+      "title": "Revenir",
+      "text": "Un suivi sur WhatsApp",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Chaque étape a besoin de son outil.",
+     "Pour qu'on te voie : une publicité, ou une vidéo.",
+     "Pour qu'on s'intéresse : une page claire, qui rassure.",
+     "Pour qu'on achète : un paiement simple, comme Mobile Money.",
+     "Pour qu'on revienne : un suivi, par exemple sur WhatsApp. Tu vas tous les construire dans cette formation."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Le chemin de <em>Fatou</em>, écran par écran",
+    "steps": [
+     [
+      "Voir · la publicité",
+      1
+     ],
+     [
+      "S'intéresser · la page",
+      2
+     ],
+     [
+      "Acheter · Mobile Money",
+      3
+     ],
+     [
+      "Revenir · le message",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Facebook",
+      "tapAt": 1,
+      "tapDelay": 2.6,
+      "rows": [
+       {
+        "t": "Douceur Karité",
+        "sub": "Sponsorisé",
+        "ic": "#1877f2",
+        "l": "f"
+       },
+       {
+        "kind": "note",
+        "t": "Tes mains sèches ? 7 jours pour les rendre douces."
+       },
+       {
+        "kind": "btn",
+        "t": "En savoir plus",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Page de vente",
+      "tapDelay": 2.8,
+      "rows": [
+       {
+        "t": "Crème mains au karité",
+        "sub": "5 000 F",
+        "ic": "#f59e0b",
+        "l": "K"
+       },
+       {
+        "t": "★★★★★ 48 avis",
+        "sub": "Livré en 24 h"
+       },
+       {
+        "kind": "btn",
+        "t": "Je commande",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Paiement",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "Orange Money",
+        "ic": "#ff7900",
+        "l": "OM",
+        "hl": true
+       },
+       {
+        "t": "Wave",
+        "ic": "#1dc4ff",
+        "l": "W"
+       },
+       {
+        "t": "MTN MoMo",
+        "ic": "#ffcc00",
+        "l": "M"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "WhatsApp",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Douceur Karité",
+        "sub": "Il y a 30 jours",
+        "ic": "#25d366",
+        "l": "DK"
+       },
+       {
+        "kind": "note",
+        "t": "Bonjour Fatou ! Ta crème touche à sa fin ? -10 % cette semaine pour toi."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Regarde le chemin de Fatou sur son téléphone.",
+     "Elle voit la publicité. Elle appuie sur « En savoir plus ».",
+     "Elle arrive sur la page : le prix, les avis, la livraison. Elle appuie sur « Je commande ».",
+     "Elle choisit Mobile Money, et elle paie.",
+     "Trente jours plus tard, un petit message sur WhatsApp. Et elle revient."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Chaque étape <em>perd du monde</em>",
+    "cols": [
+     "Étape",
+     "Combien restent"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Voient la publicité",
+      "1 000 personnes",
+      1,
+      0.9
+     ],
+     [
+      "Cliquent",
+      "50 personnes",
+      2,
+      0.9
+     ],
+     [
+      "Achètent",
+      "5 personnes",
+      3,
+      0.9
+     ],
+     [
+      "Reviennent",
+      "2 personnes",
+      4,
+      0.9
+     ]
+    ],
+    "say": [
+     "Attention, à chaque étape, des gens s'en vont. C'est normal.",
+     "Par exemple, mille personnes voient ta publicité.",
+     "Cinquante cliquent.",
+     "Cinq achètent.",
+     "Et deux reviennent. Si tu améliores une seule étape, toutes tes ventes montent."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "retenir",
+    "text": "Quand tu ne vends pas, ne te demande pas « pourquoi ? ».<br>Demande-toi : <b>à quelle étape je perds mes clients ?</b>",
+    "say": [
+     "Retiens bien ceci.",
+     "Quand tu ne vends pas, ne te demande pas seulement pourquoi.",
+     "Demande-toi : à quelle étape est-ce que je perds mes clients ?"
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Dans ta fiche, écris <b>les 4 étapes</b><br>de ton futur client.",
+    "minutes": 4,
+    "say": [
+     "À toi. Ouvre ta fiche « Mon projet ».",
+     "Pour ton futur client, écris : où il va te voir, ce qui va l'intéresser, comment il va payer, et pourquoi il reviendra.",
+     "Pause, et reviens quand c'est écrit."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Le client suit <b>4 étapes</b> : voir, s'intéresser, acheter, revenir.",
+     "Chaque étape a <b>son outil</b>.",
+     "Pas de vente ? Cherche <b>l'étape qui bloque</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Quatre étapes : voir, s'intéresser, acheter, revenir.",
+     "Un outil pour chaque étape.",
+     "Et quand ça bloque, cherche l'étape qui bloque."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 1,
+    "of": 5,
+    "label": "Leçon 1.2 · Les mots à connaître",
+    "say": [
+     "Prochaine leçon : les mots du métier, expliqués simplement. Après ça, plus aucun mot ne te fera peur."
+    ]
+   }
+  ]
+ },
+ "1-2": {
+  "file": "VIDEO 1.2 - Les mots à connaître",
+  "chip": "Module 1 · Leçon 1.2",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 1 · Leçon 1.2",
+    "l1": "Les mots",
+    "l2": "<em>à connaître</em>",
+    "sub": "12 mots, expliqués simplement",
+    "say": [
+     "Leçon deux : les mots à connaître."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Pas besoin de jargon.",
+     "<em>12 mots</em> suffisent.",
+     "En 3 familles."
+    ],
+    "foot": "Vendre · attirer · compter",
+    "footAt": 3,
+    "say": [
+     "Le e-commerce a l'air plein de mots compliqués.",
+     "En vérité, douze mots suffisent pour tout comprendre.",
+     "On les range en trois familles.",
+     "Pour vendre. Pour attirer. Et pour compter."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Famille 1 · Pour vendre",
+    "heading": "Ce que tu <em>proposes</em>",
+    "cards": [
+     {
+      "icon": "bag",
+      "title": "Produit",
+      "text": "Ce que tu vends",
+      "seg": 1
+     },
+     {
+      "icon": "target",
+      "title": "Offre",
+      "text": "Le produit + le prix + les bonus",
+      "seg": 2
+     },
+     {
+      "icon": "coin",
+      "title": "Prix",
+      "text": "Ce que le client paie",
+      "seg": 3
+     },
+     {
+      "icon": "note",
+      "title": "Page de vente",
+      "text": "La page qui présente l'offre",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Première famille : pour vendre.",
+     "Le produit : c'est ce que tu vends.",
+     "L'offre : c'est le produit, plus le prix, plus les petits bonus. Le client n'achète pas un produit, il achète une offre.",
+     "Le prix : ce que le client paie.",
+     "Et la page de vente : la page qui présente ton offre, et qui fait acheter."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Famille 2 · Pour attirer",
+    "heading": "Ceux qui <em>te découvrent</em>",
+    "cards": [
+     {
+      "icon": "users",
+      "title": "Cible",
+      "text": "Les personnes à qui tu parles",
+      "seg": 1
+     },
+     {
+      "icon": "megaphone",
+      "title": "Publicité",
+      "text": "Un message payé pour être vu",
+      "seg": 2
+     },
+     {
+      "icon": "link",
+      "title": "Clic",
+      "text": "Quand on ouvre ta page",
+      "seg": 3
+     },
+     {
+      "icon": "chat",
+      "title": "Prospect",
+      "text": "Intéressé, pas encore client",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Deuxième famille : pour attirer.",
+     "La cible : les personnes à qui tu parles. Pas tout le monde. Les bonnes personnes.",
+     "La publicité : un message que tu paies pour être vu.",
+     "Le clic : quand quelqu'un ouvre ta page.",
+     "Et le prospect : une personne intéressée, mais qui n'a pas encore acheté."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Famille 3 · Pour compter",
+    "heading": "Ce que tu <em>gagnes vraiment</em>",
+    "cards": [
+     {
+      "icon": "chart",
+      "title": "Chiffre d'affaires",
+      "text": "Tout l'argent encaissé",
+      "seg": 1
+     },
+     {
+      "icon": "data",
+      "title": "Coûts",
+      "text": "Tout ce que tu dépenses",
+      "seg": 2
+     },
+     {
+      "icon": "rise",
+      "title": "Marge",
+      "text": "Ce qui te reste vraiment",
+      "seg": 3
+     },
+     {
+      "icon": "target",
+      "title": "Conversion",
+      "text": "Visiteurs qui achètent, en %",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Troisième famille : pour compter.",
+     "Le chiffre d'affaires : tout l'argent que tu encaisses.",
+     "Les coûts : tout ce que tu dépenses. Le produit, la livraison, la publicité.",
+     "La marge : ce qui te reste vraiment, une fois tout payé.",
+     "Et le taux de conversion : sur cent visiteurs, combien achètent."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Calcule ta <em>marge</em>",
+    "cols": [
+     "Pour une vente",
+     "Montant"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Prix de vente",
+      "10 000 F",
+      0,
+      0.7
+     ],
+     [
+      "− Coût du produit",
+      "4 000 F",
+      1,
+      0.7
+     ],
+     [
+      "− Livraison",
+      "1 000 F",
+      2,
+      0.7
+     ],
+     [
+      "− Publicité",
+      "2 000 F",
+      3,
+      0.7
+     ],
+     [
+      "= Ta marge",
+      "3 000 F",
+      4,
+      0.7
+     ]
+    ],
+    "say": [
+     {
+      "say": "Faisons un calcul. Tu vends un produit à dix mille francs.",
+      "cap": "Faisons un calcul. Tu vends un produit à 10 000 F."
+     },
+     {
+      "say": "Le produit t'a coûté quatre mille francs.",
+      "cap": "Le produit t'a coûté 4 000 F."
+     },
+     {
+      "say": "La livraison, mille francs.",
+      "cap": "La livraison, 1 000 F."
+     },
+     {
+      "say": "La publicité, deux mille francs par vente.",
+      "cap": "La publicité, 2 000 F par vente."
+     },
+     {
+      "say": "Ta marge, c'est trois mille francs. Pas dix mille. Trois mille.",
+      "cap": "Ta marge, c'est 3 000 F. Pas 10 000. Trois mille."
+     }
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Beaucoup vendent beaucoup… et gagnent peu.<br>Regarde toujours <b>ta marge</b>, pas seulement ton chiffre d'affaires.",
+    "say": [
+     "Attention, c'est le piège le plus courant.",
+     "Beaucoup de vendeurs vendent beaucoup, et gagnent très peu.",
+     "Regarde toujours ta marge. Pas seulement ton chiffre d'affaires."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Taux de conversion = acheteurs ÷ visiteurs.<br><b>100 visiteurs, 2 achats = 2 %</b>. Entre 1 et 3 %, c'est déjà bien.",
+    "say": [
+     {
+      "say": "Et le taux de conversion ? Simple. Cent visiteurs, deux achats : deux pour cent.",
+      "cap": "Et le taux de conversion ? Simple. 100 visiteurs, 2 achats : 2 %."
+     },
+     {
+      "say": "Entre un et trois pour cent, c'est déjà un bon début.",
+      "cap": "Entre 1 et 3 %, c'est déjà un bon début."
+     }
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Dans ta fiche, calcule<br>la <b>marge</b> de ton futur produit.",
+    "minutes": 4,
+    "say": [
+     "À toi.",
+     "Dans ta fiche, écris le prix que tu imagines, et devine tes coûts : produit, livraison, publicité.",
+     "Calcule ta marge. Même approximative. Pause."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Vendre</b> : produit, offre, prix, page de vente.",
+     "<b>Attirer</b> : cible, publicité, clic, prospect.",
+     "<b>Compter</b> : ce qui compte, c'est <b>la marge</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Pour vendre : produit, offre, prix, page de vente.",
+     "Pour attirer : cible, publicité, clic, prospect.",
+     "Pour compter : chiffre d'affaires, coûts, conversion. Et surtout, la marge."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 2,
+    "of": 5,
+    "label": "Leçon 1.3 · Digital ou physique ?",
+    "say": [
+     "Prochaine leçon : produit digital, ou produit physique ? On fait le test ensemble pour savoir lequel est fait pour toi."
+    ]
+   }
+  ]
+ },
+ "1-3": {
+  "file": "VIDEO 1.3 - Digital ou physique",
+  "chip": "Module 1 · Leçon 1.3",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 1 · Leçon 1.3",
+    "l1": "Digital",
+    "l2": "<em>ou physique ?</em>",
+    "sub": "Le test pour choisir ton parcours",
+    "say": [
+     "Leçon trois : produit digital, ou produit physique ?"
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Deux familles",
+    "heading": "Deux façons de <em>vendre</em>",
+    "cards": [
+     {
+      "icon": "digital",
+      "title": "Digital",
+      "text": "Ebook, formation, modèles, coaching en ligne",
+      "seg": 1
+     },
+     {
+      "icon": "physical",
+      "title": "Physique",
+      "text": "Cosmétiques, vêtements, accessoires, alimentaire",
+      "seg": 2
+     }
+    ],
+    "say": [
+     "Il existe deux grandes familles de produits.",
+     "Le produit digital : un ebook, une formation, des modèles, du coaching en ligne. Le client le reçoit sur son téléphone.",
+     "Le produit physique : des cosmétiques, des vêtements, des accessoires. On le touche, on le livre."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Côte à côte",
+    "heading": "Les <em>vraies différences</em>",
+    "cols": [
+     "Digital",
+     "Physique"
+    ],
+    "rows": [
+     [
+      "Pas de stock",
+      "Un stock à acheter",
+      1,
+      0.6
+     ],
+     [
+      "Livraison automatique",
+      "Un livreur, un délai",
+      2,
+      0.6
+     ],
+     [
+      "Grosse marge",
+      "Marge moyenne",
+      3,
+      0.6
+     ],
+     [
+      "Confiance à construire",
+      "Le client voit le produit",
+      4,
+      0.6
+     ],
+     [
+      "Petit budget de départ",
+      "Budget pour le stock",
+      5,
+      0.6
+     ]
+    ],
+    "say": [
+     "Regardons-les côte à côte.",
+     "Le stock : en digital, aucun. En physique, il faut acheter et ranger.",
+     "La livraison : en digital, elle est automatique. En physique, il faut un livreur.",
+     "La marge : en digital, elle est souvent très grande. En physique, elle est moyenne.",
+     "La confiance : en digital, tu dois rassurer davantage. En physique, le client voit ce qu'il achète.",
+     "Et le budget de départ : petit en digital, plus grand en physique, à cause du stock."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Aucun n'est <em>meilleur</em>.",
+     "Le bon, c'est celui",
+     "qui <em>te ressemble</em>."
+    ],
+    "at": [
+     0,
+     1,
+     1
+    ],
+    "say": [
+     "Alors, lequel est le meilleur ?",
+     "Aucun. Le bon choix, c'est celui qui te ressemble. On va le trouver avec quatre questions."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le test",
+    "heading": "Réponds par <em>oui ou non</em>",
+    "items": [
+     {
+      "icon": "bulb",
+      "title": "1. Tu sais faire quelque chose que d'autres veulent apprendre ?",
+      "show": 1
+     },
+     {
+      "icon": "coin",
+      "title": "2. Tu as un budget pour acheter un petit stock ?",
+      "show": 2
+     },
+     {
+      "icon": "truck",
+      "title": "3. Tu peux gérer des livraisons ?",
+      "show": 3
+     },
+     {
+      "icon": "clock",
+      "title": "4. Tu veux vendre même quand tu dors ?",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Prends un papier. Réponds par oui ou par non.",
+     "Un : est-ce que tu sais faire quelque chose que d'autres veulent apprendre ? Une recette, un métier, une astuce.",
+     "Deux : est-ce que tu as un budget pour acheter un petit stock ?",
+     "Trois : est-ce que tu peux gérer des livraisons, toi-même ou avec un livreur ?",
+     "Quatre : est-ce que tu veux vendre même quand tu dors ?"
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Ton résultat",
+    "heading": "Lis tes <em>réponses</em>",
+    "cols": [
+     "Tes oui",
+     "Ton parcours"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "Surtout aux questions 1 et 4",
+      "Parcours digital",
+      1,
+      1.0
+     ],
+     [
+      "Surtout aux questions 2 et 3",
+      "Parcours physique",
+      2,
+      1.0
+     ],
+     [
+      "Partout",
+      "Commence par un, ajoute l'autre plus tard",
+      3,
+      1.0
+     ]
+    ],
+    "say": [
+     "Maintenant, lis tes réponses.",
+     "Tu as surtout dit oui aux questions un et quatre ? Parcours digital.",
+     "Surtout aux questions deux et trois ? Parcours physique.",
+     "Oui partout ? Super. Commence par un seul, et ajoute l'autre plus tard."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Tu hésites encore ? Commence par le <b>digital</b>.<br>Petit budget, pas de stock : c'est le meilleur terrain pour apprendre.",
+    "say": [
+     "Tu hésites encore ?",
+     "Commence par le digital. Petit budget, pas de stock. C'est le meilleur terrain pour apprendre à vendre."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Fais le test, puis écris<br><b>ton parcours</b> dans ta fiche.",
+    "minutes": 3,
+    "say": [
+     "Pause. Fais le test, et écris ton parcours dans ta fiche : digital, ou physique."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Digital</b> : pas de stock, grosse marge, tout automatique.",
+     "<b>Physique</b> : un stock, des livraisons, plus de confiance.",
+     "Ton parcours est <b>écrit dans ta fiche</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Le digital : pas de stock, une grosse marge, et tout s'automatise.",
+     "Le physique : un stock, des livraisons, mais un produit qu'on voit.",
+     "Et ton parcours est écrit."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 3,
+    "of": 5,
+    "label": "Leçon 1.4 · Les modèles qui marchent",
+    "say": [
+     "Prochaine leçon : boutique, tunnel, précommande ou abonnement. On choisit ta façon de vendre."
+    ]
+   }
+  ]
+ },
+ "1-4": {
+  "file": "VIDEO 1.4 - Les modèles qui marchent",
+  "chip": "Module 1 · Leçon 1.4",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 1 · Leçon 1.4",
+    "l1": "Les modèles",
+    "l2": "<em>qui marchent</em>",
+    "sub": "Boutique, tunnel, précommande, abonnement",
+    "say": [
+     "Leçon quatre : les modèles de vente qui marchent."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "4 modèles",
+    "heading": "Ta <em>façon de vendre</em>",
+    "cards": [
+     {
+      "icon": "store",
+      "title": "Boutique",
+      "text": "Plusieurs produits, un panier",
+      "seg": 1
+     },
+     {
+      "icon": "funnel",
+      "title": "Tunnel",
+      "text": "Un produit, un chemin guidé",
+      "seg": 2
+     },
+     {
+      "icon": "cal",
+      "title": "Précommande",
+      "text": "Tu vends avant d'acheter",
+      "seg": 3
+     },
+     {
+      "icon": "repeat",
+      "title": "Abonnement",
+      "text": "Le client paie chaque mois",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Ton produit, tu peux le vendre de quatre façons.",
+     "La boutique : plusieurs produits, et un panier. Comme un magasin en ligne.",
+     "Le tunnel de vente : un seul produit, et un chemin guidé, page après page, jusqu'au paiement.",
+     "La précommande : tu vends avant d'acheter le stock.",
+     "Et l'abonnement : le client paie chaque mois."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Un <em>tunnel de vente</em>, de l'intérieur",
+    "steps": [
+     [
+      "Page 1 · l'offre",
+      1
+     ],
+     [
+      "Page 2 · le paiement",
+      2
+     ],
+     [
+      "Page 3 · un bonus",
+      3
+     ],
+     [
+      "Page 4 · merci",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Ebook · Cuisine facile",
+      "tapDelay": 3.2,
+      "rows": [
+       {
+        "t": "30 recettes en 30 minutes",
+        "sub": "Ebook · 3 000 F",
+        "ic": "#f59e0b",
+        "l": "CF"
+       },
+       {
+        "kind": "note",
+        "t": "Reçois-le tout de suite sur ton téléphone."
+       },
+       {
+        "kind": "btn",
+        "t": "Je le veux",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Paiement",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Numéro Mobile Money",
+        "t": "07 00 00 00 00"
+       },
+       {
+        "t": "Wave",
+        "ic": "#1dc4ff",
+        "l": "W"
+       },
+       {
+        "kind": "btn",
+        "t": "Payer 3 000 F",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Une offre pour toi",
+      "tapDelay": 2.6,
+      "rows": [
+       {
+        "t": "Pack 20 desserts",
+        "sub": "1 500 F",
+        "ic": "#0b57d0",
+        "l": "+"
+       },
+       {
+        "kind": "btn",
+        "t": "Oui, je l'ajoute",
+        "hl": true
+       },
+       {
+        "t": "Non merci"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Merci !",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Ton ebook est envoyé par e-mail et sur WhatsApp."
+       },
+       {
+        "t": "Télécharger maintenant",
+        "ic": "#1e8e3e",
+        "l": "✓"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Regarde un tunnel de vente, de l'intérieur.",
+     "Page une : l'offre. Un titre, un prix, un bouton.",
+     "Page deux : le paiement, avec Mobile Money.",
+     "Page trois : un petit bonus proposé juste après l'achat. Beaucoup de clients disent oui.",
+     "Page quatre : merci. Et le produit est livré tout seul."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "La <b>précommande</b>, c'est vendre avant d'acheter le stock.<br>Tu testes sans risque. Mais livre <b>toujours à la date promise</b>.",
+    "say": [
+     "Une astuce pour le physique : la précommande.",
+     "Tu présentes le produit, tu prends les commandes, et tu achètes le stock seulement après.",
+     "Zéro risque. Mais une règle : livre toujours à la date promise."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Lequel choisir ?",
+    "heading": "Ta situation, <em>ton modèle</em>",
+    "cols": [
+     "Ta situation",
+     "Ton modèle"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "Un ebook ou une formation",
+      "Tunnel de vente",
+      1,
+      0.8
+     ],
+     [
+      "5 produits ou plus",
+      "Boutique",
+      2,
+      0.8
+     ],
+     [
+      "Tu veux tester sans stock",
+      "Précommande",
+      3,
+      0.8
+     ],
+     [
+      "Un service chaque mois",
+      "Abonnement",
+      4,
+      0.8
+     ]
+    ],
+    "say": [
+     "Alors, lequel choisir ?",
+     "Tu vends un ebook ou une formation ? Le tunnel de vente.",
+     "Tu as cinq produits ou plus ? La boutique.",
+     "Tu veux tester un produit physique sans stock ? La précommande.",
+     "Tu proposes un suivi ou un contenu chaque mois ? L'abonnement."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "retenir",
+    "text": "Commence avec <b>un seul modèle</b>.<br>Tu pourras en ajouter un autre quand le premier vendra.",
+    "say": [
+     "Retiens ceci : commence avec un seul modèle.",
+     "Quand il vend, tu pourras en ajouter un autre."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Choisis <b>ton modèle</b><br>et écris-le dans ta fiche.",
+    "minutes": 2,
+    "say": [
+     "Pause. Choisis ton modèle, et écris-le dans ta fiche, à côté de ton parcours."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Boutique</b> pour plusieurs produits, <b>tunnel</b> pour un produit phare.",
+     "<b>Précommande</b> pour tester, <b>abonnement</b> pour revenir chaque mois.",
+     "<b>Un seul modèle</b> pour commencer."
+    ],
+    "say": [
+     "À retenir.",
+     "La boutique pour plusieurs produits. Le tunnel pour un produit phare.",
+     "La précommande pour tester. L'abonnement pour des revenus chaque mois.",
+     "Et un seul modèle pour commencer."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 4,
+    "of": 5,
+    "label": "Leçon 1.5 · Ton budget réaliste",
+    "say": [
+     "Dernière leçon du module : ton budget pour démarrer. Et surtout, comment ne pas tout perdre."
+    ]
+   }
+  ]
+ },
+ "1-5": {
+  "file": "VIDEO 1.5 - Ton budget réaliste",
+  "chip": "Module 1 · Leçon 1.5",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 1 · Leçon 1.5",
+    "l1": "Ton budget",
+    "l2": "<em>réaliste</em>",
+    "sub": "Et comment ne pas tout perdre",
+    "say": [
+     "Leçon cinq : ton budget réaliste pour démarrer."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Le vrai danger,",
+     "c'est de tout dépenser",
+     "<em>d'un coup</em>."
+    ],
+    "foot": "La solution : 3 enveloppes.",
+    "footAt": 2,
+    "say": [
+     "Le vrai danger quand on démarre, ce n'est pas de manquer d'argent.",
+     "C'est de tout dépenser d'un coup, sur une seule idée.",
+     "La solution est simple : trois enveloppes."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "La règle des 3 enveloppes",
+    "heading": "Sépare <em>ton argent</em>",
+    "cards": [
+     {
+      "icon": "bag",
+      "title": "Produit",
+      "text": "Créer l'ebook ou acheter un petit stock",
+      "seg": 1
+     },
+     {
+      "icon": "laptop",
+      "title": "Outils",
+      "text": "Gratuits d'abord, payants plus tard",
+      "seg": 2
+     },
+     {
+      "icon": "megaphone",
+      "title": "Publicité",
+      "text": "Tes premiers tests",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Divise ton budget en trois enveloppes.",
+     "Une pour le produit : créer ton ebook, ou acheter un petit stock.",
+     "Une pour les outils : commence avec les versions gratuites.",
+     "Et une pour la publicité : tes premiers tests. Quand une enveloppe est vide, tu ne pioches pas dans les autres."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Un départ <em>raisonnable</em>",
+    "cols": [
+     "Enveloppe",
+     "Exemple"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Produit",
+      "30 000 F",
+      1,
+      0.7
+     ],
+     [
+      "Outils",
+      "0 à 10 000 F",
+      2,
+      0.7
+     ],
+     [
+      "Publicité",
+      "20 000 F",
+      3,
+      0.7
+     ],
+     [
+      "Total",
+      "50 000 à 60 000 F",
+      4,
+      0.7
+     ]
+    ],
+    "say": [
+     "Voici un exemple, pour un petit départ.",
+     {
+      "say": "Produit : trente mille francs.",
+      "cap": "Produit : 30 000 F."
+     },
+     {
+      "say": "Outils : de zéro à dix mille francs. Au début, tout peut être gratuit.",
+      "cap": "Outils : de 0 à 10 000 F. Au début, tout peut être gratuit."
+     },
+     {
+      "say": "Publicité : vingt mille francs, pour plusieurs petits tests.",
+      "cap": "Publicité : 20 000 F, pour plusieurs petits tests."
+     },
+     {
+      "say": "Au total, entre cinquante et soixante mille francs. Adapte ces chiffres à ta situation : ce sont des exemples.",
+      "cap": "Au total, entre 50 000 et 60 000 F. Adapte ces chiffres à ta situation : ce sont des exemples."
+     }
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "retenir",
+    "text": "Règle d'or : ne mets en publicité que l'argent<br>que tu peux <b>perdre en apprenant</b>. Jamais l'argent du loyer.",
+    "say": [
+     "Et voici la règle d'or.",
+     "Ne mets en publicité que l'argent que tu peux perdre en apprenant.",
+     "Jamais l'argent du loyer. Jamais l'argent de la famille."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Monter par paliers",
+    "heading": "Petit, puis <em>plus grand</em>",
+    "steps": [
+     [
+      "Tester",
+      "Petits montants, plusieurs essais",
+      1
+     ],
+     [
+      "Valider",
+      "Les premières ventes arrivent",
+      2
+     ],
+     [
+      "Augmenter",
+      "Tu réinvestis tes gains",
+      3
+     ]
+    ],
+    "note": [
+     "On augmente le budget <b>quand ça vend</b>, jamais avant.",
+     4
+    ],
+    "say": [
+     "Ensuite, on monte par paliers.",
+     "Un : tester. De petits montants, plusieurs essais.",
+     "Deux : valider. Les premières ventes arrivent.",
+     "Trois : augmenter. Tu réinvestis une partie de tes gains.",
+     "On augmente le budget quand ça vend. Jamais avant."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Remplis tes <b>3 enveloppes</b><br>dans ta fiche.",
+    "minutes": 3,
+    "say": [
+     "À toi. Dans ta fiche, écris le montant de tes trois enveloppes : produit, outils, publicité.",
+     "Pause, et reviens."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Module 1 terminé",
+    "heading": "Tes <em>bases</em> sont posées",
+    "items": [
+     {
+      "icon": "repeat",
+      "title": "Les 4 étapes de ton client",
+      "check": 0,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "coin",
+      "title": "Ta marge estimée",
+      "check": 1,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "target",
+      "title": "Ton parcours et ton modèle",
+      "check": 2,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "shield",
+      "title": "Ton budget en 3 enveloppes",
+      "check": 3,
+      "checkDelay": 0.5
+     }
+    ],
+    "say": [
+     "Faisons le point. Les quatre étapes de ton client : écrites.",
+     "Ta marge : estimée.",
+     "Ton parcours et ton modèle : choisis.",
+     "Ton budget : en trois enveloppes."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>3 enveloppes</b> : produit, outils, publicité.",
+     "En publicité, seulement l'argent que tu peux <b>perdre en apprenant</b>.",
+     "On augmente <b>quand ça vend</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Trois enveloppes : produit, outils, publicité.",
+     "En publicité, seulement l'argent que tu peux perdre en apprenant.",
+     "Et on augmente quand ça vend."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 5,
+    "of": 5,
+    "label": "Module 2 · Trouver et valider ton produit",
+    "say": [
+     "Bravo, le module un est terminé. Tu parles maintenant le langage de la vente en ligne.",
+     "Fais le quiz, et rendez-vous au module deux : on va trouver ton produit, et vérifier qu'il se vend avant d'investir."
+    ]
+   }
+  ]
+ }
+}

@@ -40,7 +40,7 @@ Ce n'est pas de la magie. Ce n'est pas de la chance. C'est un **système**. Et c
 
 ### Deux chemins possibles
 
-Tu peux vendre un **produit digital** (une formation, un ebook, un coaching, des modèles) ou un **produit physique** (vêtements, cosmétiques, accessoires…). Les deux marchent. Tu choisiras au module 3.
+Tu peux vendre un **produit digital** (une formation, un ebook, un coaching, des modèles) ou un **produit physique** (vêtements, cosmétiques, accessoires…). Les deux marchent. Tu choisiras ton parcours au module 1, et tu le construiras au module 3.
 
 `[PHOTO]` Deux photos côte à côte. **À gauche** : les mains d'une personne qui tient un téléphone affichant une page de formation en ligne. **À droite** : des mains qui emballent un produit cosmétique dans un joli carton, avec une étiquette.
 

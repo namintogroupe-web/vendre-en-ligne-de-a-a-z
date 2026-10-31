@@ -290,3 +290,9 @@ b{font-weight:800}
 .s-week .wc i em{font-size:13px}
 .pr span{min-width:0;overflow-wrap:anywhere}
 .pr em{flex:none;text-align:right}
+/* module 1 : 4 cartes et comparatifs denses */
+.s-cards .cards.c4 .card{min-height:360px;padding:40px 36px}
+.s-cards .cards.c4 .card h3{margin-top:32px;font-size:40px}
+.s-cards .cards.c4 .card p{font-size:26px}
+.s-compare .cmp.dense{top:380px;gap:14px}
+.s-compare .cmp.dense .cl,.s-compare .cmp.dense .cv{padding:20px 36px;font-size:31px;border-radius:18px}
