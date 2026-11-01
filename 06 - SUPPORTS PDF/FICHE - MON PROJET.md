@@ -1,6 +1,6 @@
 # FICHE « MON PROJET »
 
-**VENDRE EN LIGNE DE A À Z** · Modules 0 à 3 · À remplir pendant les leçons
+**VENDRE EN LIGNE DE A À Z** · Modules 0 à 4 · À remplir pendant les leçons
 
 Range cette fiche dans ton dossier **MON BUSINESS**. Tu la complèteras tout au long de la formation.
 
@@ -245,6 +245,38 @@ Ma décision : ☐ petite première commande  ☐ correction + nouvel échantill
 Mon livreur : ........................  ☐ prix par zone  ☐ horaires  ☐ argent versé le jour même par Mobile Money  ☐ photo à chaque livraison
 
 **Mon stock (leçon 3B.8)** : ventes par semaine ........ × délai de réapprovisionnement (semaines) ........ = **seuil d'alerte ........**
+
+## 18. Mon kit de vente (module 4)
+
+**Ma promesse (leçon 4.1)** — pour qui + quel résultat + sans quel obstacle :
+
+> ............................................................................................................
+
+**Mon texte de vente (leçon 4.2)**
+
+| Étape | Mon texte |
+| --- | --- |
+| Problème | ............................................................ |
+| Solution | ............................................................ |
+| Preuve | ............................................................ |
+| Action | ............................................................ |
+
+**Mes preuves (leçon 4.3)** : ☐ 3 avis vrais (avec accord)  ☐ une démonstration  ☐ mon visage  ☐ une garantie
+
+**Mon offre (leçon 4.4)**
+
+| Brique | Ce que je propose |
+| --- | --- |
+| Produit | ............................................................ |
+| Bonus utiles | ............................................................ |
+| Garantie | ............................................................ |
+| Urgence vraie (date réelle) | ............................................................ |
+
+**Ma mini-charte (leçon 4.5)** : couleurs ........................ · polices ........................ · logo ☐
+
+**Mes contenus (leçons 4.5 et 4.6)** : ☐ visuel promesse  ☐ visuel preuve  ☐ visuel offre  ☐ vidéo de 20 secondes (accroche : ................................................)
+
+**Mon prompt IA (leçon 4.7)** : rôle ☐  contexte ☐  tâche ☐  format ☐ — relu et vérifié ☐
 
 ---
 

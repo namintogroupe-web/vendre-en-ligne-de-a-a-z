@@ -1,0 +1,1383 @@
+{
+ "4-1": {
+  "file": "VIDEO 4.1 - La promesse",
+  "chip": "Module 4 · Leçon 4.1",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 4 · Leçon 4.1",
+    "l1": "La promesse",
+    "l2": "<em>en une phrase</em>",
+    "sub": "Ce que ton client gagne",
+    "say": [
+     "Bienvenue dans le module quatre : le message qui fait vendre. Leçon une : la promesse."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Ton client a",
+     "<em>3 secondes</em>",
+     "pour comprendre."
+    ],
+    "foot": "Sinon, il fait défiler.",
+    "footAt": 2,
+    "say": [
+     "Sur un téléphone, ton client te donne trois secondes.",
+     "Pas une de plus.",
+     "S'il ne comprend pas tout de suite ce qu'il gagne, il fait défiler. Ta promesse doit tenir en une phrase."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "La formule",
+    "heading": "Une promesse en <em>3 morceaux</em>",
+    "steps": [
+     [
+      "Pour qui",
+      "Ta cible précise",
+      1
+     ],
+     [
+      "Le résultat",
+      "Ce qu'il gagne",
+      2
+     ],
+     [
+      "Sans quoi",
+      "L'obstacle qu'il redoute",
+      3
+     ]
+    ],
+    "note": [
+     "Pour <b>qui</b> + quel <b>résultat</b> + sans quel <b>obstacle</b>.",
+     4
+    ],
+    "say": [
+     "Voici la formule.",
+     "Un : pour qui. Ta cible, précise.",
+     "Deux : le résultat. Ce que la personne gagne, concrètement.",
+     "Trois : sans quoi. L'obstacle qu'elle redoute.",
+     "Pour qui, quel résultat, et sans quel obstacle."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemples",
+    "heading": "De flou à <em>clair</em>",
+    "cols": [
+     "Trop flou",
+     "Une vraie promesse"
+    ],
+    "leftBad": true,
+    "rightGood": true,
+    "rows": [
+     [
+      "Crème de qualité",
+      "Des mains douces en 7 jours, sans produit chimique",
+      1,
+      1.0
+     ],
+     [
+      "Ebook de cuisine",
+      "30 repas sains pour la famille, prêts en 30 minutes",
+      2,
+      1.0
+     ],
+     [
+      "Formation Excel",
+      "Ton 1er tableau de bord en 1 week-end",
+      3,
+      1.0
+     ]
+    ],
+    "say": [
+     "Regarde la différence.",
+     "« Crème de qualité » : ça ne dit rien. « Des mains douces en sept jours, sans produit chimique » : là, on comprend.",
+     "« Ebook de cuisine » devient : « trente repas sains pour la famille, prêts en trente minutes ».",
+     "Et « formation Excel » devient : « ton premier tableau de bord en un week-end, même si tu débutes »."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Une promesse doit être <b>vraie</b> et <b>tenable</b>.<br>Jamais « guérit tout », jamais « riche en 7 jours ».",
+    "strike": "Résultat garanti à 100 %",
+    "strikeAt": 0,
+    "say": [
+     "Attention. Une promesse doit être vraie, et tenable.",
+     "Jamais « guérit tout ». Jamais « riche en sept jours ». Une fausse promesse t'apporte une vente… et un client fâché. Et les plateformes publicitaires bloquent ces messages."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Le test : lis ta promesse à quelqu'un de ta cible.<br>S'il répond <b>« ah, c'est pour moi »</b>, c'est gagné.",
+    "say": [
+     "Une astuce pour tester ta promesse.",
+     "Lis-la à quelqu'un de ta cible. S'il répond « ah, ça, c'est pour moi », c'est gagné."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Écris <b>3 versions</b> de ta promesse<br>et garde la plus claire.",
+    "minutes": 5,
+    "say": [
+     "À toi. Écris trois versions de ta promesse, avec la formule.",
+     "Lis-les à voix haute, et garde la plus claire. Note-la dans ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Ton client a <b>3 secondes</b> : une phrase suffit.",
+     "Pour <b>qui</b>, quel <b>résultat</b>, sans quel <b>obstacle</b>.",
+     "Une promesse <b>vraie et tenable</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Trois secondes, une phrase.",
+     "Pour qui, quel résultat, sans quel obstacle.",
+     "Et une promesse vraie, que tu peux tenir."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 1,
+    "of": 7,
+    "label": "Leçon 4.2 · Écrire pour vendre",
+    "say": [
+     "Prochaine leçon : écrire un texte de vente complet, avec une méthode en quatre étapes."
+    ]
+   }
+  ]
+ },
+ "4-2": {
+  "file": "VIDEO 4.2 - Ecrire pour vendre",
+  "chip": "Module 4 · Leçon 4.2",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 4 · Leçon 4.2",
+    "l1": "Écrire",
+    "l2": "<em>pour vendre</em>",
+    "sub": "Problème → Solution → Preuve → Action",
+    "say": [
+     "Leçon deux : écrire simplement, pour vendre."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Pas besoin d'être",
+     "un grand écrivain.",
+     "Il faut une <em>méthode</em>."
+    ],
+    "foot": "4 étapes, toujours dans le même ordre.",
+    "footAt": 2,
+    "say": [
+     "Bonne nouvelle : pas besoin d'être un grand écrivain.",
+     "Les meilleurs textes de vente sont simples.",
+     "Il te faut juste une méthode. Quatre étapes, toujours dans le même ordre."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "La méthode",
+    "heading": "Problème → Solution → <em>Preuve</em> → Action",
+    "steps": [
+     [
+      "Problème",
+      "Il se reconnaît",
+      1
+     ],
+     [
+      "Solution",
+      "Ton produit l'aide",
+      2
+     ],
+     [
+      "Preuve",
+      "Il te croit",
+      3
+     ],
+     [
+      "Action",
+      "Il sait quoi faire",
+      4
+     ]
+    ],
+    "say": [
+     "Voici la méthode.",
+     "Un : le problème. Ton client se reconnaît.",
+     "Deux : la solution. Ton produit, et ce qu'il change.",
+     "Trois : la preuve. Il te croit.",
+     "Quatre : l'action. Il sait exactement quoi faire."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Exemple",
+    "heading": "Un post <em>WhatsApp</em> qui vend",
+    "steps": [
+     [
+      "Le problème",
+      1
+     ],
+     [
+      "La solution",
+      2
+     ],
+     [
+      "La preuve",
+      3
+     ],
+     [
+      "L'action",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Statut · Douceur Karité",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Tes mains sont sèches et tirent, même après la crème ?"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Statut · Douceur Karité",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Tes mains sont sèches et tirent, même après la crème ?"
+       },
+       {
+        "kind": "note",
+        "t": "Notre crème au karité pur les nourrit en profondeur. Des mains douces en 7 jours."
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Statut · Douceur Karité",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Notre crème au karité pur les nourrit en profondeur. Des mains douces en 7 jours."
+       },
+       {
+        "t": "★★★★★ « Enfin des mains douces ! »",
+        "sub": "Awa, Abidjan",
+        "ic": "#f59e0b",
+        "l": "A"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Statut · Douceur Karité",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "★★★★★ « Enfin des mains douces ! »",
+        "sub": "Awa",
+        "ic": "#f59e0b",
+        "l": "A"
+       },
+       {
+        "kind": "btn",
+        "t": "Écris « KARITÉ » pour commander",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Regarde un exemple, sur un statut WhatsApp.",
+     "Le problème : « Tes mains sont sèches et tirent, même après la crème ? »",
+     "La solution : « Notre crème au karité pur les nourrit en profondeur. Des mains douces en sept jours. »",
+     "La preuve : un vrai avis, d'une vraie cliente.",
+     "Et l'action : « Écris KARITÉ pour commander. » Une seule action, claire."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Écrire simple",
+    "heading": "Les mots qui <em>parlent</em>",
+    "cols": [
+     "À éviter",
+     "À préférer"
+    ],
+    "leftBad": true,
+    "rightGood": true,
+    "rows": [
+     [
+      "Formule révolutionnaire",
+      "Ta peau est douce dès le 3e jour",
+      1,
+      0.9
+     ],
+     [
+      "Nous sommes leaders du marché",
+      "Déjà 300 clientes à Abidjan",
+      2,
+      0.9
+     ],
+     [
+      "Contactez-nous pour plus d'informations",
+      "Écris « OUI » sur WhatsApp",
+      3,
+      0.9
+     ]
+    ],
+    "say": [
+     "Trois règles d'écriture.",
+     "Pas de grands mots vides. Décris ce que la personne vit : « ta peau est douce dès le troisième jour ».",
+     "Parle de ton client, pas de toi.",
+     "Et termine toujours par une action précise : « Écris OUI sur WhatsApp »."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Écris comme tu parles à <b>une seule personne</b>.<br>Phrases courtes. Un message par paragraphe. Tutoiement si ta cible l'accepte.",
+    "say": [
+     "Une astuce : écris comme si tu parlais à une seule personne, en face de toi.",
+     "Des phrases courtes. Une idée par paragraphe. C'est ça qui se lit sur un téléphone."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Écris ton texte de vente<br>avec les <b>4 étapes</b>.",
+    "minutes": 15,
+    "say": [
+     "À toi. Écris ton texte de vente avec les quatre étapes : problème, solution, preuve, action.",
+     "Commence court : cinq à huit lignes. Pause."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Problème → Solution → Preuve → Action</b>.",
+     "Parle du client, avec des mots <b>concrets</b>.",
+     "Une seule action, <b>claire</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Problème, solution, preuve, action.",
+     "Parle de ton client, avec des mots concrets.",
+     "Et une seule action, claire."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 2,
+    "of": 7,
+    "label": "Leçon 4.3 · Les preuves qui rassurent",
+    "say": [
+     "Prochaine leçon : les preuves qui rassurent. Parce qu'un client qui doute n'achète pas."
+    ]
+   }
+  ]
+ },
+ "4-3": {
+  "file": "VIDEO 4.3 - Les preuves qui rassurent",
+  "chip": "Module 4 · Leçon 4.3",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 4 · Leçon 4.3",
+    "l1": "Les preuves",
+    "l2": "<em>qui rassurent</em>",
+    "sub": "Avis, démonstrations, garanties",
+    "say": [
+     "Leçon trois : les preuves qui rassurent."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "En ligne,",
+     "le client a <em>peur</em>",
+     "d'être arnaqué."
+    ],
+    "foot": "Ton travail : le rassurer, avec des preuves vraies.",
+    "footAt": 2,
+    "say": [
+     "Sois honnête avec toi : en ligne, ton client a peur.",
+     "Peur que le produit ne marche pas. Peur de ne jamais être livré.",
+     "Ton travail, c'est de le rassurer. Avec des preuves, et des preuves vraies."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "4 preuves",
+    "heading": "Ce qui fait <em>confiance</em>",
+    "cards": [
+     {
+      "icon": "chat",
+      "title": "Vrais avis",
+      "text": "Captures, avec accord du client",
+      "seg": 1
+     },
+     {
+      "icon": "eye",
+      "title": "Démonstration",
+      "text": "Le produit en action, en vidéo",
+      "seg": 2
+     },
+     {
+      "icon": "users",
+      "title": "Ton visage",
+      "text": "Une vraie personne derrière",
+      "seg": 3
+     },
+     {
+      "icon": "shield",
+      "title": "Garantie",
+      "text": "Satisfait ou on corrige",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Voici les quatre preuves les plus fortes.",
+     "Les vrais avis : des captures de messages de clients, avec leur accord.",
+     "La démonstration : ton produit en action, en vidéo.",
+     "Ton visage : montrer qu'il y a une vraie personne derrière la page.",
+     "Et la garantie : si ça ne va pas, tu corriges ou tu rembourses."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Demander un <em>avis</em> au bon moment",
+    "steps": [
+     [
+      "3 jours après la livraison",
+      1
+     ],
+     [
+      "Une question simple",
+      2
+     ],
+     [
+      "Demande l'accord",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "WhatsApp · Awa K.",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Awa K.",
+        "sub": "Livrée il y a 3 jours",
+        "ic": "#25d366",
+        "l": "A"
+       },
+       {
+        "kind": "note",
+        "t": "Bonjour Awa ! Comment trouves-tu ta crème après ces 3 jours ?"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "WhatsApp · Awa K.",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Bonjour Awa ! Comment trouves-tu ta crème après ces 3 jours ?"
+       },
+       {
+        "t": "« Franchement top, mes mains sont douces ! »",
+        "sub": "Awa",
+        "ic": "#f59e0b",
+        "l": "A"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "WhatsApp · Awa K.",
+      "tapDelay": 1.8,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Merci ! Puis-je partager ton message, avec ton prénom ?"
+       },
+       {
+        "kind": "btn",
+        "t": "« Oui, bien sûr ! »",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Comment obtenir des avis ? Tu les demandes. Au bon moment.",
+     "Trois jours après la livraison, un petit message : « Comment trouves-tu ta crème ? »",
+     "La cliente répond avec ses propres mots. Ce sont les meilleurs.",
+     "Et tu demandes toujours son accord avant de partager, avec son prénom seulement."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "eviter",
+    "text": "Jamais de <b>faux avis</b>, jamais d'avis inventés ou achetés.<br>C'est malhonnête, et souvent illégal. Un seul faux avis détruit ta confiance.",
+    "strike": "« 500 avis 5 étoiles » inventés",
+    "strikeAt": 0,
+    "say": [
+     "À éviter absolument : les faux avis.",
+     "Jamais d'avis inventés, jamais d'avis achetés. C'est malhonnête, et souvent illégal. Un seul faux avis découvert, et toute ta confiance s'effondre."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Pas encore de clients ? Offre ton produit à <b>3 personnes</b> de ta cible<br>en échange d'un avis honnête. Tes premières preuves sont là.",
+    "say": [
+     "Tu n'as pas encore de clients ?",
+     "Offre ton produit à trois personnes de ta cible, en échange d'un avis honnête. Tes premières preuves arrivent en une semaine."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Rassemble tes <b>3 premières preuves</b> :<br>avis, démonstration, garantie.",
+    "minutes": 10,
+    "say": [
+     "Pause. Rassemble tes trois premières preuves, et range-les dans ton dossier « deux, vente »."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Le client a <b>peur</b> : rassure-le.",
+     "Avis, démonstration, visage, <b>garantie</b>.",
+     "Des preuves <b>vraies</b>, toujours avec accord."
+    ],
+    "say": [
+     "À retenir.",
+     "Ton client a peur : rassure-le.",
+     "Des avis, une démonstration, ton visage, une garantie.",
+     "Et uniquement des preuves vraies, avec l'accord des clients."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 3,
+    "of": 7,
+    "label": "Leçon 4.4 · Une offre irrésistible",
+    "say": [
+     "Prochaine leçon : construire une offre irrésistible. Honnêtement."
+    ]
+   }
+  ]
+ },
+ "4-4": {
+  "file": "VIDEO 4.4 - Une offre irresistible",
+  "chip": "Module 4 · Leçon 4.4",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 4 · Leçon 4.4",
+    "l1": "Une offre",
+    "l2": "<em>irrésistible</em>",
+    "sub": "Bonus, urgence honnête, garantie",
+    "say": [
+     "Leçon quatre : construire une offre irrésistible."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Le client n'achète pas",
+     "un produit.",
+     "Il achète une <em>offre</em>."
+    ],
+    "foot": "Produit + bonus + garantie + raison d'agir maintenant",
+    "footAt": 2,
+    "say": [
+     "Tu te souviens du module un ?",
+     "Le client n'achète pas seulement un produit.",
+     "Il achète une offre. Et une bonne offre se construit en quatre briques."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les 4 briques",
+    "heading": "Ce qui rend une offre <em>forte</em>",
+    "cards": [
+     {
+      "icon": "bag",
+      "title": "Le produit",
+      "text": "Avec sa promesse",
+      "seg": 1
+     },
+     {
+      "icon": "target",
+      "title": "Les bonus",
+      "text": "Utiles, liés au résultat",
+      "seg": 2
+     },
+     {
+      "icon": "shield",
+      "title": "La garantie",
+      "text": "Le risque passe sur toi",
+      "seg": 3
+     },
+     {
+      "icon": "clock",
+      "title": "L'urgence",
+      "text": "Une vraie raison d'agir",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Les quatre briques.",
+     "Le produit, avec sa promesse.",
+     "Les bonus : de petits plus, utiles, liés au résultat. Par exemple, un calendrier de routine avec la crème.",
+     "La garantie : tu prends le risque à la place du client.",
+     "Et l'urgence : une vraie raison d'acheter maintenant."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "La même crème, <em>deux offres</em>",
+    "cols": [
+     "Offre simple",
+     "Offre forte"
+    ],
+    "rightGood": true,
+    "example": true,
+    "rows": [
+     [
+      "Crème 5 000 F",
+      "Crème + guide routine 7 jours",
+      1,
+      0.8
+     ],
+     [
+      "Pas de garantie",
+      "Pas satisfaite ? On échange",
+      2,
+      0.8
+     ],
+     [
+      "Disponible toujours",
+      "Prix de lancement jusqu'à dimanche",
+      3,
+      0.8
+     ]
+    ],
+    "say": [
+     "Regarde la même crème, avec deux offres.",
+     "À gauche : « crème, cinq mille francs ». À droite : la crème, plus un guide de routine sur sept jours.",
+     "Pas de garantie, contre : « pas satisfaite, on échange ».",
+     "Et « disponible toujours », contre : « prix de lancement jusqu'à dimanche ». La seconde se vend beaucoup mieux."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "L'urgence doit être <b>vraie</b>. Si tu dis « jusqu'à dimanche »,<br>le prix remonte <b>vraiment</b> lundi. Sinon, tu perds ta crédibilité.",
+    "say": [
+     "Attention à l'urgence. Elle doit être vraie.",
+     "Si tu dis « jusqu'à dimanche », le prix remonte vraiment lundi. Les faux comptes à rebours, les clients les voient. Et ils ne reviennent pas."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Une garantie simple rassure plus qu'un long discours.<br><b>« Pas satisfait sous 7 jours ? On échange ou on rembourse. »</b>",
+    "say": [
+     "Une astuce : une garantie simple vaut mieux qu'un long discours.",
+     "« Pas satisfait sous sept jours ? On échange, ou on rembourse. » Très peu de clients l'utilisent. Mais tous se sentent en confiance."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Construis ton offre :<br>produit, <b>bonus</b>, <b>garantie</b>, urgence vraie.",
+    "minutes": 10,
+    "say": [
+     "Pause. Construis ton offre avec les quatre briques, et écris-la dans ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Une offre = produit + <b>bonus</b> + <b>garantie</b> + urgence.",
+     "Des bonus <b>utiles</b>, liés au résultat.",
+     "Une urgence <b>vraie</b>, toujours."
+    ],
+    "say": [
+     "À retenir.",
+     "Produit, bonus, garantie, urgence.",
+     "Des bonus utiles.",
+     "Et une urgence vraie, toujours."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 4,
+    "of": 7,
+    "label": "Leçon 4.5 · Tes visuels avec Canva",
+    "say": [
+     "Prochaine leçon : créer tes visuels avec Canva, en suivant une charte."
+    ]
+   }
+  ]
+ },
+ "4-5": {
+  "file": "VIDEO 4.5 - Tes visuels avec Canva",
+  "chip": "Module 4 · Leçon 4.5",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 4 · Leçon 4.5",
+    "l1": "Tes visuels",
+    "l2": "<em>avec Canva</em>",
+    "sub": "Une charte, trois formats",
+    "say": [
+     "Leçon cinq : créer tes visuels avec Canva."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Ta mini-charte",
+    "heading": "3 décisions, <em>une fois pour toutes</em>",
+    "cards": [
+     {
+      "icon": "brush",
+      "title": "2 couleurs",
+      "text": "Une principale, une d'accent",
+      "seg": 1
+     },
+     {
+      "icon": "note",
+      "title": "2 polices",
+      "text": "Une pour les titres, une pour le texte",
+      "seg": 2
+     },
+     {
+      "icon": "bag",
+      "title": "Ton logo",
+      "text": "Toujours au même endroit",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Avant de créer, prends trois décisions. Une fois pour toutes.",
+     "Deux couleurs : une principale, et une d'accent.",
+     "Deux polices : une pour les titres, une pour le texte.",
+     "Et ton logo, toujours au même endroit. C'est ta mini-charte. C'est elle qui te rend reconnaissable."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Ton visuel <em>dans Canva</em>",
+    "steps": [
+     [
+      "Choisis le format",
+      1
+     ],
+     [
+      "Prends un modèle sobre",
+      2
+     ],
+     [
+      "Applique ta charte",
+      3
+     ],
+     [
+      "Télécharge en PNG",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Canva · Créer",
+      "tapAt": 1,
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "Publication Instagram",
+        "sub": "1080 × 1080",
+        "ic": "#00c4cc",
+        "l": "C"
+       },
+       {
+        "t": "Story",
+        "sub": "1080 × 1920",
+        "ic": "#00c4cc",
+        "l": "C",
+        "hl": true
+       },
+       {
+        "t": "Publication Facebook",
+        "sub": "1200 × 630",
+        "ic": "#00c4cc",
+        "l": "C"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Modèles · Story",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "t": "Promo beauté minimaliste",
+        "ic": "#e7f0ff",
+        "l": "1",
+        "hl": true
+       },
+       {
+        "t": "Soldes flashy",
+        "ic": "#fde8e7",
+        "l": "2"
+       },
+       {
+        "t": "Produit sur fond blanc",
+        "ic": "#f3f2ec",
+        "l": "3"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Ta marque",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "t": "Couleurs",
+        "sub": "#0B57D0 · #F59E0B",
+        "ic": "#0b57d0",
+        "l": "●"
+       },
+       {
+        "t": "Polices",
+        "sub": "Titre · Texte"
+       },
+       {
+        "t": "Logo",
+        "sub": "En haut à droite",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Partager",
+      "tapDelay": 1.8,
+      "rows": [
+       {
+        "t": "Type de fichier",
+        "sub": "PNG"
+       },
+       {
+        "kind": "btn",
+        "t": "Télécharger",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ouvre Canva, je te montre.",
+     "Choisis le format. Une story, c'est vertical. Une publication, c'est carré.",
+     "Prends un modèle sobre. Moins il y a d'éléments, plus le message est clair.",
+     "Applique ta charte : tes couleurs, tes polices, ton logo. Remplace la photo par la tienne.",
+     "Puis Partager, Télécharger, en PNG."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le contrôle",
+    "heading": "Un bon visuel, <em>en 4 points</em>",
+    "items": [
+     {
+      "icon": "eye",
+      "title": "Lisible sur un petit écran",
+      "text": "Gros texte, fort contraste",
+      "show": 1
+     },
+     {
+      "icon": "target",
+      "title": "Un seul message",
+      "text": "Ta promesse, pas tout ton catalogue",
+      "show": 2
+     },
+     {
+      "icon": "bag",
+      "title": "Ton vrai produit",
+      "text": "Tes propres photos",
+      "show": 3
+     },
+     {
+      "icon": "link",
+      "title": "Une action",
+      "text": "Commander, écrire, cliquer",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Avant de publier, vérifie quatre points.",
+     "Est-il lisible sur un petit écran ? Gros texte, fort contraste.",
+     "Un seul message : ta promesse. Pas tout ton catalogue.",
+     "Ton vrai produit, avec tes propres photos.",
+     "Et une action claire."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Crée <b>3 visuels</b> d'un coup avec le même modèle :<br>la promesse, la preuve, l'offre. Tu as une semaine de publications.",
+    "say": [
+     "Une astuce de productivité : crée trois visuels d'un coup, avec le même modèle.",
+     "Un pour la promesse, un pour la preuve, un pour l'offre. Et tu as une semaine de publications."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée tes <b>3 visuels</b> :<br>promesse, preuve, offre.",
+    "minutes": 20,
+    "say": [
+     "Pause. Crée tes trois visuels : promesse, preuve, offre. Range-les dans ton dossier « trois, publicité »."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Une mini-charte : <b>2 couleurs, 2 polices, 1 logo</b>.",
+     "Lisible, <b>un seul message</b>, ton vrai produit.",
+     "<b>3 visuels</b> : promesse, preuve, offre."
+    ],
+    "say": [
+     "À retenir.",
+     "Deux couleurs, deux polices, un logo.",
+     "Lisible, un seul message, ton vrai produit.",
+     "Et trois visuels : promesse, preuve, offre."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 5,
+    "of": 7,
+    "label": "Leçon 4.6 · Les vidéos courtes qui vendent",
+    "say": [
+     "Prochaine leçon : les vidéos courtes qui vendent. Tout se joue dans les trois premières secondes."
+    ]
+   }
+  ]
+ },
+ "4-6": {
+  "file": "VIDEO 4.6 - Les videos courtes qui vendent",
+  "chip": "Module 4 · Leçon 4.6",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 4 · Leçon 4.6",
+    "l1": "Les vidéos courtes",
+    "l2": "<em>qui vendent</em>",
+    "sub": "Tout se joue en 3 secondes",
+    "say": [
+     "Leçon six : les vidéos courtes qui vendent."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Les <em>3 premières secondes</em>",
+     "décident de tout.",
+     "On appelle ça l'accroche."
+    ],
+    "foot": "Pas de logo, pas de « bonjour » : on entre direct.",
+    "footAt": 2,
+    "say": [
+     "Sur TikTok, Reels ou les statuts, les trois premières secondes décident de tout.",
+     "Si elles n'accrochent pas, la personne fait défiler.",
+     "On appelle ça l'accroche. Pas de logo au début, pas de « bonjour à tous ». On entre directement dans le sujet."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "4 accroches",
+    "heading": "Des débuts qui <em>arrêtent</em> le pouce",
+    "cards": [
+     {
+      "icon": "help",
+      "title": "La question",
+      "text": "« Tes mains tirent après la vaisselle ? »",
+      "seg": 1
+     },
+     {
+      "icon": "eye",
+      "title": "L'avant-après",
+      "text": "Le résultat dès la 1re seconde",
+      "seg": 2
+     },
+     {
+      "icon": "warn",
+      "title": "L'erreur",
+      "text": "« Arrête de faire ça avec ta crème »",
+      "seg": 3
+     },
+     {
+      "icon": "bulb",
+      "title": "Le geste",
+      "text": "Le produit en action, en gros plan",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Quatre accroches qui marchent.",
+     "La question : « Tes mains tirent après la vaisselle ? »",
+     "L'avant-après : tu montres le résultat dès la première seconde.",
+     "L'erreur : « Arrête de faire ça avec ta crème. »",
+     "Et le geste : le produit en action, en gros plan."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "La structure",
+    "heading": "Une vidéo de <em>20 secondes</em>",
+    "steps": [
+     [
+      "0 à 3 s",
+      "L'accroche",
+      1
+     ],
+     [
+      "3 à 12 s",
+      "La démonstration",
+      2
+     ],
+     [
+      "12 à 17 s",
+      "La preuve",
+      3
+     ],
+     [
+      "17 à 20 s",
+      "L'action",
+      4
+     ]
+    ],
+    "say": [
+     "Voici la structure d'une vidéo de vingt secondes.",
+     "De zéro à trois secondes : l'accroche.",
+     "De trois à douze : la démonstration.",
+     "De douze à dix-sept : la preuve, un avis ou un résultat.",
+     "Et à la fin : l'action. « Écris KARITÉ en commentaire »."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Beaucoup regardent <b>sans le son</b> : ajoute toujours les sous-titres.<br>Et filme en <b>vertical</b>, à la lumière d'une fenêtre.",
+    "say": [
+     "Une astuce importante : beaucoup de gens regardent sans le son.",
+     "Ajoute toujours des sous-titres, comme on l'a vu avec CapCut. Et filme en vertical, près d'une fenêtre."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Musique : utilise la <b>bibliothèque de l'application</b>.<br>Une musique protégée peut faire bloquer ta vidéo ou ta publicité.",
+    "say": [
+     "Attention à la musique.",
+     "Utilise celle de la bibliothèque de l'application. Une musique protégée peut faire bloquer ta vidéo, surtout si tu en fais une publicité."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Filme ta première <b>vidéo de 20 secondes</b>,<br>avec une accroche forte.",
+    "minutes": 20,
+    "say": [
+     "Pause. Écris ton accroche, filme ta vidéo de vingt secondes, ajoute les sous-titres. Et regarde-la sans le son : est-ce qu'on comprend ?"
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Les <b>3 premières secondes</b> décident de tout.",
+     "Accroche, démonstration, preuve, <b>action</b>.",
+     "Vertical, <b>sous-titres</b>, musique libre."
+    ],
+    "say": [
+     "À retenir.",
+     "Trois secondes pour accrocher.",
+     "Accroche, démonstration, preuve, action.",
+     "En vertical, avec sous-titres, et une musique libre."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 6,
+    "of": 7,
+    "label": "Leçon 4.7 · L'IA pour écrire",
+    "say": [
+     "Dernière leçon du module : utiliser l'intelligence artificielle pour t'aider à écrire, sans perdre ta voix."
+    ]
+   }
+  ]
+ },
+ "4-7": {
+  "file": "VIDEO 4.7 - L'IA pour ecrire",
+  "chip": "Module 4 · Leçon 4.7",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 4 · Leçon 4.7",
+    "l1": "L'IA pour écrire,",
+    "l2": "<em>sans perdre ta voix</em>",
+    "sub": "Tu décides, l'IA propose",
+    "say": [
+     "Leçon sept : utiliser l'intelligence artificielle pour écrire, sans perdre ta voix."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "L'IA écrit <em>vite</em>.",
+     "Toi, tu connais",
+     "<em>ton client</em>."
+    ],
+    "foot": "Ensemble, vous écrivez mieux.",
+    "footAt": 2,
+    "say": [
+     "L'intelligence artificielle écrit très vite.",
+     "Mais c'est toi qui connais ton client, ses mots, ses peurs.",
+     "Ensemble, vous écrivez mieux et plus vite. À condition de bien lui parler."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Un bon prompt",
+    "heading": "4 informations <em>à donner</em>",
+    "steps": [
+     [
+      "Le rôle",
+      "« Tu es rédacteur »",
+      1
+     ],
+     [
+      "Le contexte",
+      "Produit, prix, cible",
+      2
+     ],
+     [
+      "La tâche",
+      "Ce que tu veux",
+      3
+     ],
+     [
+      "Le format",
+      "Longueur, ton",
+      4
+     ]
+    ],
+    "say": [
+     "Un bon message à l'IA, on appelle ça un prompt, contient quatre informations.",
+     "Le rôle : « Tu es un rédacteur spécialisé dans la vente sur WhatsApp. »",
+     "Le contexte : ton produit, ton prix, ta cible, ta promesse.",
+     "La tâche : ce que tu veux. Par exemple, cinq accroches.",
+     "Et le format : la longueur, le ton, le tutoiement."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "5 accroches <em>en 30 secondes</em>",
+    "steps": [
+     [
+      "Colle ton prompt",
+      0
+     ],
+     [
+      "Lis les propositions",
+      1
+     ],
+     [
+      "Corrige avec tes mots",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Assistant IA",
+      "tapDelay": 3.0,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Ton message",
+        "t": "Tu es rédacteur. Crème karité 5 000 F, femmes 25-40 ans à Abidjan, mains sèches. Écris 5 accroches de vidéo, tutoiement."
+       },
+       {
+        "kind": "btn",
+        "t": "Envoyer",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Assistant IA",
+      "tap": false,
+      "rows": [
+       {
+        "t": "1. Tes mains tirent après la vaisselle ?",
+        "ic": "#10a37f",
+        "l": "IA"
+       },
+       {
+        "t": "2. 7 jours pour des mains douces",
+        "ic": "#10a37f",
+        "l": "IA"
+       },
+       {
+        "t": "3. Le secret karité de ma grand-mère",
+        "ic": "#10a37f",
+        "l": "IA"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Mes notes",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Tes mains tirent après la vaisselle ? Regarde ça.",
+        "ic": "#0b57d0",
+        "l": "✓",
+        "hl": true
+       },
+       {
+        "kind": "note",
+        "t": "J'ai retiré « le secret de ma grand-mère » : ce n'est pas vrai pour moi."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Regarde. Je colle mon prompt dans un assistant IA, et j'envoie.",
+     "En quelques secondes, j'ai cinq propositions.",
+     "Je garde la meilleure, et je la réécris avec mes mots. Et je retire ce qui n'est pas vrai pour moi. Je n'ai pas de grand-mère experte du karité : donc je ne le dis pas."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Avant de publier",
+    "heading": "Relis <em>toujours</em>",
+    "items": [
+     {
+      "icon": "check",
+      "title": "C'est vrai ?",
+      "text": "Aucune promesse inventée par l'IA",
+      "show": 1
+     },
+     {
+      "icon": "chat",
+      "title": "Ça sonne comme toi ?",
+      "text": "Tes mots, ton ton, tes expressions",
+      "show": 2
+     },
+     {
+      "icon": "users",
+      "title": "Ça parle à ta cible ?",
+      "text": "Lis-le à voix haute",
+      "show": 3
+     }
+    ],
+    "say": [
+     "Avant de publier un texte écrit avec l'IA, trois vérifications.",
+     "Est-ce que c'est vrai ? L'IA invente parfois des chiffres ou des promesses.",
+     "Est-ce que ça sonne comme toi ? Tes mots, ton ton.",
+     "Et est-ce que ça parle à ta cible ? Lis-le à voix haute."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "retenir",
+    "text": "L'IA <b>propose</b>, c'est toi qui <b>décides</b>.<br>Ne publie jamais un texte que tu n'as pas relu.",
+    "say": [
+     "Retiens bien : l'IA propose, c'est toi qui décides.",
+     "Ne publie jamais un texte que tu n'as pas relu. Au module treize, on ira beaucoup plus loin avec l'IA, pour automatiser."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Demande à l'IA <b>5 accroches</b>,<br>garde la meilleure, réécris-la.",
+    "minutes": 10,
+    "say": [
+     "Pause. Demande cinq accroches à l'IA avec la méthode des quatre informations. Garde la meilleure, et réécris-la avec tes mots."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Module 4 terminé",
+    "heading": "Ton <em>kit de vente</em> est prêt",
+    "items": [
+     {
+      "icon": "target",
+      "title": "Ta promesse en une phrase",
+      "check": 0,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "note",
+      "title": "Ton texte de vente en 4 étapes",
+      "check": 1,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "shield",
+      "title": "Tes preuves et ton offre",
+      "check": 2,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "brush",
+      "title": "3 visuels et 1 vidéo courte",
+      "check": 3,
+      "checkDelay": 0.5
+     }
+    ],
+    "say": [
+     "Faisons le point. Ta promesse : écrite.",
+     "Ton texte de vente : prêt.",
+     "Tes preuves et ton offre : construites.",
+     "Tes trois visuels et ta vidéo : créés. Ton kit de vente est complet."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 7,
+    "of": 7,
+    "label": "Module 5 · Ta page de vente et ta boutique",
+    "say": [
+     "Bravo, le module quatre est terminé. Fais le quiz, et rendez-vous au module cinq : on met tout ça en ligne, sur ta page de vente."
+    ]
+   }
+  ]
+ }
+}
