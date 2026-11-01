@@ -26,12 +26,16 @@ Shopify · WooCommerce · Systeme.io · Chariow · Meta Ads (Facebook, Instagram
 | 07 - EXPORTS VIDEO | Vidéos finales |
 | 08 - EBOOK | Ebook bonus : toute la formation en version écrite et illustrée |
 
-## Avancement
-- [x] Identité visuelle (design system Digital Pro)
-- [x] Programme complet (135 leçons + bonus IA)
-- [ ] Scripts narrés (modules 0 à 3B faits)
-- [ ] Animations (moteur v2 + storyboards des modules 0 à 5)
-- [ ] Audio (voix Tony des modules 0 à 3B générées)
-- [ ] Supports PDF (fiche « Mon projet » : modules 0 à 5)
-- [ ] Exports vidéo (modules 0 à 3B, sur D: — trop lourds pour GitHub)
-- [ ] Ebook (plan + chapitres 0 à 5 faits)
+## Avancement (1er novembre 2026)
+| Module | Storyboards | Voix | Vidéos finales | Script + quiz | Fiche | Ebook |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 · Bienvenue | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 1 · Les bases | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 2 · Trouver et valider | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 3A · Produit digital | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 3B · Produit physique | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 4 · Le message qui fait vendre | ✅ | ⏳ crédits | ⏳ | ⏳ (quiz prêt) | ✅ | ✅ |
+| 5 · Page de vente et boutique | ✅ | ⏳ crédits | ⏳ | ⏳ (quiz prêt) | ✅ | ✅ |
+| 6 à 16 + bonus IA | à venir | | | | | |
+
+Vidéos et voix : sur le disque D: uniquement (trop lourdes pour GitHub).
