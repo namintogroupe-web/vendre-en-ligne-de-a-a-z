@@ -29,7 +29,7 @@ Shopify · WooCommerce · Systeme.io · Chariow · Meta Ads (Facebook, Instagram
 ## Avancement
 - [x] Identité visuelle (design system Digital Pro)
 - [x] Programme complet (135 leçons + bonus IA)
-- [ ] Scripts narrés (modules 0 à 3 faits (3A et 3B))
+- [ ] Scripts narrés (modules 0 à 3B faits)
 - [ ] Animations (moteur v2 + storyboards des modules 0 à 3B)
 - [ ] Audio (voix Tony des modules 0 à 3B générées)
 - [ ] Supports PDF (fiche « Mon projet » : modules 0 à 3B)
