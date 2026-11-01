@@ -1,0 +1,29 @@
+Leçon huit : gérer ton stock, sans stress.
+
+Trop de stock : ton argent dort sur une étagère.
+Pas assez : tu perds des ventes. Un tableau simple règle le problème.
+
+Ton tableau tient en cinq colonnes.
+Le produit.
+Les entrées : ce que tu reçois.
+Les sorties : ce que tu vends.
+Le stock actuel : entrées moins sorties.
+Et le seuil d'alerte : quand ton stock descend à ce chiffre, tu recommandes.
+
+Comment fixer ton seuil d'alerte ?
+Tes ventes par semaine, multipliées par le délai de réapprovisionnement, en semaines.
+Tu vends cinq bonnets par semaine, et ton fournisseur met deux semaines : ton seuil est de dix.
+
+Et retiens cette habitude : mets ton tableau à jour chaque jour, deux minutes.
+Et compte ton stock réel une fois par mois, pour vérifier.
+
+Pause. Crée ton tableau de stock, dans Google Sheets ou dans un cahier, et calcule ton seuil d'alerte.
+
+Faisons le point. Ton fournisseur : choisi.
+Ton échantillon : validé.
+Ton vrai coût et ta marge : calculés.
+Tes photos et ta vidéo : faites.
+Ta livraison et ton stock : organisés.
+
+Bravo, le module trois B est terminé. Ton produit physique est prêt à être vendu.
+Fais le quiz, et rendez-vous au module quatre : on écrit le message qui fait vendre.

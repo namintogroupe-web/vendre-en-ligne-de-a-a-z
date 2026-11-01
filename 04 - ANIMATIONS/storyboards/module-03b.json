@@ -1,0 +1,1409 @@
+{
+ "3B-1": {
+  "file": "VIDEO 3B.1 - Où trouver tes produits",
+  "chip": "Module 3B · Leçon 3B.1",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.1",
+    "l1": "Où trouver",
+    "l2": "<em>tes produits</em>",
+    "sub": "Local, grossiste ou import",
+    "say": [
+     "Bienvenue dans le module trois B, le parcours physique. Leçon une : où trouver tes produits."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 sources",
+    "heading": "Du plus proche au <em>plus loin</em>",
+    "cards": [
+     {
+      "icon": "users",
+      "title": "Fabricant local",
+      "text": "Artisans, ateliers, transformatrices",
+      "seg": 1
+     },
+     {
+      "icon": "store",
+      "title": "Grossiste",
+      "text": "Marchés de gros, importateurs de ta ville",
+      "seg": 2
+     },
+     {
+      "icon": "truck",
+      "title": "Import",
+      "text": "Chine, Turquie, Dubaï, Nigeria",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Il existe trois grandes sources.",
+     "Le fabricant local : un artisan, un atelier, une transformatrice de karité ou de jus.",
+     "Le grossiste : sur les marchés de gros, ou chez les importateurs de ta ville.",
+     "Et l'import : de Chine, de Turquie, de Dubaï, ou des pays voisins comme le Nigeria."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Côte à côte",
+    "heading": "Avantages et <em>limites</em>",
+    "cols": [
+     "Source",
+     "Ce qu'il faut savoir"
+    ],
+    "rows": [
+     [
+      "Fabricant local",
+      "Délai court, tu vois le produit, histoire forte",
+      1,
+      0.7
+     ],
+     [
+      "Grossiste",
+      "Petites quantités, mais marge plus faible",
+      2,
+      0.7
+     ],
+     [
+      "Import",
+      "Prix bas, mais délais, douane et risques",
+      3,
+      0.7
+     ]
+    ],
+    "say": [
+     "Comparons.",
+     "Le fabricant local : délai court, tu vois le produit avant d'acheter, et tu as une belle histoire à raconter.",
+     "Le grossiste : tu peux commencer avec de petites quantités, mais ta marge est plus faible.",
+     "L'import : les prix sont bas, mais il y a des délais, la douane, et plus de risques."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Pour ta première commande, commence <b>au plus près</b> :<br>fabricant local ou grossiste. L'import viendra quand tu auras validé tes ventes.",
+    "say": [
+     "Mon conseil pour démarrer : commence au plus près. Un fabricant local, ou un grossiste.",
+     "L'import viendra plus tard, quand tes ventes seront validées."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Avant de choisir",
+    "heading": "5 questions <em>au fournisseur</em>",
+    "items": [
+     {
+      "icon": "bag",
+      "title": "Quelle quantité minimum ?",
+      "show": 1
+     },
+     {
+      "icon": "coin",
+      "title": "Quel prix par quantité ?",
+      "show": 2
+     },
+     {
+      "icon": "clock",
+      "title": "Quel délai de livraison ?",
+      "show": 3
+     },
+     {
+      "icon": "eye",
+      "title": "Puis-je avoir un échantillon ?",
+      "show": 4
+     },
+     {
+      "icon": "repeat",
+      "title": "Pouvez-vous me réapprovisionner vite ?",
+      "show": 5
+     }
+    ],
+    "say": [
+     "Avant de choisir, pose cinq questions à chaque fournisseur.",
+     "Quelle est la quantité minimum ?",
+     "Quel est le prix, selon la quantité ?",
+     "Quel est le délai de livraison ?",
+     "Est-ce que je peux avoir un échantillon ?",
+     "Et pouvez-vous me réapprovisionner rapidement si ça se vend bien ?"
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Trouve <b>3 fournisseurs</b> et pose-leur<br>les <b>5 questions</b>.",
+    "minutes": 20,
+    "say": [
+     "Pause. Trouve trois fournisseurs possibles, et pose-leur les cinq questions. Note les réponses dans ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "3 sources : <b>local, grossiste, import</b>.",
+     "Pour démarrer, <b>au plus près</b>.",
+     "Toujours les <b>5 questions</b> avant de choisir."
+    ],
+    "say": [
+     "À retenir.",
+     "Trois sources : local, grossiste, import.",
+     "Pour démarrer, au plus près.",
+     "Et toujours les cinq questions avant de choisir."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 1,
+    "of": 8,
+    "label": "Leçon 3B.2 · Commander en Chine",
+    "say": [
+     "Prochaine leçon : commander en Chine, sans se faire arnaquer."
+    ]
+   }
+  ]
+ },
+ "3B-2": {
+  "file": "VIDEO 3B.2 - Commander en Chine",
+  "chip": "Module 3B · Leçon 3B.2",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.2",
+    "l1": "Commander en Chine",
+    "l2": "<em>sans arnaque</em>",
+    "sub": "Alibaba, 1688, transitaires",
+    "say": [
+     "Leçon deux : commander en Chine, sans se faire arnaquer."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les acteurs",
+    "heading": "Qui fait <em>quoi</em>",
+    "cards": [
+     {
+      "icon": "store",
+      "title": "Alibaba",
+      "text": "Fournisseurs pour l'international",
+      "seg": 1
+     },
+     {
+      "icon": "bag",
+      "title": "1688",
+      "text": "Marché intérieur chinois, via un agent",
+      "seg": 2
+     },
+     {
+      "icon": "truck",
+      "title": "Transitaire",
+      "text": "Il transporte et dédouane jusqu'à chez toi",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois acteurs à connaître.",
+     "Alibaba : des fournisseurs chinois qui vendent à l'international.",
+     "Mille six cent quatre-vingt-huit : le marché intérieur chinois. Les prix sont plus bas, mais il faut passer par un agent.",
+     "Et le transitaire : il récupère ta marchandise en Chine, la transporte, et s'occupe de la douane jusqu'à chez toi."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Trier les fournisseurs <em>sur Alibaba</em>",
+    "steps": [
+     [
+      "Cherche ton produit",
+      1
+     ],
+     [
+      "Filtre les fournisseurs vérifiés",
+      2
+     ],
+     [
+      "Compare les fiches",
+      3
+     ],
+     [
+      "Contacte 3 fournisseurs",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Alibaba",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Rechercher",
+        "t": "satin bonnet"
+       },
+       {
+        "kind": "btn",
+        "t": "Rechercher",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Filtres",
+      "tapDelay": 1.8,
+      "rows": [
+       {
+        "kind": "toggle",
+        "t": "Fournisseur vérifié"
+       },
+       {
+        "t": "Années d'activité",
+        "sub": "5 ans et plus",
+        "hl": true
+       },
+       {
+        "t": "Note",
+        "sub": "4,5 et plus"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Fiche fournisseur",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Années d'activité",
+        "sub": "8 ans",
+        "ic": "#ff6a00",
+        "l": "8"
+       },
+       {
+        "t": "Taux de réponse",
+        "sub": "96 %"
+       },
+       {
+        "t": "Avis clients",
+        "sub": "4,8 · 312 avis"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Message",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Hello, I need 100 pcs. Price, MOQ, sample cost and delivery time to Abidjan via my forwarder?"
+       },
+       {
+        "kind": "btn",
+        "t": "Envoyer",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre comment trier sur Alibaba.",
+     "Cherche ton produit, en anglais si possible.",
+     "Active le filtre des fournisseurs vérifiés, et choisis ceux qui ont plusieurs années d'activité.",
+     "Compare les fiches : années d'activité, taux de réponse, avis des clients.",
+     "Contacte au moins trois fournisseurs avec le même message : quantité, prix, échantillon, et délai."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Les signaux",
+    "heading": "Arnaque ou <em>sérieux</em> ?",
+    "cols": [
+     "Signal d'alerte",
+     "Signal rassurant"
+    ],
+    "leftBad": true,
+    "rightGood": true,
+    "rows": [
+     [
+      "Prix beaucoup plus bas que tous les autres",
+      "Prix dans la moyenne du marché",
+      1,
+      0.7
+     ],
+     [
+      "Paiement par transfert personnel",
+      "Paiement sécurisé sur la plateforme",
+      2,
+      0.7
+     ],
+     [
+      "Refuse l'échantillon",
+      "Envoie un échantillon, même payant",
+      3,
+      0.7
+     ]
+    ],
+    "say": [
+     "Comment repérer une arnaque ?",
+     "Un prix beaucoup plus bas que tous les autres : méfiance.",
+     "Un fournisseur qui veut être payé par transfert personnel, hors de la plateforme : danger. Paie toujours par le paiement sécurisé de la plateforme.",
+     "Et un fournisseur qui refuse l'échantillon : passe ton chemin."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Demande à ton transitaire le <b>coût total jusqu'à chez toi</b>,<br>douane comprise, <b>avant</b> de payer le fournisseur.",
+    "say": [
+     "Attention, l'erreur qui coûte cher.",
+     "Avant de payer le fournisseur, demande à ton transitaire le coût total jusqu'à chez toi, douane comprise.",
+     "Sinon, ton produit pas cher peut devenir très cher à l'arrivée."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Contacte <b>3 fournisseurs</b> et <b>2 transitaires</b>.<br>Compare les réponses.",
+    "minutes": 20,
+    "say": [
+     "Pause. Contacte trois fournisseurs et deux transitaires. Compare les réponses dans ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Alibaba, 1688 via un agent, et un <b>transitaire</b>.",
+     "Fournisseur vérifié, avis, <b>paiement sur la plateforme</b>.",
+     "Le <b>coût total</b> avant de payer."
+    ],
+    "say": [
+     "À retenir.",
+     "Alibaba, mille six cent quatre-vingt-huit via un agent, et un transitaire.",
+     "Un fournisseur vérifié, des avis, et le paiement sur la plateforme.",
+     "Et le coût total, avant de payer."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 2,
+    "of": 8,
+    "label": "Leçon 3B.3 · Stock, dropshipping ou précommande",
+    "say": [
+     "Prochaine leçon : stock, dropshipping local ou précommande. Comment bien choisir."
+    ]
+   }
+  ]
+ },
+ "3B-3": {
+  "file": "VIDEO 3B.3 - Stock, dropshipping ou précommande",
+  "chip": "Module 3B · Leçon 3B.3",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.3",
+    "l1": "Stock, dropshipping",
+    "l2": "<em>ou précommande</em>",
+    "sub": "Bien choisir sans risque",
+    "say": [
+     "Leçon trois : stock, dropshipping local, ou précommande."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 modèles",
+    "heading": "Qui garde <em>la marchandise</em> ?",
+    "cards": [
+     {
+      "icon": "bag",
+      "title": "Stock",
+      "text": "Tu achètes et tu ranges chez toi",
+      "seg": 1
+     },
+     {
+      "icon": "truck",
+      "title": "Dropshipping local",
+      "text": "Le fournisseur livre à ta place",
+      "seg": 2
+     },
+     {
+      "icon": "cal",
+      "title": "Précommande",
+      "text": "Tu vends, puis tu achètes",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois façons d'organiser ta marchandise.",
+     "Le stock : tu achètes à l'avance, et tu ranges chez toi.",
+     "Le dropshipping local : un fournisseur de ta ville garde le stock, et livre à ta place. Tu prends une commission.",
+     "La précommande : tu vends d'abord, et tu achètes ensuite."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Lequel choisir ?",
+    "heading": "Ta situation, <em>ton modèle</em>",
+    "cols": [
+     "Ta situation",
+     "Ton modèle"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "Petit budget, produit à tester",
+      "Précommande",
+      1,
+      0.7
+     ],
+     [
+      "Un grossiste fiable près de toi",
+      "Dropshipping local",
+      2,
+      0.7
+     ],
+     [
+      "Produit validé, ventes régulières",
+      "Stock",
+      3,
+      0.7
+     ]
+    ],
+    "say": [
+     "Alors, lequel choisir ?",
+     "Petit budget et produit à tester : la précommande.",
+     "Un grossiste fiable près de chez toi, qui accepte de livrer : le dropshipping local.",
+     "Un produit validé, qui se vend régulièrement : le stock."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "En dropshipping, <b>c'est toi</b> que le client tient pour responsable.<br>Teste toi-même la qualité et le délai du fournisseur avant de vendre.",
+    "say": [
+     "Attention en dropshipping.",
+     "Si le fournisseur livre en retard ou livre un mauvais produit, c'est toi que le client tient pour responsable.",
+     "Teste toujours toi-même la qualité et le délai avant de vendre."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Le chemin le plus sûr : <b>précommande</b> pour tester,<br>puis <b>petit stock</b>, puis on augmente quand ça vend.",
+    "say": [
+     "Le chemin le plus sûr ?",
+     "La précommande pour tester. Puis un petit stock. Puis on augmente quand ça vend."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Choisis ton <b>modèle de stock</b><br>et écris pourquoi dans ta fiche.",
+    "minutes": 3,
+    "say": [
+     "Pause. Choisis ton modèle, et écris pourquoi dans ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Stock</b>, <b>dropshipping local</b> ou <b>précommande</b>.",
+     "En dropshipping, tu restes <b>responsable</b>.",
+     "Précommande → petit stock → <b>on augmente</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Stock, dropshipping local, ou précommande.",
+     "En dropshipping, tu restes responsable.",
+     "Et le chemin sûr : précommande, petit stock, puis on augmente."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 3,
+    "of": 8,
+    "label": "Leçon 3B.4 · Tes échantillons",
+    "say": [
+     "Prochaine leçon : commander et vérifier tes échantillons."
+    ]
+   }
+  ]
+ },
+ "3B-4": {
+  "file": "VIDEO 3B.4 - Vérifier tes échantillons",
+  "chip": "Module 3B · Leçon 3B.4",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.4",
+    "l1": "Vérifier",
+    "l2": "<em>tes échantillons</em>",
+    "sub": "Avant toute grosse commande",
+    "say": [
+     "Leçon quatre : commander et vérifier tes échantillons."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Jamais de grosse commande",
+     "<em>sans échantillon</em>.",
+     "Jamais."
+    ],
+    "at": [
+     0,
+     0,
+     1
+    ],
+    "say": [
+     "Une règle d'or : jamais de grosse commande sans avoir tenu l'échantillon dans tes mains.",
+     "Jamais. Même si le fournisseur est sympathique."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le contrôle",
+    "heading": "Ta grille <em>qualité</em>",
+    "items": [
+     {
+      "icon": "eye",
+      "title": "Conforme aux photos ?",
+      "text": "Couleur, taille, finitions",
+      "show": 1
+     },
+     {
+      "icon": "shield",
+      "title": "Solide ?",
+      "text": "Coutures, fermetures, emballage",
+      "show": 2
+     },
+     {
+      "icon": "note",
+      "title": "Étiquette et notice ?",
+      "text": "Composition, date, mode d'emploi",
+      "show": 3
+     },
+     {
+      "icon": "heart",
+      "title": "L'avis de 3 personnes",
+      "text": "Est-ce qu'elles l'achèteraient ?",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Quand l'échantillon arrive, contrôle quatre choses.",
+     "Est-il conforme aux photos ? La couleur, la taille, les finitions.",
+     "Est-il solide ? Les coutures, les fermetures, l'emballage.",
+     "Y a-t-il une étiquette et une notice ? La composition, la date, le mode d'emploi. Pour les cosmétiques et l'alimentaire, c'est indispensable.",
+     "Et montre-le à trois personnes de ta cible. Est-ce qu'elles l'achèteraient ?"
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Filme l'ouverture du colis et prends tes premières photos <b>dès maintenant</b> :<br>tu les réutiliseras dans tes publicités.",
+    "say": [
+     "Une astuce : filme l'ouverture du colis, et prends tes premières photos tout de suite.",
+     "Tu les réutiliseras dans tes publicités."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Ta décision",
+    "heading": "Après le <em>contrôle</em>",
+    "cols": [
+     "Résultat",
+     "Décision"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "Tout est conforme",
+      "Petite première commande",
+      1,
+      0.7
+     ],
+     [
+      "Petits défauts",
+      "Négocier une correction, nouvel échantillon",
+      2,
+      0.7
+     ],
+     [
+      "Gros défauts",
+      "Changer de fournisseur",
+      3,
+      0.7
+     ]
+    ],
+    "say": [
+     "Ensuite, tu décides.",
+     "Tout est conforme : tu passes une petite première commande.",
+     "De petits défauts : tu demandes une correction, et un nouvel échantillon.",
+     "De gros défauts : tu changes de fournisseur, sans regret."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Commande ton <b>échantillon</b>,<br>puis remplis la <b>grille qualité</b>.",
+    "minutes": 5,
+    "say": [
+     "Pause. Commande ton échantillon. À la réception, remplis la grille qualité de ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Jamais</b> de grosse commande sans échantillon.",
+     "Conforme, solide, étiqueté, <b>validé par 3 personnes</b>.",
+     "Petite commande d'abord."
+    ],
+    "say": [
+     "À retenir.",
+     "Jamais de grosse commande sans échantillon.",
+     "Conforme, solide, étiqueté, et validé par trois personnes.",
+     "Et une petite commande d'abord."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 4,
+    "of": 8,
+    "label": "Leçon 3B.5 · Ton vrai coût",
+    "say": [
+     "Prochaine leçon : calculer ton vrai coût. Achat, transport, douane, livraison et retours."
+    ]
+   }
+  ]
+ },
+ "3B-5": {
+  "file": "VIDEO 3B.5 - Ton vrai coût",
+  "chip": "Module 3B · Leçon 3B.5",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.5",
+    "l1": "Ton vrai",
+    "l2": "<em>coût</em>",
+    "sub": "Achat, transport, douane, livraison, retours",
+    "say": [
+     "Leçon cinq : calculer ton vrai coût."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Le prix du fournisseur",
+     "n'est <em>pas</em> ton coût.",
+     "C'est seulement le début."
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ],
+    "say": [
+     "Le prix du fournisseur n'est pas ton coût.",
+     "C'est seulement le début.",
+     "Beaucoup de vendeurs perdent de l'argent sans le savoir, parce qu'ils oublient des frais."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Le vrai coût <em>d'un bonnet en satin</em>",
+    "cols": [
+     "Poste",
+     "Par pièce"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Achat fournisseur",
+      "800 F",
+      0,
+      0.5
+     ],
+     [
+      "Transport jusqu'à chez toi",
+      "500 F",
+      1,
+      0.5
+     ],
+     [
+      "Douane et frais de dossier",
+      "300 F",
+      2,
+      0.5
+     ],
+     [
+      "Emballage",
+      "200 F",
+      3,
+      0.5
+     ],
+     [
+      "Casse et retours (5 %)",
+      "100 F",
+      4,
+      0.5
+     ],
+     [
+      "Coût de revient",
+      "1 900 F",
+      5,
+      0.5
+     ]
+    ],
+    "say": [
+     {
+      "say": "Prenons un bonnet en satin. L'achat chez le fournisseur : huit cents francs.",
+      "cap": "Prenons un bonnet en satin. L'achat chez le fournisseur : 800 F."
+     },
+     {
+      "say": "Le transport jusqu'à chez toi : cinq cents francs par pièce.",
+      "cap": "Le transport jusqu'à chez toi : 500 F par pièce."
+     },
+     {
+      "say": "La douane et les frais de dossier : trois cents francs.",
+      "cap": "La douane et les frais de dossier : 300 F."
+     },
+     {
+      "say": "L'emballage : deux cents francs.",
+      "cap": "L'emballage : 200 F."
+     },
+     {
+      "say": "La casse et les retours, environ cinq pour cent : cent francs.",
+      "cap": "La casse et les retours, environ 5 % : 100 F."
+     },
+     {
+      "say": "Ton vrai coût, c'est mille neuf cents francs. Plus du double du prix d'achat.",
+      "cap": "Ton vrai coût, c'est 1 900 F. Plus du double du prix d'achat."
+     }
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les taux de douane changent selon le pays et le produit.<br>Demande-les <b>par écrit</b> à ton transitaire, avant de commander.",
+    "say": [
+     "Attention : les taux de douane changent selon ton pays et selon le produit.",
+     "Demande-les par écrit à ton transitaire, avant de commander."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Ensuite",
+    "heading": "Du coût au <em>prix</em>",
+    "steps": [
+     [
+      "Coût de revient",
+      "1 900 F",
+      1
+     ],
+     [
+      "+ Livraison client",
+      "1 000 F",
+      2
+     ],
+     [
+      "+ Publicité",
+      "1 500 F",
+      3
+     ],
+     [
+      "Prix de vente",
+      "6 500 F",
+      4
+     ]
+    ],
+    "note": [
+     "Ta marge : <b>2 100 F</b> par bonnet. Reprends ta méthode de la leçon 2.4.",
+     5
+    ],
+    "say": [
+     "Ensuite, on reprend la méthode du module deux.",
+     {
+      "say": "Ton coût de revient : mille neuf cents francs.",
+      "cap": "Ton coût de revient : 1 900 F."
+     },
+     {
+      "say": "Plus la livraison au client, si tu l'offres : mille francs.",
+      "cap": "Plus la livraison au client, si tu l'offres : 1 000 F."
+     },
+     {
+      "say": "Plus la publicité par vente : mille cinq cents francs.",
+      "cap": "Plus la publicité par vente : 1 500 F."
+     },
+     {
+      "say": "Si tu vends à six mille cinq cents francs…",
+      "cap": "Si tu vends à 6 500 F…"
+     },
+     {
+      "say": "… ta marge est de deux mille cent francs par bonnet.",
+      "cap": "… ta marge est de 2 100 F par bonnet."
+     }
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Calcule ton <b>vrai coût</b> par pièce,<br>poste par poste.",
+    "minutes": 10,
+    "say": [
+     "Pause. Calcule ton vrai coût par pièce, poste par poste, dans ta fiche."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Le prix fournisseur <b>n'est pas</b> ton coût.",
+     "Transport, douane, emballage, <b>casse et retours</b>.",
+     "Douane : <b>par écrit</b>, avant de commander."
+    ],
+    "say": [
+     "À retenir.",
+     "Le prix du fournisseur n'est pas ton coût.",
+     "Ajoute le transport, la douane, l'emballage, la casse et les retours.",
+     "Et les frais de douane, par écrit, avant de commander."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 5,
+    "of": 8,
+    "label": "Leçon 3B.6 · Photos et vidéos produit",
+    "say": [
+     "Prochaine leçon : faire des photos et des vidéos produit qui vendent, avec ton téléphone."
+    ]
+   }
+  ]
+ },
+ "3B-6": {
+  "file": "VIDEO 3B.6 - Photos et vidéos produit",
+  "chip": "Module 3B · Leçon 3B.6",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.6",
+    "l1": "Photos et vidéos",
+    "l2": "<em>qui vendent</em>",
+    "sub": "Avec ton téléphone",
+    "say": [
+     "Leçon six : des photos et des vidéos produit qui vendent."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "En ligne, le client",
+     "ne touche pas.",
+     "Il <em>regarde</em>."
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ],
+    "say": [
+     "En ligne, le client ne peut pas toucher ton produit.",
+     "Il le regarde.",
+     "Tes photos font donc le travail du vendeur."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les 10 photos",
+    "heading": "Le kit <em>indispensable</em>",
+    "cards": [
+     {
+      "icon": "eye",
+      "title": "Fond neutre",
+      "text": "3 angles : face, profil, dos",
+      "seg": 1
+     },
+     {
+      "icon": "target",
+      "title": "Détails",
+      "text": "Matière, étiquette, fermeture",
+      "seg": 2
+     },
+     {
+      "icon": "users",
+      "title": "En situation",
+      "text": "Le produit porté ou utilisé",
+      "seg": 3
+     },
+     {
+      "icon": "chart",
+      "title": "Échelle",
+      "text": "À côté d'une main ou d'un objet",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Il te faut dix photos.",
+     "Trois sur fond neutre : de face, de profil, et de dos.",
+     "Trois de détails : la matière, l'étiquette, la fermeture.",
+     "Trois en situation : le produit porté, ou utilisé par une vraie personne.",
+     "Et une pour l'échelle : à côté d'une main ou d'un objet connu, pour qu'on comprenne la taille."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Ton <em>studio maison</em>",
+    "steps": [
+     [
+      "Près d'une fenêtre",
+      1
+     ],
+     [
+      "Fond blanc ou uni",
+      2
+     ],
+     [
+      "Mise au point sur le produit",
+      3
+     ],
+     [
+      "Une vidéo de 15 secondes",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Préparer",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Lumière naturelle, de côté. Pas de flash."
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Préparer",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Une feuille blanche courbée contre le mur : fond sans coin."
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Appareil photo",
+      "tapDelay": 1.6,
+      "rows": [
+       {
+        "t": "Appuie sur le produit",
+        "sub": "Mise au point",
+        "hl": true
+       },
+       {
+        "t": "Glisse vers le bas",
+        "sub": "Moins lumineux"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Vidéo",
+      "tap": false,
+      "rows": [
+       {
+        "t": "0-3 s",
+        "sub": "Le produit en gros plan"
+       },
+       {
+        "t": "3-10 s",
+        "sub": "On l'utilise"
+       },
+       {
+        "t": "10-15 s",
+        "sub": "Le résultat"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ton studio, tu l'as déjà à la maison.",
+     "Place-toi près d'une fenêtre, avec une lumière de côté. Pas de flash.",
+     "Pour le fond : une grande feuille blanche, courbée contre le mur. Plus de coin visible.",
+     "Appuie sur le produit à l'écran pour faire la mise au point. Glisse vers le bas si l'image est trop claire.",
+     "Et filme une vidéo de quinze secondes : le produit en gros plan, on l'utilise, puis le résultat."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "eviter",
+    "text": "Les photos du fournisseur sont vues partout.<br>Tes <b>propres photos</b> rassurent et te distinguent.",
+    "strike": "Copier les photos du fournisseur",
+    "strikeAt": 0,
+    "say": [
+     "À éviter : utiliser seulement les photos du fournisseur.",
+     "Tes concurrents ont les mêmes. Tes propres photos rassurent le client, et te distinguent."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Fais tes <b>10 photos</b> et<br>ta <b>vidéo de 15 secondes</b>.",
+    "minutes": 30,
+    "say": [
+     "Pause. Fais tes dix photos et ta vidéo de quinze secondes. Range-les dans ton dossier « un, produit »."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>10 photos</b> : fond neutre, détails, situation, échelle.",
+     "Fenêtre, fond blanc, <b>pas de flash</b>.",
+     "Tes <b>propres photos</b>, pas celles du fournisseur."
+    ],
+    "say": [
+     "À retenir.",
+     "Dix photos : fond neutre, détails, en situation, et l'échelle.",
+     "Une fenêtre, un fond blanc, et pas de flash.",
+     "Et tes propres photos, pas celles du fournisseur."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 6,
+    "of": 8,
+    "label": "Leçon 3B.7 · Organiser la livraison",
+    "say": [
+     "Prochaine leçon : organiser la livraison. Livreurs, zones, délais, et paiement à la livraison."
+    ]
+   }
+  ]
+ },
+ "3B-7": {
+  "file": "VIDEO 3B.7 - Organiser la livraison",
+  "chip": "Module 3B · Leçon 3B.7",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.7",
+    "l1": "Organiser",
+    "l2": "<em>la livraison</em>",
+    "sub": "Livreurs, zones, délais, paiement",
+    "say": [
+     "Leçon sept : organiser la livraison."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "3 options",
+    "heading": "Qui <em>livre</em> ?",
+    "cards": [
+     {
+      "icon": "users",
+      "title": "Livreur indépendant",
+      "text": "Souple, prix à négocier",
+      "seg": 1
+     },
+     {
+      "icon": "truck",
+      "title": "Société de livraison",
+      "text": "Suivi, plus cher, plus fiable",
+      "seg": 2
+     },
+     {
+      "icon": "store",
+      "title": "Point de retrait",
+      "text": "Le client vient chercher",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Trois options.",
+     "Le livreur indépendant, souvent à moto : souple, et le prix se négocie.",
+     "La société de livraison : un suivi des colis, plus cher, mais plus fiable.",
+     "Et le point de retrait : le client vient chercher sa commande, chez toi ou chez un partenaire."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Exemple",
+    "heading": "Tes <em>zones</em> et tes délais",
+    "cols": [
+     "Zone",
+     "Délai et prix"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Zone 1 · ta commune",
+      "24 h · 1 000 F",
+      1,
+      0.6
+     ],
+     [
+      "Zone 2 · reste de la ville",
+      "24 à 48 h · 1 500 F",
+      2,
+      0.6
+     ],
+     [
+      "Zone 3 · autres villes",
+      "2 à 4 jours · par car ou transporteur",
+      3,
+      0.6
+     ]
+    ],
+    "say": [
+     "Organise ta livraison en zones. Voici un exemple.",
+     {
+      "say": "Zone un, ta commune : en vingt-quatre heures, mille francs.",
+      "cap": "Zone 1, ta commune : en 24 h, 1 000 F."
+     },
+     {
+      "say": "Zone deux, le reste de la ville : vingt-quatre à quarante-huit heures, mille cinq cents francs.",
+      "cap": "Zone 2, le reste de la ville : 24 à 48 h, 1 500 F."
+     },
+     "Zone trois, les autres villes : deux à quatre jours, par car ou par transporteur."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Paiement à la livraison : <b>confirme chaque commande</b> par appel ou WhatsApp<br>avant d'envoyer le livreur. Sinon, les retours te coûtent cher.",
+    "say": [
+     "Attention au paiement à la livraison. Il rassure le client, mais il crée des refus.",
+     "Confirme chaque commande, par un appel ou un message WhatsApp, avant d'envoyer le livreur.",
+     "Et pour les autres villes, demande un acompte par Mobile Money."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Avec ton livreur",
+    "heading": "Un accord <em>clair</em>",
+    "items": [
+     {
+      "icon": "coin",
+      "title": "Le prix par zone",
+      "show": 1
+     },
+     {
+      "icon": "clock",
+      "title": "Les horaires de passage",
+      "show": 2
+     },
+     {
+      "icon": "repeat",
+      "title": "Le versement de l'argent encaissé",
+      "text": "Le jour même, par Mobile Money",
+      "show": 3
+     },
+     {
+      "icon": "chat",
+      "title": "Une photo à chaque livraison",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Avec ton livreur, mets-vous d'accord sur quatre points.",
+     "Le prix par zone.",
+     "Les horaires de passage.",
+     "Le versement de l'argent encaissé : le jour même, par Mobile Money.",
+     "Et une photo à chaque livraison, comme preuve."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Définis tes <b>zones</b>, tes <b>prix</b><br>et trouve <b>un livreur</b>.",
+    "minutes": 15,
+    "say": [
+     "Pause. Définis tes zones et tes prix, et trouve au moins un livreur de confiance."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Livreur, société ou <b>point de retrait</b>.",
+     "Des <b>zones</b> claires, avec délais et prix.",
+     "Paiement à la livraison : <b>confirmer avant d'envoyer</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Un livreur, une société, ou un point de retrait.",
+     "Des zones claires, avec délais et prix.",
+     "Et en paiement à la livraison : on confirme avant d'envoyer."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 7,
+    "of": 8,
+    "label": "Leçon 3B.8 · Gérer ton stock",
+    "say": [
+     "Dernière leçon du module : gérer ton stock sans stress."
+    ]
+   }
+  ]
+ },
+ "3B-8": {
+  "file": "VIDEO 3B.8 - Gérer ton stock",
+  "chip": "Module 3B · Leçon 3B.8",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 3B · Leçon 3B.8",
+    "l1": "Gérer ton stock",
+    "l2": "<em>sans stress</em>",
+    "sub": "Un tableau simple",
+    "say": [
+     "Leçon huit : gérer ton stock, sans stress."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Trop de stock, l'argent <em>dort</em>.",
+     "Pas assez,",
+     "tu perds des <em>ventes</em>."
+    ],
+    "at": [
+     0,
+     1,
+     1
+    ],
+    "say": [
+     "Trop de stock : ton argent dort sur une étagère.",
+     "Pas assez : tu perds des ventes. Un tableau simple règle le problème."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Ton tableau",
+    "heading": "5 colonnes <em>suffisent</em>",
+    "cols": [
+     "Colonne",
+     "Exemple"
+    ],
+    "example": true,
+    "rows": [
+     [
+      "Produit",
+      "Bonnet satin noir",
+      1,
+      0.5
+     ],
+     [
+      "Entrées",
+      "+ 50",
+      2,
+      0.5
+     ],
+     [
+      "Sorties (ventes)",
+      "− 32",
+      3,
+      0.5
+     ],
+     [
+      "Stock actuel",
+      "18",
+      4,
+      0.5
+     ],
+     [
+      "Seuil d'alerte",
+      "10 → je recommande",
+      5,
+      0.5
+     ]
+    ],
+    "say": [
+     "Ton tableau tient en cinq colonnes.",
+     "Le produit.",
+     "Les entrées : ce que tu reçois.",
+     "Les sorties : ce que tu vends.",
+     "Le stock actuel : entrées moins sorties.",
+     "Et le seuil d'alerte : quand ton stock descend à ce chiffre, tu recommandes."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Seuil d'alerte = ventes par semaine × <b>délai de réapprovisionnement</b> en semaines.<br>Tu vends 5 par semaine, ton fournisseur met 2 semaines : seuil = <b>10</b>.",
+    "say": [
+     "Comment fixer ton seuil d'alerte ?",
+     "Tes ventes par semaine, multipliées par le délai de réapprovisionnement, en semaines.",
+     "Tu vends cinq bonnets par semaine, et ton fournisseur met deux semaines : ton seuil est de dix."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "retenir",
+    "text": "Mets ton tableau à jour <b>chaque jour</b>, 2 minutes,<br>et compte ton stock réel <b>une fois par mois</b>.",
+    "say": [
+     "Et retiens cette habitude : mets ton tableau à jour chaque jour, deux minutes.",
+     "Et compte ton stock réel une fois par mois, pour vérifier."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée ton <b>tableau de stock</b><br>et calcule ton <b>seuil d'alerte</b>.",
+    "minutes": 10,
+    "say": [
+     "Pause. Crée ton tableau de stock, dans Google Sheets ou dans un cahier, et calcule ton seuil d'alerte."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Module 3B terminé",
+    "heading": "Ta fiche produit est <em>complète</em>",
+    "items": [
+     {
+      "icon": "store",
+      "title": "Un fournisseur choisi",
+      "check": 0,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "eye",
+      "title": "Un échantillon validé",
+      "check": 1,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "coin",
+      "title": "Ton vrai coût et ta marge",
+      "check": 2,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "brush",
+      "title": "10 photos et une vidéo",
+      "check": 3,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "truck",
+      "title": "Livraison et stock organisés",
+      "check": 4,
+      "checkDelay": 0.5
+     }
+    ],
+    "say": [
+     "Faisons le point. Ton fournisseur : choisi.",
+     "Ton échantillon : validé.",
+     "Ton vrai coût et ta marge : calculés.",
+     "Tes photos et ta vidéo : faites.",
+     "Ta livraison et ton stock : organisés."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 8,
+    "of": 8,
+    "label": "Module 4 · Le message qui fait vendre",
+    "say": [
+     "Bravo, le module trois B est terminé. Ton produit physique est prêt à être vendu.",
+     "Fais le quiz, et rendez-vous au module quatre : on écrit le message qui fait vendre."
+    ]
+   }
+  ]
+ }
+}

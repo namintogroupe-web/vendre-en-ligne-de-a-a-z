@@ -189,6 +189,63 @@ Ce qu'ils ont trouvé difficile, et ce que j'ai corrigé :
 
 > ............................................................................................................
 
+## 17. Mon produit physique (module 3B)
+
+**Mes fournisseurs (leçons 3B.1 et 3B.2)**
+
+| Question | Fournisseur 1 | Fournisseur 2 | Fournisseur 3 |
+| --- | --- | --- | --- |
+| Nom et source (local, grossiste, import) | ................ | ................ | ................ |
+| Quantité minimum | ................ | ................ | ................ |
+| Prix selon la quantité | ................ | ................ | ................ |
+| Délai de livraison | ................ | ................ | ................ |
+| Échantillon possible ? | ☐ oui ☐ non | ☐ oui ☐ non | ☐ oui ☐ non |
+| Réapprovisionnement rapide ? | ☐ oui ☐ non | ☐ oui ☐ non | ☐ oui ☐ non |
+
+Import : coût total jusqu'à chez moi, douane comprise, confirmé **par écrit** par mon transitaire : .................... F
+
+**Mon modèle (leçon 3B.3)** : ☐ Stock  ☐ Dropshipping local  ☐ Précommande — Pourquoi : ............................................
+
+**Ma grille qualité de l'échantillon (leçon 3B.4)**
+
+| Contrôle | OK | Remarque |
+| --- | --- | --- |
+| Conforme aux photos (couleur, taille, finitions) | ☐ | ............................ |
+| Solide (coutures, fermetures, emballage) | ☐ | ............................ |
+| Étiquette et notice (composition, date, mode d'emploi) | ☐ | ............................ |
+| Validé par 3 personnes de ma cible | ☐ | ............................ |
+
+Ma décision : ☐ petite première commande  ☐ correction + nouvel échantillon  ☐ changer de fournisseur
+
+**Mon vrai coût par pièce (leçon 3B.5)**
+
+| Poste | Montant |
+| --- | --- |
+| Achat fournisseur | .................... F |
+| Transport jusqu'à chez moi | .................... F |
+| Douane et frais de dossier | .................... F |
+| Emballage | .................... F |
+| Casse et retours (environ 5 %) | .................... F |
+| **= Coût de revient** | **.................... F** |
+| + Livraison client (si offerte) | .................... F |
+| + Publicité par vente | .................... F |
+| Prix de vente | .................... F |
+| **= Ma marge par pièce** | **.................... F** |
+
+**Mes photos (leçon 3B.6)** : ☐ 3 fond neutre  ☐ 3 détails  ☐ 3 en situation  ☐ 1 échelle  ☐ vidéo de 15 secondes
+
+**Ma livraison (leçon 3B.7)**
+
+| Zone | Délai | Prix |
+| --- | --- | --- |
+| Zone 1 : ........................ | ............ | ............ F |
+| Zone 2 : ........................ | ............ | ............ F |
+| Zone 3 : ........................ | ............ | ............ F |
+
+Mon livreur : ........................  ☐ prix par zone  ☐ horaires  ☐ argent versé le jour même par Mobile Money  ☐ photo à chaque livraison
+
+**Mon stock (leçon 3B.8)** : ventes par semaine ........ × délai de réapprovisionnement (semaines) ........ = **seuil d'alerte ........**
+
 ---
 
 *Digital Pro — on montre ce qui est vrai, on ne promet jamais un résultat garanti.*

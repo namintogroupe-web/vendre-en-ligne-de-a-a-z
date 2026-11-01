@@ -256,7 +256,7 @@
   // compare : lignes gauche → droite (✗ / ✓, test → résultat)
   R.compare = (s, d) => {
     s.innerHTML = `<div class="head"><div class="over">${d.over}</div>${d.heading ? `<div class="h">${d.heading}</div>` : ''}</div>
-      <div class="cmp${d.rows.length > 3 ? ' dense' : ''}"><div class="ch"><span>${d.cols[0]}</span><span>${d.cols[1]}</span></div>${d.rows.map(r => `<div class="cr"><div class="cl ${d.leftBad ? 'bad' : ''}">${r[0]}</div><div class="cv ${d.rightGood ? 'good' : ''}">${r[1]}</div></div>`).join('')}</div>
+      <div class="cmp${d.rows.length > 5 ? ' dense d6' : d.rows.length > 3 ? ' dense' : ''}"><div class="ch"><span>${d.cols[0]}</span><span>${d.cols[1]}</span></div>${d.rows.map(r => `<div class="cr"><div class="cl ${d.leftBad ? 'bad' : ''}">${r[0]}</div><div class="cv ${d.rightGood ? 'good' : ''}">${r[1]}</div></div>`).join('')}</div>
       ${d.example ? '<div class="tagx">EXEMPLE</div>' : ''}`;
     A(s.querySelector('.head'), 'up', .6, d.t0 + .1);
     A(s.querySelector('.ch'), 'up', .5, d.t0 + .3);
