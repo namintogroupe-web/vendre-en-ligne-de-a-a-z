@@ -1,0 +1,2570 @@
+{
+ "5-1": {
+  "file": "VIDEO 5.1 - Quelle plateforme pour toi",
+  "chip": "Module 5 · Leçon 5.1",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.1",
+    "l1": "Quelle plateforme",
+    "l2": "<em>pour toi ?</em>",
+    "sub": "Le comparatif simple",
+    "say": [
+     "Bienvenue dans le module cinq : on met ton produit en ligne. Leçon une : quelle plateforme choisir ?"
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "La bonne plateforme,",
+     "c'est celle qui colle",
+     "à <em>ton parcours</em>."
+    ],
+    "foot": "Pas la plus connue. La plus adaptée.",
+    "footAt": 2,
+    "say": [
+     "Il n'y a pas de meilleure plateforme dans l'absolu.",
+     "La bonne, c'est celle qui colle à ton parcours et à ton modèle de vente.",
+     "Pas la plus connue : la plus adaptée."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "4 plateformes",
+    "heading": "Deux pour le digital, <em>deux pour le physique</em>",
+    "cards": [
+     {
+      "icon": "funnel",
+      "title": "Systeme.io",
+      "text": "Tunnels de vente, formations",
+      "seg": 1
+     },
+     {
+      "icon": "digital",
+      "title": "Chariow",
+      "text": "Boutique digitale, Mobile Money",
+      "seg": 2
+     },
+     {
+      "icon": "store",
+      "title": "Shopify",
+      "text": "Boutique physique clé en main",
+      "seg": 3
+     },
+     {
+      "icon": "laptop",
+      "title": "WooCommerce",
+      "text": "Boutique sur ton site WordPress",
+      "seg": 4
+     }
+    ],
+    "say": [
+     "Voici les quatre plateformes de cette formation.",
+     "Systeme point io : parfait pour un tunnel de vente, une formation, des e-mails.",
+     "Chariow : une boutique de produits digitaux, pensée pour l'Afrique, avec le Mobile Money.",
+     "Shopify : la boutique clé en main pour les produits physiques.",
+     "Et WooCommerce : une boutique installée sur ton propre site WordPress."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Lequel choisir ?",
+    "heading": "Ta situation, <em>ta plateforme</em>",
+    "cols": [
+     "Ta situation",
+     "Ta plateforme"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "Un produit digital + des e-mails",
+      "Systeme.io",
+      1,
+      0.8
+     ],
+     [
+      "Des produits digitaux payés en Mobile Money",
+      "Chariow",
+      2,
+      0.8
+     ],
+     [
+      "Des produits physiques, sans technique",
+      "Shopify",
+      3,
+      0.8
+     ],
+     [
+      "Un site WordPress, contrôle total",
+      "WooCommerce",
+      4,
+      0.8
+     ]
+    ],
+    "say": [
+     "Alors, laquelle pour toi ?",
+     "Un produit digital, avec des e-mails automatiques : Systeme point io.",
+     "Des produits digitaux, payés surtout en Mobile Money : Chariow.",
+     "Des produits physiques, sans te battre avec la technique : Shopify.",
+     "Tu as déjà un site WordPress et tu veux tout contrôler : WooCommerce."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Commence avec <b>une seule</b> plateforme, et sa version gratuite ou d'essai.<br>Tu changeras plus tard si besoin : ton produit, lui, reste le même.",
+    "say": [
+     "Mon conseil : commence avec une seule plateforme, et sa version gratuite ou d'essai.",
+     "Tu pourras changer plus tard. Ton produit, ta promesse et tes textes, eux, restent les mêmes."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Choisis <b>ta plateforme</b><br>et écris pourquoi dans ta fiche.",
+    "minutes": 3,
+    "say": [
+     "Pause. Choisis ta plateforme, et écris pourquoi dans ta fiche. Ensuite, suis seulement les leçons qui la concernent."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>Digital</b> : Systeme.io ou Chariow.",
+     "<b>Physique</b> : Shopify ou WooCommerce.",
+     "<b>Une seule</b> plateforme pour commencer."
+    ],
+    "say": [
+     "À retenir.",
+     "Pour le digital : Systeme point io ou Chariow.",
+     "Pour le physique : Shopify ou WooCommerce.",
+     "Et une seule plateforme pour commencer."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 1,
+    "of": 12,
+    "label": "Leçon 5.2 · Les 9 blocs d'une page de vente",
+    "say": [
+     "Prochaine leçon : les neuf blocs d'une page de vente qui convertit. Valable sur toutes les plateformes."
+    ]
+   }
+  ]
+ },
+ "5-2": {
+  "file": "VIDEO 5.2 - Les 9 blocs d'une page de vente",
+  "chip": "Module 5 · Leçon 5.2",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.2",
+    "l1": "Les 9 blocs",
+    "l2": "<em>d'une page qui vend</em>",
+    "sub": "Valable sur toutes les plateformes",
+    "say": [
+     "Leçon deux : les neuf blocs d'une page de vente qui convertit."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Une page de vente,",
+     "c'est ton <em>vendeur</em>",
+     "qui travaille la nuit."
+    ],
+    "foot": "Elle répond aux questions avant qu'on les pose.",
+    "footAt": 2,
+    "say": [
+     "Ta page de vente, c'est ton vendeur.",
+     "Il travaille jour et nuit, même quand tu dors.",
+     "Un bon vendeur répond aux questions avant qu'on les pose. Ta page aussi, avec neuf blocs."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le haut de la page",
+    "heading": "Les blocs <em>1 à 5</em>",
+    "items": [
+     {
+      "icon": "target",
+      "title": "1. Le titre : ta promesse",
+      "show": 1
+     },
+     {
+      "icon": "eye",
+      "title": "2. Une image ou une vidéo du produit",
+      "show": 1
+     },
+     {
+      "icon": "help",
+      "title": "3. Le problème de ton client",
+      "show": 2
+     },
+     {
+      "icon": "bag",
+      "title": "4. La solution et ce qu'elle contient",
+      "show": 3
+     },
+     {
+      "icon": "chat",
+      "title": "5. Les preuves : avis, démonstration",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Voici le haut de la page.",
+     "Un : le titre, avec ta promesse. Deux : une belle image, ou une courte vidéo du produit.",
+     "Trois : le problème de ton client. Il doit se reconnaître.",
+     "Quatre : ta solution, et ce qu'elle contient exactement.",
+     "Cinq : les preuves. Les avis, la démonstration."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le bas de la page",
+    "heading": "Les blocs <em>6 à 9</em>",
+    "items": [
+     {
+      "icon": "coin",
+      "title": "6. L'offre et le prix",
+      "show": 1
+     },
+     {
+      "icon": "shield",
+      "title": "7. La garantie",
+      "show": 2
+     },
+     {
+      "icon": "help",
+      "title": "8. Les questions fréquentes",
+      "show": 3
+     },
+     {
+      "icon": "cart",
+      "title": "9. Le bouton d'achat, répété",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Et le bas de la page.",
+     "Six : l'offre et le prix, avec les bonus.",
+     "Sept : la garantie.",
+     "Huit : les questions fréquentes. Livraison, paiement, délais.",
+     "Neuf : le bouton d'achat. Et on le répète plusieurs fois sur la page."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Tes questions fréquentes, tu les as déjà :<br>ce sont les <b>questions qu'on te pose sur WhatsApp</b>. Réponds-y sur la page.",
+    "say": [
+     "Une astuce : tes questions fréquentes, tu les as déjà.",
+     "Ce sont les questions qu'on te pose tous les jours sur WhatsApp. Réponds-y directement sur la page, et tu gagnes du temps."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Plus de <b>8 visiteurs sur 10</b> arrivent sur téléphone.<br>Conçois ta page pour le téléphone d'abord : textes courts, gros boutons.",
+    "say": [
+     "Attention : la grande majorité de tes visiteurs arrivent sur téléphone.",
+     "Conçois ta page pour le téléphone d'abord. Des textes courts, et de gros boutons faciles à toucher."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Écris le contenu de tes <b>9 blocs</b><br>avant d'ouvrir la plateforme.",
+    "minutes": 20,
+    "say": [
+     "Pause. Écris le contenu de tes neuf blocs dans ta fiche, avant même d'ouvrir la plateforme. Tu as déjà presque tout, grâce au module quatre."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "<b>9 blocs</b>, de la promesse au bouton d'achat.",
+     "Les FAQ = tes questions <b>WhatsApp</b>.",
+     "Pensée pour le <b>téléphone</b> d'abord."
+    ],
+    "say": [
+     "À retenir.",
+     "Neuf blocs, de la promesse au bouton d'achat.",
+     "Tes questions fréquentes viennent de WhatsApp.",
+     "Et une page pensée pour le téléphone."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 2,
+    "of": 12,
+    "label": "Leçon 5.3 · Systeme.io : ton premier tunnel",
+    "say": [
+     "Prochaine leçon, pour le parcours digital : créer ton compte Systeme point io et ton premier tunnel. Si tu es en physique, va directement à la leçon cinq point sept."
+    ]
+   }
+  ]
+ },
+ "5-3": {
+  "file": "VIDEO 5.3 - Systeme.io ton premier tunnel",
+  "chip": "Module 5 · Leçon 5.3",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.3",
+    "l1": "Systeme.io :",
+    "l2": "<em>ton premier tunnel</em>",
+    "sub": "Parcours digital",
+    "say": [
+     "Leçon trois : Systeme point io, ton compte et ton premier tunnel de vente."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Pourquoi Systeme.io",
+    "heading": "Tout au même <em>endroit</em>",
+    "cards": [
+     {
+      "icon": "funnel",
+      "title": "Tunnels",
+      "text": "Pages de vente et commandes",
+      "seg": 1
+     },
+     {
+      "icon": "mail",
+      "title": "E-mails",
+      "text": "Envois automatiques",
+      "seg": 2
+     },
+     {
+      "icon": "laptop",
+      "title": "Formations",
+      "text": "Espace membre pour tes vidéos",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Pourquoi Systeme point io ? Parce que tout est au même endroit.",
+     "Les tunnels de vente : tes pages, et les commandes.",
+     "Les e-mails automatiques.",
+     "Et l'espace membre, pour héberger ta formation vidéo. Il existe une version gratuite pour démarrer."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Crée ton compte <em>et ton tunnel</em>",
+    "steps": [
+     [
+      "Crée ton compte gratuit",
+      1
+     ],
+     [
+      "Tunnels › Créer",
+      2
+     ],
+     [
+      "Objectif : vendre un produit",
+      3
+     ],
+     [
+      "Nomme ton tunnel",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "systeme.io",
+      "tapDelay": 2.6,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Ton e-mail pro",
+        "t": "aminata.cosmetiques@gmail.com"
+       },
+       {
+        "kind": "btn",
+        "t": "Créer mon compte gratuit",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Tableau de bord",
+      "tapAt": 2,
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Contacts"
+       },
+       {
+        "t": "Tunnels",
+        "ic": "#1e66f5",
+        "l": "T",
+        "hl": true
+       },
+       {
+        "t": "E-mails"
+       },
+       {
+        "t": "Formations"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Nouveau tunnel",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "t": "Construire une liste d'e-mails"
+       },
+       {
+        "t": "Vendre un produit",
+        "ic": "#1e8e3e",
+        "l": "€",
+        "hl": true
+       },
+       {
+        "t": "Organiser un webinaire"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Nouveau tunnel",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Nom du tunnel",
+        "t": "Guide Routine 7 jours"
+       },
+       {
+        "t": "Devise",
+        "sub": "XOF"
+       },
+       {
+        "kind": "btn",
+        "t": "Enregistrer",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre.",
+     "Sur systeme point io, crée ton compte gratuit avec ton adresse pro.",
+     "Dans le tableau de bord, va dans Tunnels, puis Créer.",
+     "Choisis l'objectif : vendre un produit.",
+     "Donne un nom à ton tunnel, choisis ta devise, et enregistre."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Ce que tu as créé",
+    "heading": "Un tunnel = <em>3 pages</em>",
+    "steps": [
+     [
+      "Page de vente",
+      "Ta promesse et tes 9 blocs",
+      1
+     ],
+     [
+      "Bon de commande",
+      "Le paiement",
+      2
+     ],
+     [
+      "Remerciement",
+      "La livraison",
+      3
+     ]
+    ],
+    "say": [
+     "Ton tunnel contient trois pages, l'une après l'autre.",
+     "La page de vente : tes neuf blocs.",
+     "Le bon de commande : là où le client paie.",
+     "Et la page de remerciement : là où il reçoit son produit. On les remplit à la prochaine leçon."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les plateformes changent souvent leurs écrans.<br>Si un bouton a bougé, cherche <b>le même mot</b> dans le menu : la logique reste la même.",
+    "say": [
+     "Une précision importante : les plateformes changent souvent leurs écrans.",
+     "Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée ton compte Systeme.io<br>et ton <b>premier tunnel</b>.",
+    "minutes": 10,
+    "say": [
+     "Pause. Crée ton compte, et ton premier tunnel « vendre un produit »."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Systeme.io : tunnels, e-mails, <b>formations</b>.",
+     "Tunnels › Créer › <b>Vendre un produit</b>.",
+     "Un tunnel = <b>3 pages</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Systeme point io réunit tunnels, e-mails et formations.",
+     "Tunnels, Créer, Vendre un produit.",
+     "Et un tunnel, c'est trois pages."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 3,
+    "of": 12,
+    "label": "Leçon 5.4 · Systeme.io : les 3 pages",
+    "say": [
+     "Prochaine leçon : on remplit les trois pages de ton tunnel."
+    ]
+   }
+  ]
+ },
+ "5-4": {
+  "file": "VIDEO 5.4 - Systeme.io les 3 pages",
+  "chip": "Module 5 · Leçon 5.4",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.4",
+    "l1": "Systeme.io :",
+    "l2": "<em>les 3 pages</em>",
+    "sub": "Vente, commande, remerciement",
+    "say": [
+     "Leçon quatre : remplir les trois pages de ton tunnel Systeme point io."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Page 1",
+    "heading": "La page de <em>vente</em>",
+    "steps": [
+     [
+      "Choisis un modèle",
+      0
+     ],
+     [
+      "Remplace les textes",
+      1
+     ],
+     [
+      "Ajoute tes images",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Modèles de page",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "t": "Page de vente simple",
+        "ic": "#1e66f5",
+        "l": "1",
+        "hl": true
+       },
+       {
+        "t": "Page de vente longue",
+        "ic": "#1e66f5",
+        "l": "2"
+       },
+       {
+        "t": "Page vierge",
+        "ic": "#5f6368",
+        "l": "+"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Éditeur",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Titre",
+        "t": "Des cheveux qui ne cassent plus, en 7 jours"
+       },
+       {
+        "kind": "note",
+        "t": "Bloc 3 · Le problème · Bloc 4 · La solution…"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Éditeur",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Image du guide",
+        "sub": "couverture.png",
+        "ic": "#f59e0b",
+        "l": "▣"
+       },
+       {
+        "kind": "btn",
+        "t": "Enregistrer",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Page un : la page de vente. Clique sur Modifier la page, et choisis un modèle simple.",
+     "Remplace les textes du modèle par tes neuf blocs, préparés à la leçon deux.",
+     "Ajoute tes images : la couverture de ton guide, tes visuels. Et enregistre."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Page 2",
+    "heading": "Le bon de <em>commande</em>",
+    "steps": [
+     [
+      "Crée ton offre",
+      1
+     ],
+     [
+      "Fixe le prix",
+      2
+     ],
+     [
+      "Connecte le paiement",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "Bon de commande · Offres",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "kind": "btn",
+        "t": "+ Ajouter une offre",
+        "hl": true
+       },
+       {
+        "kind": "note",
+        "t": "Le produit que le client achète sur cette page."
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Nouvelle offre",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Nom",
+        "t": "Guide Routine 7 jours"
+       },
+       {
+        "kind": "input",
+        "label": "Prix",
+        "t": "3 000 XOF"
+       },
+       {
+        "t": "Paiement",
+        "sub": "Unique"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Paramètres de paiement",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Moyens de paiement",
+        "sub": "À connecter au module 6",
+        "ic": "#1e8e3e",
+        "l": "€"
+       },
+       {
+        "kind": "note",
+        "t": "Tu choisiras ta solution de paiement au module 6."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Page deux : le bon de commande.",
+     "Ajoute une offre : c'est le produit que le client achète.",
+     "Donne-lui un nom, et fixe ton prix, celui de ta leçon deux point quatre.",
+     "Le paiement, on le connecte au module six, avec le Mobile Money. Pour l'instant, on prépare la page."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Page 3",
+    "heading": "Le <em>remerciement</em>",
+    "steps": [
+     [
+      "Un message chaleureux",
+      0
+     ],
+     [
+      "Le lien de ton produit",
+      1
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Page de remerciement",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Merci pour ta confiance ! Ton guide t'attend ci-dessous."
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Page de remerciement",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "note",
+        "t": "Merci pour ta confiance ! Ton guide t'attend ci-dessous."
+       },
+       {
+        "kind": "btn",
+        "t": "Télécharger mon guide",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Page trois : le remerciement. Un message chaleureux, et rassurant.",
+     "Puis un bouton vers ton produit : le lien de ton guide, ou l'accès à ta formation. La livraison est automatique."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Mets un <b>e-mail automatique</b> après l'achat, avec le lien du produit.<br>Si le client ferme la page, il retrouve tout dans sa boîte mail.",
+    "say": [
+     "Une astuce : ajoute un e-mail automatique après l'achat, avec le même lien.",
+     "Si le client ferme la page trop vite, il retrouve tout dans sa boîte mail. Moins de messages paniqués sur WhatsApp."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les plateformes changent souvent leurs écrans.<br>Si un bouton a bougé, cherche <b>le même mot</b> dans le menu : la logique reste la même.",
+    "say": [
+     "Une précision importante : les plateformes changent souvent leurs écrans.",
+     "Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Remplis tes <b>3 pages</b> :<br>vente, commande, remerciement.",
+    "minutes": 30,
+    "say": [
+     "Pause. Remplis tes trois pages. Prends ton temps : c'est ta vitrine."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Page de vente : <b>tes 9 blocs</b>.",
+     "Bon de commande : <b>l'offre et le prix</b>.",
+     "Remerciement : <b>la livraison automatique</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "La page de vente porte tes neuf blocs.",
+     "Le bon de commande porte l'offre et le prix.",
+     "Et la page de remerciement livre automatiquement."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 4,
+    "of": 12,
+    "label": "Leçon 5.5 · Chariow : ta boutique digitale",
+    "say": [
+     "Prochaine leçon : Chariow, une autre façon de vendre tes produits digitaux, avec le Mobile Money."
+    ]
+   }
+  ]
+ },
+ "5-5": {
+  "file": "VIDEO 5.5 - Chariow ta boutique digitale",
+  "chip": "Module 5 · Leçon 5.5",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.5",
+    "l1": "Chariow :",
+    "l2": "<em>ta boutique digitale</em>",
+    "sub": "Parcours digital",
+    "say": [
+     "Leçon cinq : créer ta boutique de produits digitaux sur Chariow."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Pourquoi Chariow",
+    "heading": "Pensée pour <em>l'Afrique</em>",
+    "cards": [
+     {
+      "icon": "coin",
+      "title": "Mobile Money",
+      "text": "Et cartes bancaires",
+      "seg": 1
+     },
+     {
+      "icon": "repeat",
+      "title": "Livraison auto",
+      "text": "Le client reçoit tout seul",
+      "seg": 2
+     },
+     {
+      "icon": "shield",
+      "title": "Filigrane",
+      "text": "Avec l'e-mail de l'acheteur",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Pourquoi Chariow ? Parce que la plateforme est pensée pour vendre en Afrique.",
+     "Tes clients paient en Mobile Money, ou par carte.",
+     "La livraison est automatique : le client reçoit son produit tout seul.",
+     "Et tes fichiers peuvent porter un filigrane avec l'e-mail de l'acheteur. Ça décourage le partage."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Crée ta <em>boutique</em>",
+    "steps": [
+     [
+      "Crée ton compte",
+      1
+     ],
+     [
+      "Nomme ta boutique",
+      2
+     ],
+     [
+      "Logo et couleurs",
+      3
+     ],
+     [
+      "Tes infos de paiement",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "chariow.com",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "E-mail pro",
+        "t": "aminata.cosmetiques@gmail.com"
+       },
+       {
+        "kind": "btn",
+        "t": "Créer ma boutique",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Ma boutique",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Nom de la boutique",
+        "t": "Cheveux Faciles"
+       },
+       {
+        "kind": "input",
+        "label": "Adresse",
+        "t": "cheveuxfaciles"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Apparence",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Logo",
+        "sub": "logo.png",
+        "ic": "#7c3aed",
+        "l": "CF"
+       },
+       {
+        "t": "Couleur principale",
+        "sub": "#7C3AED",
+        "ic": "#7c3aed",
+        "l": "●",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Paiements",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Recevoir mes gains",
+        "sub": "Mobile Money ou compte",
+        "ic": "#1e8e3e",
+        "l": "€"
+       },
+       {
+        "kind": "note",
+        "t": "Vérifie les frais et délais de versement sur ton compte."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre.",
+     "Crée ton compte avec ton e-mail pro.",
+     "Donne un nom à ta boutique, et choisis son adresse.",
+     "Ajoute ton logo et ta couleur principale : ta mini-charte du module quatre.",
+     "Puis renseigne où recevoir tes gains. Vérifie bien les frais et les délais de versement indiqués sur ton compte."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les <b>frais</b> et les <b>pays couverts</b> peuvent changer.<br>Vérifie-les dans ton compte avant de fixer ton prix final.",
+    "say": [
+     "Attention : les frais et la liste des pays couverts peuvent changer.",
+     "Vérifie-les dans ton compte avant de fixer ton prix final. Ta marge doit les inclure."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les plateformes changent souvent leurs écrans.<br>Si un bouton a bougé, cherche <b>le même mot</b> dans le menu : la logique reste la même.",
+    "say": [
+     "Une précision importante : les plateformes changent souvent leurs écrans.",
+     "Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée ta boutique Chariow :<br>nom, logo, couleur, paiement.",
+    "minutes": 15,
+    "say": [
+     "Pause. Crée ta boutique : le nom, le logo, la couleur, et tes informations de paiement."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Chariow : <b>Mobile Money</b>, livraison automatique.",
+     "Ta boutique porte <b>ta charte</b>.",
+     "Vérifie les <b>frais</b> avant de fixer ton prix."
+    ],
+    "say": [
+     "À retenir.",
+     "Chariow, c'est le Mobile Money et la livraison automatique.",
+     "Ta boutique porte ta charte.",
+     "Et tu vérifies les frais avant de fixer ton prix."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 5,
+    "of": 12,
+    "label": "Leçon 5.6 · Chariow : produit et codes promo",
+    "say": [
+     "Prochaine leçon : ajouter ton produit sur Chariow, et créer tes codes promo."
+    ]
+   }
+  ]
+ },
+ "5-6": {
+  "file": "VIDEO 5.6 - Chariow produit et codes promo",
+  "chip": "Module 5 · Leçon 5.6",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.6",
+    "l1": "Chariow :",
+    "l2": "<em>produit et codes promo</em>",
+    "sub": "Parcours digital",
+    "say": [
+     "Leçon six : ajouter ton produit sur Chariow, et créer un code promo."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Ajoute ton <em>produit</em>",
+    "steps": [
+     [
+      "Produits › Ajouter",
+      0
+     ],
+     [
+      "Titre et description",
+      1
+     ],
+     [
+      "Prix",
+      2
+     ],
+     [
+      "Le fichier à livrer",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Produits",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "btn",
+        "t": "+ Ajouter un produit",
+        "hl": true
+       },
+       {
+        "t": "Ebook / PDF"
+       },
+       {
+        "t": "Formation"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Nouveau produit",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Titre",
+        "t": "Routine cheveux crépus en 7 jours"
+       },
+       {
+        "kind": "note",
+        "t": "Description : tes blocs problème, solution, preuves."
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Prix",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Prix",
+        "t": "3 000 FCFA"
+       },
+       {
+        "t": "Prix barré",
+        "sub": "Optionnel"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Fichier",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "guide-routine.pdf",
+        "sub": "Livré après paiement",
+        "ic": "#d93025",
+        "l": "PDF"
+       },
+       {
+        "kind": "btn",
+        "t": "Publier",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ajoutons ton produit. Va dans Produits, puis Ajouter un produit.",
+     "Écris le titre : ta promesse. Et la description : tes blocs problème, solution, preuves.",
+     "Fixe ton prix.",
+     "Ajoute le fichier à livrer : ton guide PDF. Il sera envoyé automatiquement après le paiement. Puis publie."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Crée un <em>code promo</em>",
+    "steps": [
+     [
+      "Marketing › Codes promo",
+      0
+     ],
+     [
+      "Le code et la réduction",
+      1
+     ],
+     [
+      "Une date de fin",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Marketing",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Codes promo",
+        "ic": "#f59e0b",
+        "l": "%",
+        "hl": true
+       },
+       {
+        "t": "Affiliation"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Nouveau code",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Code",
+        "t": "LANCEMENT"
+       },
+       {
+        "kind": "input",
+        "label": "Réduction",
+        "t": "20 %"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Nouveau code",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Fin",
+        "sub": "Dimanche 23 h 59"
+       },
+       {
+        "kind": "btn",
+        "t": "Créer",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Maintenant, un code promo. Cherche la partie marketing, puis Codes promo.",
+     "Choisis un code facile à retenir, par exemple LANCEMENT, et la réduction.",
+     "Et mets une vraie date de fin. Tu te souviens du module quatre : une urgence vraie."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Fais un <b>achat test</b> toi-même avec un petit code à 100 %, ou un ami.<br>Tu vérifies le paiement, l'e-mail et la livraison du fichier.",
+    "say": [
+     "Une astuce indispensable : fais un achat test.",
+     "Avec un ami, ou un code de test. Tu vérifies le paiement, l'e-mail reçu, et la livraison du fichier. Comme un vrai client."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les plateformes changent souvent leurs écrans.<br>Si un bouton a bougé, cherche <b>le même mot</b> dans le menu : la logique reste la même.",
+    "say": [
+     "Une précision importante : les plateformes changent souvent leurs écrans.",
+     "Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Publie ton produit, crée ton code promo<br>et fais <b>un achat test</b>.",
+    "minutes": 20,
+    "say": [
+     "Pause. Publie ton produit, crée ton code promo, et fais un achat test."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Titre = promesse, description = <b>tes blocs</b>.",
+     "Le fichier est <b>livré automatiquement</b>.",
+     "Un code promo avec une <b>vraie date de fin</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Le titre porte ta promesse, la description tes blocs.",
+     "Le fichier est livré automatiquement.",
+     "Et un code promo, avec une vraie date de fin."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 6,
+    "of": 12,
+    "label": "Leçon 5.7 · Shopify : ta boutique",
+    "say": [
+     "Prochaine leçon, pour le parcours physique : créer ta boutique Shopify."
+    ]
+   }
+  ]
+ },
+ "5-7": {
+  "file": "VIDEO 5.7 - Shopify ta boutique",
+  "chip": "Module 5 · Leçon 5.7",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.7",
+    "l1": "Shopify :",
+    "l2": "<em>ta boutique</em>",
+    "sub": "Parcours physique",
+    "say": [
+     "Leçon sept : créer ta boutique Shopify, et choisir ton thème."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Shopify, c'est une",
+     "boutique <em>clé en main</em>.",
+     "Tu n'installes rien."
+    ],
+    "foot": "Un essai pour tester, puis un abonnement mensuel.",
+    "footAt": 2,
+    "say": [
+     "Shopify, c'est une boutique clé en main.",
+     "Tu n'installes rien : l'hébergement, la sécurité, les mises à jour, tout est géré.",
+     "Il y a un essai pour tester, puis un abonnement mensuel. Vérifie le prix actuel sur le site avant de te lancer."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Crée ta <em>boutique</em>",
+    "steps": [
+     [
+      "Commence l'essai",
+      1
+     ],
+     [
+      "Nom de la boutique",
+      2
+     ],
+     [
+      "Choisis un thème",
+      3
+     ],
+     [
+      "Ton logo et tes couleurs",
+      4
+     ]
+    ],
+    "screens": [
+     {
+      "at": 1,
+      "title": "shopify.com",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "E-mail pro",
+        "t": "aminata.cosmetiques@gmail.com"
+       },
+       {
+        "kind": "btn",
+        "t": "Commencer l'essai gratuit",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Ta boutique",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Nom",
+        "t": "Douceur Karité"
+       },
+       {
+        "t": "Pays",
+        "sub": "Côte d'Ivoire"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Boutique en ligne › Thèmes",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "t": "Dawn",
+        "sub": "Gratuit · sobre",
+        "ic": "#5e8e3e",
+        "l": "D",
+        "hl": true
+       },
+       {
+        "t": "Thèmes gratuits",
+        "sub": "Plusieurs choix"
+       },
+       {
+        "t": "Thèmes payants",
+        "sub": "Plus tard"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "title": "Personnaliser",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Logo",
+        "sub": "logo.png",
+        "ic": "#f59e0b",
+        "l": "DK"
+       },
+       {
+        "t": "Couleurs",
+        "sub": "Ta mini-charte"
+       },
+       {
+        "kind": "btn",
+        "t": "Enregistrer",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre.",
+     "Sur shopify point com, commence l'essai avec ton e-mail pro.",
+     "Donne un nom à ta boutique, et indique ton pays.",
+     "Dans Boutique en ligne, puis Thèmes, choisis un thème gratuit et sobre. Il suffit largement pour démarrer.",
+     "Personnalise : ton logo, tes couleurs, et enregistre."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Un thème <b>gratuit et sobre</b> suffit pour démarrer.<br>Ce qui vend, ce sont tes photos, ta promesse et tes avis. Pas le thème.",
+    "say": [
+     "Une astuce : ne perds pas trois jours à choisir un thème.",
+     "Un thème gratuit et sobre suffit. Ce qui vend, ce sont tes photos, ta promesse et tes avis."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Pendant l'essai, note la <b>date de fin</b> et le prix de l'abonnement.<br>Et vérifie les frais selon ta solution de paiement (module 6).",
+    "say": [
+     "Attention : pendant l'essai, note la date de fin et le prix de l'abonnement.",
+     "Et vérifie les frais de transaction selon ta solution de paiement. On en parle en détail au module six."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée ta boutique Shopify<br>et applique <b>ta charte</b>.",
+    "minutes": 20,
+    "say": [
+     "Pause. Crée ta boutique, choisis un thème sobre, et applique ta charte."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Shopify : <b>clé en main</b>, essai puis abonnement.",
+     "Un <b>thème gratuit</b> et sobre suffit.",
+     "Note la <b>fin de l'essai</b> et les frais."
+    ],
+    "say": [
+     "À retenir.",
+     "Shopify est clé en main : un essai, puis un abonnement.",
+     "Un thème gratuit suffit.",
+     "Et note la fin de l'essai, et les frais."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 7,
+    "of": 12,
+    "label": "Leçon 5.8 · Shopify : produits et livraison",
+    "say": [
+     "Prochaine leçon : tes fiches produits, tes collections, et la livraison sur Shopify."
+    ]
+   }
+  ]
+ },
+ "5-8": {
+  "file": "VIDEO 5.8 - Shopify produits et livraison",
+  "chip": "Module 5 · Leçon 5.8",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.8",
+    "l1": "Shopify :",
+    "l2": "<em>produits et livraison</em>",
+    "sub": "Parcours physique",
+    "say": [
+     "Leçon huit : fiches produits, collections, et livraison sur Shopify."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Une fiche produit <em>qui vend</em>",
+    "steps": [
+     [
+      "Produits › Ajouter",
+      0
+     ],
+     [
+      "Titre et description",
+      1
+     ],
+     [
+      "Tes 10 photos",
+      2
+     ],
+     [
+      "Prix et stock",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Produits",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "btn",
+        "t": "Ajouter un produit",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Nouveau produit",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Titre",
+        "t": "Crème mains karité · 100 ml"
+       },
+       {
+        "kind": "note",
+        "t": "Description : problème, solution, ce qu'il contient, comment l'utiliser."
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Médias",
+      "tap": false,
+      "rows": [
+       {
+        "t": "10 photos",
+        "sub": "Fond neutre, détails, situation",
+        "ic": "#f59e0b",
+        "l": "▣"
+       },
+       {
+        "t": "Vidéo 15 s",
+        "ic": "#f59e0b",
+        "l": "▶"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Prix et stock",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Prix",
+        "t": "5 000 XOF"
+       },
+       {
+        "t": "Stock suivi",
+        "sub": "50 unités"
+       },
+       {
+        "kind": "btn",
+        "t": "Enregistrer",
+        "alt": true,
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ajoutons ta première fiche produit. Produits, puis Ajouter un produit.",
+     "Le titre : clair, avec la quantité. La description : le problème, la solution, ce qu'il contient, et comment l'utiliser.",
+     "Ajoute tes dix photos et ta vidéo du module trois B.",
+     "Mets ton prix, active le suivi du stock, et enregistre."
+    ]
+   },
+   {
+    "type": "cards",
+    "over": "Les collections",
+    "heading": "Range comme <em>un magasin</em>",
+    "cards": [
+     {
+      "icon": "bag",
+      "title": "Par usage",
+      "text": "Mains, visage, cheveux",
+      "seg": 1
+     },
+     {
+      "icon": "target",
+      "title": "Par besoin",
+      "text": "Peau sèche, cheveux cassants",
+      "seg": 2
+     },
+     {
+      "icon": "coin",
+      "title": "Les offres",
+      "text": "Packs et promotions",
+      "seg": 3
+     }
+    ],
+    "say": [
+     "Ensuite, range tes produits en collections, comme les rayons d'un magasin.",
+     "Par usage : mains, visage, cheveux.",
+     "Par besoin : peau sèche, cheveux cassants.",
+     "Et une collection pour les offres : les packs, les promotions."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Paramètre la <em>livraison</em>",
+    "steps": [
+     [
+      "Paramètres › Expédition",
+      0
+     ],
+     [
+      "Crée tes zones",
+      1
+     ],
+     [
+      "Paiement à la livraison",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Paramètres",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Expédition et livraison",
+        "ic": "#5e8e3e",
+        "l": "🚚",
+        "hl": true
+       },
+       {
+        "t": "Paiements"
+       },
+       {
+        "t": "Taxes"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Zones d'expédition",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Zone 1 · Commune",
+        "sub": "1 000 XOF"
+       },
+       {
+        "t": "Zone 2 · Ville",
+        "sub": "1 500 XOF"
+       },
+       {
+        "t": "Zone 3 · Autres villes",
+        "sub": "Sur devis"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Paiements manuels",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Paiement à la livraison",
+        "ic": "#1e8e3e",
+        "l": "€",
+        "hl": true
+       },
+       {
+        "kind": "note",
+        "t": "Confirme chaque commande avant d'envoyer le livreur."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Maintenant, la livraison. Va dans Paramètres, puis Expédition et livraison.",
+     "Crée tes zones, avec les prix de ton module trois B.",
+     "Et si tu le proposes, active le paiement à la livraison, dans les paiements manuels. Et toujours : on confirme avant d'envoyer."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les plateformes changent souvent leurs écrans.<br>Si un bouton a bougé, cherche <b>le même mot</b> dans le menu : la logique reste la même.",
+    "say": [
+     "Une précision importante : les plateformes changent souvent leurs écrans.",
+     "Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Crée tes fiches produits, tes collections<br>et tes <b>zones de livraison</b>.",
+    "minutes": 30,
+    "say": [
+     "Pause. Crée tes fiches produits, tes collections, et tes zones de livraison."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Une fiche = titre clair, description, <b>10 photos</b>.",
+     "Des <b>collections</b> comme des rayons.",
+     "Des <b>zones</b> de livraison, et la confirmation."
+    ],
+    "say": [
+     "À retenir.",
+     "Une fiche produit : un titre clair, une description, tes photos.",
+     "Des collections, comme des rayons.",
+     "Et des zones de livraison, avec confirmation."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 8,
+    "of": 12,
+    "label": "Leçon 5.9 · WooCommerce : l'installation",
+    "say": [
+     "Prochaine leçon : l'alternative WooCommerce, sur ton propre site WordPress."
+    ]
+   }
+  ]
+ },
+ "5-9": {
+  "file": "VIDEO 5.9 - WooCommerce l'installation",
+  "chip": "Module 5 · Leçon 5.9",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.9",
+    "l1": "WooCommerce :",
+    "l2": "<em>l'installation</em>",
+    "sub": "Parcours physique",
+    "say": [
+     "Leçon neuf : installer WordPress et WooCommerce, pas à pas."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "Shopify ou WooCommerce ?",
+    "heading": "Deux <em>philosophies</em>",
+    "cols": [
+     "Shopify",
+     "WooCommerce"
+    ],
+    "rows": [
+     [
+      "Tout est géré pour toi",
+      "Tu gères ton site toi-même",
+      1,
+      0.8
+     ],
+     [
+      "Abonnement mensuel",
+      "Extension gratuite + hébergement",
+      2,
+      0.8
+     ],
+     [
+      "Moins de liberté",
+      "Liberté totale",
+      3,
+      0.8
+     ]
+    ],
+    "say": [
+     "Shopify ou WooCommerce ? Deux philosophies.",
+     "Avec Shopify, tout est géré pour toi. Avec WooCommerce, tu gères ton site toi-même.",
+     "Shopify, c'est un abonnement. WooCommerce est une extension gratuite, mais il te faut un hébergement.",
+     "Et WooCommerce te donne une liberté totale, avec un peu plus de technique."
+    ]
+   },
+   {
+    "type": "flow",
+    "over": "Les étapes",
+    "heading": "De zéro à <em>ta boutique</em>",
+    "steps": [
+     [
+      "Hébergement",
+      "Avec WordPress",
+      1
+     ],
+     [
+      "Nom de domaine",
+      "Ton adresse",
+      2
+     ],
+     [
+      "WooCommerce",
+      "L'extension",
+      3
+     ],
+     [
+      "L'assistant",
+      "Les réglages",
+      4
+     ]
+    ],
+    "say": [
+     "Voici les quatre étapes.",
+     "Un : un hébergement qui installe WordPress en un clic. Beaucoup d'hébergeurs le proposent.",
+     "Deux : ton nom de domaine, ton adresse sur internet. On le voit à la leçon onze.",
+     "Trois : l'extension WooCommerce.",
+     "Quatre : l'assistant de configuration."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Installe <em>WooCommerce</em>",
+    "steps": [
+     [
+      "Extensions › Ajouter",
+      0
+     ],
+     [
+      "Cherche WooCommerce",
+      1
+     ],
+     [
+      "Installer, puis Activer",
+      2
+     ],
+     [
+      "Suis l'assistant",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "WordPress · Tableau de bord",
+      "tapAt": 0,
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Articles"
+       },
+       {
+        "t": "Extensions",
+        "ic": "#21759b",
+        "l": "W",
+        "hl": true
+       },
+       {
+        "t": "Apparence"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Ajouter des extensions",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Rechercher",
+        "t": "WooCommerce"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Résultats",
+      "tapDelay": 2.2,
+      "rows": [
+       {
+        "t": "WooCommerce",
+        "sub": "Automattic",
+        "ic": "#7f54b3",
+        "l": "Woo"
+       },
+       {
+        "kind": "btn",
+        "t": "Installer, puis Activer",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Assistant WooCommerce",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Adresse de la boutique"
+       },
+       {
+        "t": "Type de produits",
+        "sub": "Physiques"
+       },
+       {
+        "t": "Devise",
+        "sub": "Franc CFA"
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre. Dans ton tableau de bord WordPress, va dans Extensions, puis Ajouter.",
+     "Cherche WooCommerce.",
+     "Clique sur Installer, puis sur Activer.",
+     "Un assistant s'ouvre : ton adresse, tes types de produits, ta devise. Réponds simplement, tu pourras modifier ensuite."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Avec WordPress, c'est toi le <b>responsable technique</b> :<br>mises à jour, sauvegardes, sécurité. Active les sauvegardes automatiques.",
+    "say": [
+     "Attention : avec WordPress, c'est toi le responsable technique.",
+     "Les mises à jour, les sauvegardes, la sécurité. Active au minimum les sauvegardes automatiques chez ton hébergeur."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les plateformes changent souvent leurs écrans.<br>Si un bouton a bougé, cherche <b>le même mot</b> dans le menu : la logique reste la même.",
+    "say": [
+     "Une précision importante : les plateformes changent souvent leurs écrans.",
+     "Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Installe WordPress et <b>WooCommerce</b>,<br>puis suis l'assistant.",
+    "minutes": 30,
+    "say": [
+     "Pause. Installe WordPress chez ton hébergeur, ajoute WooCommerce, et suis l'assistant."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "WooCommerce : <b>liberté</b>, un peu plus de technique.",
+     "Hébergement, domaine, extension, <b>assistant</b>.",
+     "Active les <b>sauvegardes</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "WooCommerce, c'est la liberté, avec un peu plus de technique.",
+     "Hébergement, domaine, extension, assistant.",
+     "Et active les sauvegardes."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 9,
+    "of": 12,
+    "label": "Leçon 5.10 · WooCommerce : produits et pages légales",
+    "say": [
+     "Prochaine leçon : tes produits, ta livraison et tes pages légales sur WooCommerce."
+    ]
+   }
+  ]
+ },
+ "5-10": {
+  "file": "VIDEO 5.10 - WooCommerce produits et pages legales",
+  "chip": "Module 5 · Leçon 5.10",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.10",
+    "l1": "WooCommerce :",
+    "l2": "<em>produits et pages légales</em>",
+    "sub": "Parcours physique",
+    "say": [
+     "Leçon dix : produits, livraison et pages légales sur WooCommerce."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Ajoute un <em>produit</em>",
+    "steps": [
+     [
+      "Produits › Ajouter",
+      0
+     ],
+     [
+      "Titre et description",
+      1
+     ],
+     [
+      "Prix et stock",
+      2
+     ],
+     [
+      "Image et galerie",
+      3
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Produits",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "btn",
+        "t": "Ajouter un produit",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Nouveau produit",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Nom",
+        "t": "Bonnet en satin · noir"
+       },
+       {
+        "kind": "note",
+        "t": "Description : problème, solution, entretien."
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Données produit",
+      "tap": false,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Tarif",
+        "t": "6 500"
+       },
+       {
+        "t": "Gérer le stock",
+        "sub": "Oui · 50"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "title": "Images",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Image produit",
+        "ic": "#f59e0b",
+        "l": "▣"
+       },
+       {
+        "t": "Galerie",
+        "sub": "9 photos"
+       },
+       {
+        "kind": "btn",
+        "t": "Publier",
+        "hl": true
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ajoutons un produit. Produits, puis Ajouter.",
+     "Le nom, et la description : le problème, la solution, l'entretien.",
+     "Dans les données produit : le tarif, et la gestion du stock.",
+     "L'image principale, la galerie avec tes autres photos. Et publie."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Paramètre la <em>livraison</em>",
+    "steps": [
+     [
+      "Réglages › Expédition",
+      0
+     ],
+     [
+      "Une zone par secteur",
+      1
+     ],
+     [
+      "Paiement à la livraison",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "WooCommerce · Réglages",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Général"
+       },
+       {
+        "t": "Expédition",
+        "ic": "#7f54b3",
+        "l": "🚚",
+        "hl": true
+       },
+       {
+        "t": "Paiements"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Zones d'expédition",
+      "tap": false,
+      "rows": [
+       {
+        "t": "Zone 1 · Commune",
+        "sub": "Forfait 1 000"
+       },
+       {
+        "t": "Zone 2 · Ville",
+        "sub": "Forfait 1 500"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Paiements",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "t": "Paiement à la livraison",
+        "ic": "#1e8e3e",
+        "l": "€",
+        "hl": true
+       },
+       {
+        "kind": "note",
+        "t": "Les paiements en ligne : au module 6."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Ensuite, la livraison. Dans WooCommerce, Réglages, puis Expédition.",
+     "Crée une zone par secteur, avec un forfait.",
+     "Et dans Paiements, active le paiement à la livraison si tu le proposes. Les paiements en ligne, on les branche au module six."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Les pages légales",
+    "heading": "4 pages <em>indispensables</em>",
+    "items": [
+     {
+      "icon": "note",
+      "title": "Conditions générales de vente",
+      "text": "Prix, livraison, retours",
+      "show": 1
+     },
+     {
+      "icon": "shield",
+      "title": "Politique de confidentialité",
+      "text": "Les données de tes clients",
+      "show": 2
+     },
+     {
+      "icon": "repeat",
+      "title": "Retours et remboursements",
+      "text": "Délais et conditions",
+      "show": 3
+     },
+     {
+      "icon": "users",
+      "title": "Mentions et contact",
+      "text": "Qui vend, comment te joindre",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Enfin, les pages légales. Quatre pages indispensables, sur toutes les plateformes.",
+     "Les conditions générales de vente : prix, livraison, retours.",
+     "La politique de confidentialité : ce que tu fais des données de tes clients.",
+     "La politique de retours et de remboursements.",
+     "Et les mentions, avec ton contact. On y revient au module quinze."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "attention",
+    "text": "Les règles changent selon <b>ton pays</b>. Utilise les modèles de ta plateforme,<br>adapte-les, et fais-les relire si tu as un doute.",
+    "say": [
+     "Attention : les règles changent selon ton pays.",
+     "Pars des modèles proposés par ta plateforme, adapte-les à ton activité, et fais-les relire par un professionnel si tu as un doute."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Ajoute tes produits, ta livraison<br>et tes <b>4 pages légales</b>.",
+    "minutes": 30,
+    "say": [
+     "Pause. Ajoute tes produits, ta livraison, et tes quatre pages légales."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Produit : description, <b>prix, stock</b>, galerie.",
+     "Livraison par <b>zones</b>.",
+     "<b>4 pages légales</b>, adaptées à ton pays."
+    ],
+    "say": [
+     "À retenir.",
+     "Un produit complet : description, prix, stock, galerie.",
+     "Une livraison par zones.",
+     "Et quatre pages légales, adaptées à ton pays."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 10,
+    "of": 12,
+    "label": "Leçon 5.11 · Ton nom de domaine",
+    "say": [
+     "Prochaine leçon, pour tout le monde : ton nom de domaine et ton adresse e-mail professionnelle."
+    ]
+   }
+  ]
+ },
+ "5-11": {
+  "file": "VIDEO 5.11 - Ton nom de domaine",
+  "chip": "Module 5 · Leçon 5.11",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.11",
+    "l1": "Ton nom",
+    "l2": "<em>de domaine</em>",
+    "sub": "Et ton e-mail professionnel",
+    "say": [
+     "Leçon onze : ton nom de domaine, et ton adresse e-mail professionnelle."
+    ]
+   },
+   {
+    "type": "compare",
+    "over": "La différence",
+    "heading": "Une adresse qui inspire <em>confiance</em>",
+    "cols": [
+     "Adresse par défaut",
+     "Ton nom de domaine"
+    ],
+    "rightGood": true,
+    "rows": [
+     [
+      "douceur-karite.myshopify.com",
+      "douceurkarite.com",
+      1,
+      0.8
+     ],
+     [
+      "aminata.cosmetiques@gmail.com",
+      "contact@douceurkarite.com",
+      2,
+      0.8
+     ]
+    ],
+    "say": [
+     "Regarde la différence.",
+     "Une adresse par défaut, longue et technique, contre ton propre nom de domaine. Court, et facile à retenir.",
+     "Et pour l'e-mail : « contact arobase douceurkarite point com ». Tout de suite plus professionnel."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Bien choisir",
+    "heading": "Un bon nom de domaine, <em>c'est</em>",
+    "items": [
+     {
+      "icon": "target",
+      "title": "Court et facile à dire",
+      "text": "Teste-le à l'oral",
+      "show": 1
+     },
+     {
+      "icon": "stop",
+      "title": "Sans tiret ni chiffre",
+      "text": "On se trompe moins",
+      "show": 2
+     },
+     {
+      "icon": "link",
+      "title": "En .com ou l'extension de ton pays",
+      "text": ".ci, .sn, .cm…",
+      "show": 3
+     }
+    ],
+    "say": [
+     "Comment bien le choisir ?",
+     "Court, et facile à dire. Teste-le à voix haute : si tu dois l'épeler, il est trop compliqué.",
+     "Sans tiret ni chiffre : on se trompe moins.",
+     "Et en point com, ou avec l'extension de ton pays."
+    ]
+   },
+   {
+    "type": "phone",
+    "over": "Démonstration",
+    "heading": "Connecte ton <em>domaine</em>",
+    "steps": [
+     [
+      "Achète le domaine",
+      0
+     ],
+     [
+      "Paramètres › Domaines",
+      1
+     ],
+     [
+      "Connecte et attends",
+      2
+     ]
+    ],
+    "screens": [
+     {
+      "at": 0,
+      "title": "Registraire de domaine",
+      "tapDelay": 2.4,
+      "rows": [
+       {
+        "kind": "input",
+        "label": "Recherche",
+        "t": "douceurkarite.com"
+       },
+       {
+        "t": "Disponible",
+        "sub": "Prix par an",
+        "ic": "#1e8e3e",
+        "l": "✓"
+       },
+       {
+        "kind": "btn",
+        "t": "Acheter",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "title": "Ta plateforme · Domaines",
+      "tapDelay": 2.0,
+      "rows": [
+       {
+        "kind": "btn",
+        "t": "Connecter un domaine existant",
+        "hl": true
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "title": "Domaine",
+      "tap": false,
+      "rows": [
+       {
+        "t": "douceurkarite.com",
+        "ic": "#f59e0b",
+        "l": "…"
+       },
+       {
+        "kind": "note",
+        "t": "Vérification en cours : de quelques minutes à 48 heures."
+       }
+      ]
+     }
+    ],
+    "say": [
+     "Je te montre. Achète ton domaine chez un registraire, ou directement sur ta plateforme. C'est un paiement par an.",
+     "Dans ta plateforme, va dans Paramètres, puis Domaines, et connecte ton domaine.",
+     "Suis les instructions affichées. La connexion peut prendre de quelques minutes à quarante-huit heures. C'est normal."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "Pour l'e-mail pro, beaucoup de registraires proposent une <b>redirection</b> :<br>contact@tondomaine.com arrive dans ton Gmail. Simple, et souvent inclus.",
+    "say": [
+     "Une astuce pour l'e-mail pro : beaucoup de registraires proposent une redirection.",
+     "Les messages envoyés à contact arobase ton domaine arrivent directement dans ton Gmail. Simple, et souvent inclus."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Choisis ton nom de domaine,<br>achète-le et <b>connecte-le</b>.",
+    "minutes": 15,
+    "say": [
+     "Pause. Choisis ton nom de domaine, achète-le, et connecte-le à ta plateforme."
+    ]
+   },
+   {
+    "type": "recap",
+    "items": [
+     "Un domaine <b>court</b>, sans tiret ni chiffre.",
+     "Paramètres › Domaines › <b>Connecter</b>.",
+     "Un e-mail pro par <b>redirection</b>."
+    ],
+    "say": [
+     "À retenir.",
+     "Un domaine court, sans tiret ni chiffre.",
+     "Paramètres, Domaines, Connecter.",
+     "Et un e-mail pro, par redirection."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 11,
+    "of": 12,
+    "label": "Leçon 5.12 · La checklist avant de publier",
+    "say": [
+     "Dernière leçon du module : tester ta page sur téléphone avant de publier, avec la checklist."
+    ]
+   }
+  ]
+ },
+ "5-12": {
+  "file": "VIDEO 5.12 - La checklist avant de publier",
+  "chip": "Module 5 · Leçon 5.12",
+  "scenes": [
+   {
+    "type": "title",
+    "over": "Module 5 · Leçon 5.12",
+    "l1": "La checklist",
+    "l2": "<em>avant de publier</em>",
+    "sub": "Teste comme un vrai client",
+    "say": [
+     "Leçon douze : tester ta page sur téléphone, avant de publier."
+    ]
+   },
+   {
+    "type": "statement",
+    "lines": [
+     "Avant de payer",
+     "la moindre publicité,",
+     "<em>teste tout</em>."
+    ],
+    "foot": "Une page cassée brûle ton budget.",
+    "footAt": 2,
+    "say": [
+     "Une règle simple : avant de payer la moindre publicité, teste tout.",
+     "Une page qui ne s'affiche pas bien, un bouton qui ne marche pas, et ton budget part en fumée.",
+     "Alors on teste, comme un vrai client, sur un vrai téléphone."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le test du client",
+    "heading": "Sur <em>ton téléphone</em>",
+    "items": [
+     {
+      "icon": "eye",
+      "title": "Le titre se lit sans zoomer",
+      "show": 1
+     },
+     {
+      "icon": "clock",
+      "title": "La page charge vite, même en 4G",
+      "show": 2
+     },
+     {
+      "icon": "cart",
+      "title": "Le bouton d'achat se voit tout de suite",
+      "show": 3
+     },
+     {
+      "icon": "coin",
+      "title": "Le paiement fonctionne jusqu'au bout",
+      "show": 4
+     },
+     {
+      "icon": "mail",
+      "title": "Le produit ou la confirmation arrive",
+      "show": 5
+     }
+    ],
+    "say": [
+     "Prends ton téléphone, et fais le parcours du client.",
+     "Le titre se lit-il sans zoomer ?",
+     "La page charge-t-elle vite, même en 4G, sans Wi-Fi ?",
+     "Le bouton d'achat se voit-il tout de suite ?",
+     "Le paiement fonctionne-t-il jusqu'au bout ?",
+     "Et le produit, ou la confirmation de commande, arrive-t-il bien ?"
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Le contrôle de confiance",
+    "heading": "Ce qui <em>rassure</em>",
+    "items": [
+     {
+      "icon": "check",
+      "title": "Aucune faute dans le titre et les prix",
+      "show": 1
+     },
+     {
+      "icon": "chat",
+      "title": "Tes avis et ton contact WhatsApp",
+      "show": 2
+     },
+     {
+      "icon": "note",
+      "title": "Tes pages légales en bas de page",
+      "show": 3
+     },
+     {
+      "icon": "users",
+      "title": "Testée par 3 personnes",
+      "show": 4
+     }
+    ],
+    "say": [
+     "Ensuite, le contrôle de confiance.",
+     "Aucune faute dans le titre, ni dans les prix.",
+     "Tes avis sont visibles, et ton contact WhatsApp aussi.",
+     "Tes pages légales sont en bas de page.",
+     "Et la page a été testée par trois personnes, qui te disent ce qui les a gênées."
+    ]
+   },
+   {
+    "type": "callout",
+    "kind": "astuce",
+    "text": "La checklist complète en <b>20 points</b> est dans tes ressources.<br>Imprime-la, et coche-la à chaque nouvelle page.",
+    "say": [
+     "La checklist complète, en vingt points, est dans les ressources du module.",
+     "Imprime-la, et coche-la pour chaque nouvelle page. C'est le réflexe des professionnels."
+    ]
+   },
+   {
+    "type": "pause",
+    "task": "Passe la <b>checklist en 20 points</b><br>et publie ta page.",
+    "minutes": 20,
+    "say": [
+     "Pause. Passe la checklist en vingt points. Corrige ce qui bloque. Et publie ta page."
+    ]
+   },
+   {
+    "type": "checklist",
+    "over": "Module 5 terminé",
+    "heading": "Ta page est <em>en ligne</em>",
+    "items": [
+     {
+      "icon": "laptop",
+      "title": "Ta plateforme choisie et paramétrée",
+      "check": 0,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "note",
+      "title": "Tes 9 blocs en ligne",
+      "check": 1,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "link",
+      "title": "Ton nom de domaine connecté",
+      "check": 2,
+      "checkDelay": 0.5
+     },
+     {
+      "icon": "check",
+      "title": "La checklist passée",
+      "check": 3,
+      "checkDelay": 0.5
+     }
+    ],
+    "say": [
+     "Faisons le point. Ta plateforme : choisie et paramétrée.",
+     "Tes neuf blocs : en ligne.",
+     "Ton nom de domaine : connecté.",
+     "Et la checklist : passée."
+    ]
+   },
+   {
+    "type": "next",
+    "done": 12,
+    "of": 12,
+    "label": "Module 6 · Encaisser les paiements",
+    "say": [
+     "Bravo, le module cinq est terminé : ta page est en ligne. Fais le quiz, et rendez-vous au module six. On encaisse les paiements, Mobile Money compris."
+    ]
+   }
+  ]
+ }
+}

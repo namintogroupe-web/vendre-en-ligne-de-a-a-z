@@ -1,6 +1,6 @@
 # FICHE « MON PROJET »
 
-**VENDRE EN LIGNE DE A À Z** · Modules 0 à 4 · À remplir pendant les leçons
+**VENDRE EN LIGNE DE A À Z** · Modules 0 à 5 · À remplir pendant les leçons
 
 Range cette fiche dans ton dossier **MON BUSINESS**. Tu la complèteras tout au long de la formation.
 
@@ -277,6 +277,53 @@ Mon livreur : ........................  ☐ prix par zone  ☐ horaires  ☐ arg
 **Mes contenus (leçons 4.5 et 4.6)** : ☐ visuel promesse  ☐ visuel preuve  ☐ visuel offre  ☐ vidéo de 20 secondes (accroche : ................................................)
 
 **Mon prompt IA (leçon 4.7)** : rôle ☐  contexte ☐  tâche ☐  format ☐ — relu et vérifié ☐
+
+## 19. Ma page en ligne (module 5)
+
+**Ma plateforme (leçon 5.1)** : ☐ Systeme.io  ☐ Chariow  ☐ Shopify  ☐ WooCommerce — Pourquoi : ........................................
+
+**Mes 9 blocs (leçon 5.2)**
+
+| Bloc | Mon contenu |
+| --- | --- |
+| 1. Titre (ma promesse) | ............................................................ |
+| 2. Image ou vidéo | ............................................................ |
+| 3. Le problème | ............................................................ |
+| 4. La solution et ce qu'elle contient | ............................................................ |
+| 5. Les preuves | ............................................................ |
+| 6. L'offre et le prix | ............................................................ |
+| 7. La garantie | ............................................................ |
+| 8. Questions fréquentes (mes questions WhatsApp) | ............................................................ |
+| 9. Le bouton d'achat (texte) | ............................................................ |
+
+**Mes pages légales (leçon 5.10)** : ☐ conditions de vente  ☐ confidentialité  ☐ retours et remboursements  ☐ mentions et contact
+
+**Mon nom de domaine (leçon 5.11)** : ........................................  ☐ connecté  ☐ e-mail pro par redirection
+
+**Ma checklist avant de publier (leçon 5.12)** — sur mon téléphone, en 4G :
+
+| # | Point de contrôle | OK |
+| --- | --- | --- |
+| 1 | Le titre se lit sans zoomer | ☐ |
+| 2 | La page charge vite, même sans Wi-Fi | ☐ |
+| 3 | Le bouton d'achat se voit tout de suite | ☐ |
+| 4 | Le bouton d'achat est répété plus bas | ☐ |
+| 5 | Les photos sont nettes et ce sont les miennes | ☐ |
+| 6 | Aucune faute dans le titre | ☐ |
+| 7 | Les prix sont justes partout | ☐ |
+| 8 | La promesse est vraie et tenable | ☐ |
+| 9 | Mes avis sont vrais, avec accord | ☐ |
+| 10 | La garantie est écrite clairement | ☐ |
+| 11 | Les questions fréquentes répondent aux vraies questions | ☐ |
+| 12 | Mon contact WhatsApp est visible | ☐ |
+| 13 | Les pages légales sont en bas de page | ☐ |
+| 14 | Le paiement fonctionne jusqu'au bout (achat test) | ☐ |
+| 15 | Le produit ou la confirmation arrive bien | ☐ |
+| 16 | L'e-mail automatique arrive (pas dans les spams) | ☐ |
+| 17 | Le code promo fonctionne, avec sa vraie date de fin | ☐ |
+| 18 | La livraison et ses prix sont affichés | ☐ |
+| 19 | Mon nom de domaine s'ouvre correctement | ☐ |
+| 20 | 3 personnes ont testé, j'ai corrigé | ☐ |
 
 ---
 

@@ -1,0 +1,27 @@
+Leçon huit : fiches produits, collections, et livraison sur Shopify.
+
+Ajoutons ta première fiche produit. Produits, puis Ajouter un produit.
+Le titre : clair, avec la quantité. La description : le problème, la solution, ce qu'il contient, et comment l'utiliser.
+Ajoute tes dix photos et ta vidéo du module trois B.
+Mets ton prix, active le suivi du stock, et enregistre.
+
+Ensuite, range tes produits en collections, comme les rayons d'un magasin.
+Par usage : mains, visage, cheveux.
+Par besoin : peau sèche, cheveux cassants.
+Et une collection pour les offres : les packs, les promotions.
+
+Maintenant, la livraison. Va dans Paramètres, puis Expédition et livraison.
+Crée tes zones, avec les prix de ton module trois B.
+Et si tu le proposes, active le paiement à la livraison, dans les paiements manuels. Et toujours : on confirme avant d'envoyer.
+
+Une précision importante : les plateformes changent souvent leurs écrans.
+Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même.
+
+Pause. Crée tes fiches produits, tes collections, et tes zones de livraison.
+
+À retenir.
+Une fiche produit : un titre clair, une description, tes photos.
+Des collections, comme des rayons.
+Et des zones de livraison, avec confirmation.
+
+Prochaine leçon : l'alternative WooCommerce, sur ton propre site WordPress.

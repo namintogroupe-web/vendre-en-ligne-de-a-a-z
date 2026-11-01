@@ -1,0 +1,32 @@
+Leçon neuf : installer WordPress et WooCommerce, pas à pas.
+
+Shopify ou WooCommerce ? Deux philosophies.
+Avec Shopify, tout est géré pour toi. Avec WooCommerce, tu gères ton site toi-même.
+Shopify, c'est un abonnement. WooCommerce est une extension gratuite, mais il te faut un hébergement.
+Et WooCommerce te donne une liberté totale, avec un peu plus de technique.
+
+Voici les quatre étapes.
+Un : un hébergement qui installe WordPress en un clic. Beaucoup d'hébergeurs le proposent.
+Deux : ton nom de domaine, ton adresse sur internet. On le voit à la leçon onze.
+Trois : l'extension WooCommerce.
+Quatre : l'assistant de configuration.
+
+Je te montre. Dans ton tableau de bord WordPress, va dans Extensions, puis Ajouter.
+Cherche WooCommerce.
+Clique sur Installer, puis sur Activer.
+Un assistant s'ouvre : ton adresse, tes types de produits, ta devise. Réponds simplement, tu pourras modifier ensuite.
+
+Attention : avec WordPress, c'est toi le responsable technique.
+Les mises à jour, les sauvegardes, la sécurité. Active au minimum les sauvegardes automatiques chez ton hébergeur.
+
+Une précision importante : les plateformes changent souvent leurs écrans.
+Si un bouton n'est pas exactement au même endroit chez toi, cherche le même mot dans le menu. La logique, elle, reste la même.
+
+Pause. Installe WordPress chez ton hébergeur, ajoute WooCommerce, et suis l'assistant.
+
+À retenir.
+WooCommerce, c'est la liberté, avec un peu plus de technique.
+Hébergement, domaine, extension, assistant.
+Et active les sauvegardes.
+
+Prochaine leçon : tes produits, ta livraison et tes pages légales sur WooCommerce.

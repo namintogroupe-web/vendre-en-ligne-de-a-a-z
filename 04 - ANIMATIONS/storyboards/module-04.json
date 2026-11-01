@@ -102,7 +102,7 @@
     "type": "callout",
     "kind": "attention",
     "text": "Une promesse doit être <b>vraie</b> et <b>tenable</b>.<br>Jamais « guérit tout », jamais « riche en 7 jours ».",
-    "strike": "Résultat garanti à 100 %",
+    "strike": "Résultat garanti à 100 %",
     "strikeAt": 0,
     "say": [
      "Attention. Une promesse doit être vraie, et tenable.",

@@ -1,0 +1,28 @@
+Leçon dix : produits, livraison et pages légales sur WooCommerce.
+
+Ajoutons un produit. Produits, puis Ajouter.
+Le nom, et la description : le problème, la solution, l'entretien.
+Dans les données produit : le tarif, et la gestion du stock.
+L'image principale, la galerie avec tes autres photos. Et publie.
+
+Ensuite, la livraison. Dans WooCommerce, Réglages, puis Expédition.
+Crée une zone par secteur, avec un forfait.
+Et dans Paiements, active le paiement à la livraison si tu le proposes. Les paiements en ligne, on les branche au module six.
+
+Enfin, les pages légales. Quatre pages indispensables, sur toutes les plateformes.
+Les conditions générales de vente : prix, livraison, retours.
+La politique de confidentialité : ce que tu fais des données de tes clients.
+La politique de retours et de remboursements.
+Et les mentions, avec ton contact. On y revient au module quinze.
+
+Attention : les règles changent selon ton pays.
+Pars des modèles proposés par ta plateforme, adapte-les à ton activité, et fais-les relire par un professionnel si tu as un doute.
+
+Pause. Ajoute tes produits, ta livraison, et tes quatre pages légales.
+
+À retenir.
+Un produit complet : description, prix, stock, galerie.
+Une livraison par zones.
+Et quatre pages légales, adaptées à ton pays.
+
+Prochaine leçon, pour tout le monde : ton nom de domaine et ton adresse e-mail professionnelle.
